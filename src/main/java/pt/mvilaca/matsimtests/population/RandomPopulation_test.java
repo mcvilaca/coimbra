@@ -25,8 +25,8 @@ import org.matsim.facilities.ActivityOption;
 import org.matsim.facilities.FacilitiesWriter;
 
 import com.google.common.collect.Lists;
-
-public class RandomSyntheticPopulation_Coimbra {
+/*Test: Generates a Random population considering a given number of Work/Home locations and a Specific network*/
+public class RandomPopulation_test {
 	public static void main(String[] args) {
 		int numberOfHomes = 3;
 		int numberOfWorks = 3;

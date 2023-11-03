@@ -8,11 +8,15 @@ import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.*;
 
+/*Este Código replica o número de viagens descritas no inquérito de mobilidade as vezes descritas pelo coef_exp; cria 
+ * um banco de coordenadas por zona e selecciona de forma aleatória coordenadas para as viagens replicadas;
+ * faz variar a hora de partida +/-10' e cria IDs unicos para as novas viagens* */
+
 public class SyntheticPopulation_v6 {
 
 	public static void main(String[] args) throws IOException {
-		File inputFile = Paths.get("data", "population", "Filtro2", "coimbraFiltro2.tsv").toFile();
-		File outputFile = Paths.get("data", "population", "Filtro2", "coimbraFiltro2_synthetic.tsv").toFile();
+		File inputFile = Paths.get("data", "population", "coimbra_filtro2.tsv").toFile();
+		File outputFile = Paths.get("data", "population", "coimbraFiltro2_synthetic_v6.tsv").toFile();
 
 		List<String> lines = readLinesFromFile(inputFile);
 		StringBuilder outputBuilder = new StringBuilder();

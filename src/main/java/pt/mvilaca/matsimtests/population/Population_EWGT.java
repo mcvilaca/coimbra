@@ -37,7 +37,7 @@ public static void main(String[] args) throws IOException, ParseException {
 		
 		
 		File f = Paths.get("data", "population", "Filtro2", "SyntheticPopulationCoimbra_EWGT.tsv").toFile();
-		CoimbraQuestionario cq = CoimbraQuestionario.readCoimbraTSV(f);
+		CoimbraQuestionario3 cq = CoimbraQuestionario3.readCoimbraTSV(f);
 		
 		cq.createFacilities(scenario);
 		cq.createQuestionaryPlan(scenario);

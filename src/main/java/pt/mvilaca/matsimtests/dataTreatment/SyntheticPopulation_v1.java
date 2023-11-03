@@ -24,11 +24,10 @@ import pt.mvilaca.matsimtests.population.CoimbraQuestionario.QuestionarioIndivid
 public class SyntheticPopulation_v1 {
 	
 	public static void main (String[] args) throws IOException, ParseException {
-		File f = Paths.get("data", "population", "coimbra.tsv").toFile();
-//		File f = Paths.get("data", "population", "coimbra_debug_synthetic.tsv").toFile();
+		File f = Paths.get("data", "population", "coimbra_filtro2.tsv").toFile();
 	
 		FileReader fr = new FileReader(f);
-		FileWriter fw = new FileWriter("data/population/test_synthetic.tsv");
+		FileWriter fw = new FileWriter("data/population/Syntheticpopulation_filtro2_simplified.tsv");
 		BufferedReader br = new BufferedReader(fr);
 
 		String line = br.readLine();
@@ -37,17 +36,22 @@ public class SyntheticPopulation_v1 {
 		System.out.println(line);
 		
 		line = br.readLine();
-		while(line!=null) {
-//			System.out.println(line);
+		while (line != null) {
 			int countlines = 0;
 			String[] columns = line.split("\t");
 			
 			String id = columns[0];
-			for(int i =id.length() ; i <= 5; i++) id = "0"+id; 
+			for (int i = id.length(); i <= 5; i++) id = "0" + id; 
 			
 			double coefExp = Double.parseDouble(columns[38]);
-			while(countlines<coefExp) {
-				columns[0]= countlines+ id;
+			while (countlines < coefExp) {
+				String newId;
+				if (countlines == 0) {
+					newId = id; // Keep the original ID for the first line
+				} else {
+					newId = id + "_" + countlines; // Modify the replicated IDs
+				}
+				columns[0] = newId;
 				String newLine = String.join("\t", columns);
 				
 				System.out.println(newLine);
@@ -57,36 +61,10 @@ public class SyntheticPopulation_v1 {
 				countlines++;
 			}
 			
-			
-//			String[] columns = line.split("\t");
-//			String lineOne = columns[1];
-//			System.out.println(lineOne);
-//			String lineThree = columns[3];
-//			String lineFour = columns[4];
-//			System.out.println(lineThree);
-//			System.out.println(lineFour);
-//			String CoefExp = columns [38];
-//			System.out.println(CoefExp);
-			
-//			int countlines
-//			while()
-				
-			
 			line = br.readLine();
-			
-			
-			
-			
 		}
+		
 		br.close();
 		fw.close();
-		
-//		FileWriter fw = new FileWriter("data/population/Test_synthetic");
-//		fw.write(line);
-//		fw.write(line);
-//		fw.close();
 	}
 }
-
-		
-
