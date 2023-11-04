@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE transitSchedule SYSTEM "http://www.matsim.org/files/dtd/transitSchedule_v2.dtd">
+
+<transitSchedule>
+
+	<transitStops>
+		<stopFacility id="10426.link:10867" x="173383.81751716067" y="363808.24720294843" linkRefId="10867" name="Pedrulha (C)" isBlocking="false"/>
+		<stopFacility id="10426.link:1654" x="173383.81751716067" y="363808.24720294843" linkRefId="1654" name="Pedrulha (C)" isBlocking="false"/>
+		<stopFacility id="10427.link:16984" x="173492.87486286706" y="363363.69300244784" linkRefId="16984" name="Pedrulha (S)" isBlocking="false"/>
+		<stopFacility id="10432.link:15484" x="173961.14073996668" y="363428.68544480857" linkRefId="15484" name="Pedrulha(C.Form.)" isBlocking="false"/>
+		<stopFacility id="10433.link:84" x="173715.40657845346" y="363729.35322117666" linkRefId="84" name="Pedrulha (X)" isBlocking="false"/>
+		<stopFacility id="10434.link:1658" x="173306.60485259996" y="363630.8524649175" linkRefId="1658" name="Pedrulha" isBlocking="false"/>
+		<stopFacility id="10435.link:1658" x="173425.18862950816" y="363474.97383942374" linkRefId="1658" name="Pedrulha (Esc.)" isBlocking="false"/>
+		<stopFacility id="10436.link:18417" x="173442.43032725042" y="363055.1728942758" linkRefId="18417" name="Loreto (Passag. Nivel)" isBlocking="false"/>
+		<stopFacility id="10439.link:24154" x="173958.79977068858" y="362751.33567069663" linkRefId="24154" name="Loreto (X)" isBlocking="false"/>
+		<stopFacility id="10440.link:5417" x="173896.76539939572" y="362040.8804850755" linkRefId="5417" name="Alto Est. Velha" isBlocking="false"/>
+		<stopFacility id="10441.link:5418" x="173913.86471779918" y="362063.02970414667" linkRefId="5418" name="Alto Est. Velha" isBlocking="false"/>
+		<stopFacility id="10442.link:16986" x="173610.68892849417" y="362985.7354985707" linkRefId="16986" name="Relvinha" isBlocking="false"/>
+		<stopFacility id="10445.link:24886" x="173887.29246926343" y="361763.30811153573" linkRefId="24886" name="Est. Coimbra B" isBlocking="false"/>
+		<stopFacility id="10446.link:20891" x="173929.27411270907" y="361596.5997476316" linkRefId="20891" name="Est. Coimbra B" isBlocking="false"/>
+		<stopFacility id="10447.link:5965" x="173929.04369423943" y="361529.97533814574" linkRefId="5965" name="P.Ecovia1" isBlocking="false"/>
+		<stopFacility id="10449.link:1997" x="174012.43931076728" y="361029.9985992195" linkRefId="1997" name="Parque Ecovia" isBlocking="false"/>
+		<stopFacility id="10496.link:10604" x="176519.43739190642" y="359689.27536738245" linkRefId="10604" name="Avelar Brotero" isBlocking="false"/>
+		<stopFacility id="10556.link:5412" x="174051.42034067068" y="362462.3064941404" linkRefId="5412" name="Urb. Loreto" isBlocking="false"/>
+		<stopFacility id="10559.link:5411" x="174060.0075361641" y="362484.4853616758" linkRefId="5411" name="Urb. Loreto" isBlocking="false"/>
+		<stopFacility id="10572.link:18308" x="174035.43186926784" y="362762.1754509465" linkRefId="18308" name="Loreto" isBlocking="false"/>
+		<stopFacility id="10573.link:18518" x="174103.858634628" y="362861.87796824286" linkRefId="18518" name="Relvinha" isBlocking="false"/>
+		<stopFacility id="10574.link:18522" x="174002.34802894894" y="363039.8951079528" linkRefId="18522" name="Relvinha (N)" isBlocking="false"/>
+		<stopFacility id="10584.link:24149" x="173979.42462687276" y="361329.9257001117" linkRefId="24149" name="Arco Pintado" isBlocking="false"/>
+		<stopFacility id="10596.link:2007" x="174488.07977651586" y="360717.4570062266" linkRefId="2007" name="Palacio" isBlocking="false"/>
+		<stopFacility id="10598.link:2087" x="174461.63904337643" y="360451.04625399463" linkRefId="2087" name="CTT" isBlocking="false"/>
+		<stopFacility id="10604.link:19262" x="174564.46946901418" y="360650.57385546644" linkRefId="19262" name="Arnado" isBlocking="false"/>
+		<stopFacility id="10605.link:21575" x="174861.49166112376" y="360371.9734403791" linkRefId="21575" name="C. M. C." isBlocking="false"/>
+		<stopFacility id="10611.link:1362" x="174114.47333321208" y="360996.33502415003" linkRefId="1362" name="RBL" isBlocking="false"/>
+		<stopFacility id="10612.link:7226" x="174190.66684825788" y="360873.92775598436" linkRefId="7226" name="RBL" isBlocking="false"/>
+		<stopFacility id="10614.link:7123" x="174351.64969445515" y="360651.2947724139" linkRefId="7123" name="Ed. Coimbra" isBlocking="false"/>
+		<stopFacility id="10615.link:2091" x="174528.6191267491" y="360299.5031377865" linkRefId="2091" name=" L. do Cidadao" isBlocking="false"/>
+		<stopFacility id="10622.link:14541" x="174638.5826168739" y="359906.3448079628" linkRefId="14541" name="Beira Rio" isBlocking="false"/>
+		<stopFacility id="10715.link:18403" x="175227.55508521447" y="360370.7619430972" linkRefId="18403" name="Manutencao" isBlocking="false"/>
+		<stopFacility id="10716.link:15242" x="175159.52342459056" y="360393.19408566336" linkRefId="15242" name="Merc. Municipal" isBlocking="false"/>
+		<stopFacility id="10728.link:18854" x="175499.32493851046" y="360169.99910538737" linkRefId="18854" name="Pr. Republica" isBlocking="false"/>
+		<stopFacility id="10743.link:20653" x="175481.6123320919" y="359959.0777011218" linkRefId="20653" name="Castro Matoso" isBlocking="false"/>
+		<stopFacility id="10745.link:11604" x="175549.21683352694" y="359803.4000675771" linkRefId="11604" name="Arcos Jardim " isBlocking="false"/>
+		<stopFacility id="10746.link:12164" x="175549.14483196492" y="359781.19199883833" linkRefId="12164" name="Arcos Jardim" isBlocking="false"/>
+		<stopFacility id="10748.link:12163" x="175607.84338337855" y="359503.39822347846" linkRefId="12163" name="Julio Henriques" isBlocking="false"/>
+		<stopFacility id="10749.link:12154" x="175633.09862959376" y="359414.4834337488" linkRefId="12154" name="Combatentes 1" isBlocking="false"/>
+		<stopFacility id="10752.link:12182" x="175786.3538303273" y="359413.98987523816" linkRefId="12182" name="Combatentes " isBlocking="false"/>
+		<stopFacility id="10753.link:12181" x="175871.53112963054" y="359424.82104624796" linkRefId="12181" name="Combatentes 2" isBlocking="false"/>
+		<stopFacility id="10895.link:2569" x="176621.84472587996" y="359766.68616799853" linkRefId="2569" name="Infanta D. Maria" isBlocking="false"/>
+		<stopFacility id="10896.link:16258" x="176928.23873839824" y="359732.4301038267" linkRefId="16258" name="Carolina Michaellis" isBlocking="false"/>
+		<stopFacility id="10897.link:16259" x="176919.7249251354" y="359732.4561573312" linkRefId="16259" name="Carolina Michaellis" isBlocking="false"/>
+		<stopFacility id="10898.link:5290" x="176723.73584791453" y="359677.53788194736" linkRefId="5290" name="Esc.Sup. de Educacao" isBlocking="false"/>
+		<stopFacility id="10899.link:4932" x="176425.5766206069" y="359622.9433652253" linkRefId="4932" name="Avelar Brotero" isBlocking="false"/>
+		<stopFacility id="10900.link:4931" x="176417.09740516145" y="359634.0740144184" linkRefId="4931" name="H. Delgado 1" isBlocking="false"/>
+		<stopFacility id="10901.link:12715" x="176118.72319481673" y="359512.8674083539" linkRefId="12715" name="H. Delgado 2" isBlocking="false"/>
+		<stopFacility id="10902.link:10442" x="176161.1180278178" y="359457.2125905708" linkRefId="10442" name="Combatentes 3" isBlocking="false"/>
+		<stopFacility id="10903.link:27005" x="176407.6803622788" y="359345.3959277741" linkRefId="27005" name="S. Jose " isBlocking="false"/>
+		<stopFacility id="10907.link:21265" x="176645.76995597198" y="359244.7177429231" linkRefId="21265" name="Estadio C. Coimbra" isBlocking="false"/>
+		<stopFacility id="10919.link:16280" x="176927.4573621539" y="359477.0374466436" linkRefId="16280" name="J.Deus Ramos" isBlocking="false"/>
+		<stopFacility id="11221.link:17096" x="174537.0939068054" y="360106.56177078915" linkRefId="17096" name="Antonio Granjo" isBlocking="false"/>
+		<stopFacility id="11222.link:2006" x="174488.07977651586" y="360717.4570062266" linkRefId="2006" name="Palacio" isBlocking="false"/>
+		<stopFacility id="11223.link:10440" x="175593.0793619194" y="360203.0075397149" linkRefId="10440" name="Pr. Republica" isBlocking="false"/>
+		<stopFacility id="11227.link:27402" x="174912.57027988374" y="360371.8033294685" linkRefId="27402" name="PSP " isBlocking="false"/>
+	</transitStops>
+	<minimalTransferTimes>
+		<relation fromStop="10426.link:1654" toStop="10426.link:10867" transferTime="0.0"/>
+		<relation fromStop="10426.link:10867" toStop="10426.link:1654" transferTime="0.0"/>
+	</minimalTransferTimes>
+	<transitLine id="1593" name="2A">
+	</transitLine>
+	<transitLine id="1594" name="2F">
+	</transitLine>
+	<transitLine id="1595" name="2T">
+	</transitLine>
+	<transitLine id="1596" name="4">
+	</transitLine>
+	<transitLine id="1597" name="5">
+		<transitRoute id="107255">
+			<description>shapeId:6996</description>
+			<transportMode>bus</transportMode>
+			<routeProfile>
+				<stop refId="10426.link:1654" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10434.link:1658" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10435.link:1658" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10427.link:16984" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10436.link:18417" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10442.link:16986" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10439.link:24154" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10559.link:5411" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10440.link:5417" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10445.link:24886" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10447.link:5965" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10449.link:1997" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10612.link:7226" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10604.link:19262" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10605.link:21575" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10716.link:15242" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10728.link:18854" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10743.link:20653" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10745.link:11604" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10749.link:12154" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10753.link:12181" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10902.link:10442" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10899.link:4932" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10903.link:27005" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10907.link:21265" arrivalOffset="00:25:00" departureOffset="00:00:00" awaitDeparture="true"/>
+			</routeProfile>
+			<route>
+				<link refId="1654"/>
+				<link refId="1656"/>
+				<link refId="1658"/>
+				<link refId="1660"/>
+				<link refId="10742"/>
+				<link refId="16984"/>
+				<link refId="18417"/>
+				<link refId="pt_18417_16986"/>
+				<link refId="16986"/>
+				<link refId="16319"/>
+				<link refId="16330"/>
+				<link refId="15945"/>
+				<link refId="4327"/>
+				<link refId="24152"/>
+				<link refId="24154"/>
+				<link refId="5411"/>
+				<link refId="5413"/>
+				<link refId="5415"/>
+				<link refId="5417"/>
+				<link refId="5419"/>
+				<link refId="24886"/>
+				<link refId="5941"/>
+				<link refId="27551"/>
+				<link refId="23334"/>
+				<link refId="27543"/>
+				<link refId="21187"/>
+				<link refId="21188"/>
+				<link refId="5965"/>
+				<link refId="24005"/>
+				<link refId="7098"/>
+				<link refId="7099"/>
+				<link refId="17722"/>
+				<link refId="15213"/>
+				<link refId="1998"/>
+				<link refId="17732"/>
+				<link refId="1999"/>
+				<link refId="24004"/>
+				<link refId="1997"/>
+				<link refId="17496"/>
+				<link refId="23667"/>
+				<link refId="7226"/>
+				<link refId="5448"/>
+				<link refId="5449"/>
+				<link refId="5450"/>
+				<link refId="11840"/>
+				<link refId="7123"/>
+				<link refId="11839"/>
+				<link refId="9874"/>
+				<link refId="10363"/>
+				<link refId="10364"/>
+				<link refId="10365"/>
+				<link refId="10366"/>
+				<link refId="15058"/>
+				<link refId="15059"/>
+				<link refId="15060"/>
+				<link refId="19262"/>
+				<link refId="26632"/>
+				<link refId="10403"/>
+				<link refId="10405"/>
+				<link refId="7519"/>
+				<link refId="21573"/>
+				<link refId="21575"/>
+				<link refId="27401"/>
+				<link refId="24993"/>
+				<link refId="15242"/>
+				<link refId="21562"/>
+				<link refId="11098"/>
+				<link refId="8707"/>
+				<link refId="19278"/>
+				<link refId="16644"/>
+				<link refId="18854"/>
+				<link refId="8141"/>
+				<link refId="24189"/>
+				<link refId="20765"/>
+				<link refId="20766"/>
+				<link refId="20653"/>
+				<link refId="21366"/>
+				<link refId="21367"/>
+				<link refId="11604"/>
+				<link refId="19738"/>
+				<link refId="19739"/>
+				<link refId="12154"/>
+				<link refId="2596"/>
+				<link refId="12177"/>
+				<link refId="12179"/>
+				<link refId="12181"/>
+				<link refId="12183"/>
+				<link refId="26959"/>
+				<link refId="10441"/>
+				<link refId="10442"/>
+				<link refId="10443"/>
+				<link refId="10444"/>
+				<link refId="27532"/>
+				<link refId="23601"/>
+				<link refId="15243"/>
+				<link refId="4932"/>
+				<link refId="1031"/>
+				<link refId="10469"/>
+				<link refId="27439"/>
+				<link refId="27057"/>
+				<link refId="27052"/>
+				<link refId="27053"/>
+				<link refId="973"/>
+				<link refId="27005"/>
+				<link refId="27003"/>
+				<link refId="1578"/>
+				<link refId="1552"/>
+				<link refId="24185"/>
+				<link refId="19746"/>
+				<link refId="19748"/>
+				<link refId="19774"/>
+				<link refId="21888"/>
+				<link refId="21265"/>
+			</route>
+			<departures>
+				<departure id="107255_06:45:00" departureTime="06:45:00" vehicleRefId="veh_0_bus"/>
+				<departure id="107255_07:30:00" departureTime="07:30:00" vehicleRefId="veh_1_bus"/>
+				<departure id="107255_07:50:00" departureTime="07:50:00" vehicleRefId="veh_2_bus"/>
+				<departure id="107255_08:10:00" departureTime="08:10:00" vehicleRefId="veh_3_bus"/>
+				<departure id="107255_08:30:00" departureTime="08:30:00" vehicleRefId="veh_4_bus"/>
+				<departure id="107255_08:50:00" departureTime="08:50:00" vehicleRefId="veh_5_bus"/>
+				<departure id="107255_09:10:00" departureTime="09:10:00" vehicleRefId="veh_6_bus"/>
+				<departure id="107255_09:30:00" departureTime="09:30:00" vehicleRefId="veh_7_bus"/>
+				<departure id="107255_09:50:00" departureTime="09:50:00" vehicleRefId="veh_8_bus"/>
+				<departure id="107255_10:10:00" departureTime="10:10:00" vehicleRefId="veh_9_bus"/>
+				<departure id="107255_10:30:00" departureTime="10:30:00" vehicleRefId="veh_10_bus"/>
+				<departure id="107255_10:50:00" departureTime="10:50:00" vehicleRefId="veh_11_bus"/>
+				<departure id="107255_11:10:00" departureTime="11:10:00" vehicleRefId="veh_12_bus"/>
+				<departure id="107255_11:30:00" departureTime="11:30:00" vehicleRefId="veh_13_bus"/>
+				<departure id="107255_11:50:00" departureTime="11:50:00" vehicleRefId="veh_14_bus"/>
+				<departure id="107255_12:10:00" departureTime="12:10:00" vehicleRefId="veh_15_bus"/>
+				<departure id="107255_12:30:00" departureTime="12:30:00" vehicleRefId="veh_16_bus"/>
+				<departure id="107255_12:50:00" departureTime="12:50:00" vehicleRefId="veh_17_bus"/>
+				<departure id="107255_13:10:00" departureTime="13:10:00" vehicleRefId="veh_18_bus"/>
+				<departure id="107255_13:30:00" departureTime="13:30:00" vehicleRefId="veh_19_bus"/>
+				<departure id="107255_13:50:00" departureTime="13:50:00" vehicleRefId="veh_20_bus"/>
+				<departure id="107255_14:10:00" departureTime="14:10:00" vehicleRefId="veh_21_bus"/>
+				<departure id="107255_14:30:00" departureTime="14:30:00" vehicleRefId="veh_22_bus"/>
+				<departure id="107255_14:50:00" departureTime="14:50:00" vehicleRefId="veh_23_bus"/>
+				<departure id="107255_15:10:00" departureTime="15:10:00" vehicleRefId="veh_24_bus"/>
+				<departure id="107255_15:30:00" departureTime="15:30:00" vehicleRefId="veh_25_bus"/>
+				<departure id="107255_15:50:00" departureTime="15:50:00" vehicleRefId="veh_26_bus"/>
+				<departure id="107255_16:10:00" departureTime="16:10:00" vehicleRefId="veh_27_bus"/>
+				<departure id="107255_16:30:00" departureTime="16:30:00" vehicleRefId="veh_28_bus"/>
+				<departure id="107255_16:50:00" departureTime="16:50:00" vehicleRefId="veh_29_bus"/>
+				<departure id="107255_17:10:00" departureTime="17:10:00" vehicleRefId="veh_30_bus"/>
+				<departure id="107255_17:30:00" departureTime="17:30:00" vehicleRefId="veh_31_bus"/>
+				<departure id="107255_17:50:00" departureTime="17:50:00" vehicleRefId="veh_32_bus"/>
+				<departure id="107255_18:10:00" departureTime="18:10:00" vehicleRefId="veh_33_bus"/>
+				<departure id="107255_18:30:00" departureTime="18:30:00" vehicleRefId="veh_34_bus"/>
+				<departure id="107255_18:50:00" departureTime="18:50:00" vehicleRefId="veh_35_bus"/>
+				<departure id="107255_19:10:00" departureTime="19:10:00" vehicleRefId="veh_36_bus"/>
+			</departures>
+		</transitRoute>
+		<transitRoute id="106544">
+			<description>shapeId:4979</description>
+			<transportMode>bus</transportMode>
+			<routeProfile>
+				<stop refId="10907.link:21265" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10919.link:16280" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10896.link:16258" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10897.link:16259" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10898.link:5290" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10895.link:2569" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10496.link:10604" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10900.link:4931" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10901.link:12715" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10752.link:12182" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10748.link:12163" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10746.link:12164" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="11223.link:10440" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10715.link:18403" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="11227.link:27402" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="11222.link:2006" arrivalOffset="00:20:00" departureOffset="00:00:00" awaitDeparture="true"/>
+			</routeProfile>
+			<route>
+				<link refId="21265"/>
+				<link refId="24228"/>
+				<link refId="24229"/>
+				<link refId="24230"/>
+				<link refId="2518"/>
+				<link refId="5560"/>
+				<link refId="24878"/>
+				<link refId="24874"/>
+				<link refId="24875"/>
+				<link refId="24876"/>
+				<link refId="11393"/>
+				<link refId="16282"/>
+				<link refId="16280"/>
+				<link refId="16242"/>
+				<link refId="16240"/>
+				<link refId="16278"/>
+				<link refId="24141"/>
+				<link refId="24142"/>
+				<link refId="16260"/>
+				<link refId="16258"/>
+				<link refId="16256"/>
+				<link refId="22697"/>
+				<link refId="pt_22697_16259"/>
+				<link refId="16259"/>
+				<link refId="16261"/>
+				<link refId="24143"/>
+				<link refId="24139"/>
+				<link refId="11655"/>
+				<link refId="5290"/>
+				<link refId="2569"/>
+				<link refId="10604"/>
+				<link refId="1030"/>
+				<link refId="4931"/>
+				<link refId="12712"/>
+				<link refId="12713"/>
+				<link refId="12714"/>
+				<link refId="12715"/>
+				<link refId="10466"/>
+				<link refId="12184"/>
+				<link refId="12182"/>
+				<link refId="12180"/>
+				<link refId="12178"/>
+				<link refId="2597"/>
+				<link refId="10741"/>
+				<link refId="12163"/>
+				<link refId="12164"/>
+				<link refId="21369"/>
+				<link refId="21362"/>
+				<link refId="21363"/>
+				<link refId="21364"/>
+				<link refId="23624"/>
+				<link refId="23625"/>
+				<link refId="10399"/>
+				<link refId="21496"/>
+				<link refId="21497"/>
+				<link refId="10440"/>
+				<link refId="20397"/>
+				<link refId="12822"/>
+				<link refId="16700"/>
+				<link refId="18403"/>
+				<link refId="8714"/>
+				<link refId="19268"/>
+				<link refId="24994"/>
+				<link refId="27402"/>
+				<link refId="21576"/>
+				<link refId="21574"/>
+				<link refId="7520"/>
+				<link refId="10406"/>
+				<link refId="10404"/>
+				<link refId="26633"/>
+				<link refId="10119"/>
+				<link refId="2006"/>
+			</route>
+			<departures>
+				<departure id="106544_20:05:00" departureTime="20:05:00" vehicleRefId="veh_37_bus"/>
+			</departures>
+		</transitRoute>
+		<transitRoute id="107037">
+			<description>shapeId:7091</description>
+			<transportMode>bus</transportMode>
+			<routeProfile>
+				<stop refId="10596.link:2007" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10611.link:1362" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10584.link:24149" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10446.link:20891" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10441.link:5418" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10556.link:5412" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10572.link:18308" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10573.link:18518" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10574.link:18522" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10432.link:15484" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10433.link:84" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10426.link:10867" arrivalOffset="00:20:00" departureOffset="00:00:00" awaitDeparture="true"/>
+			</routeProfile>
+			<route>
+				<link refId="2007"/>
+				<link refId="8320"/>
+				<link refId="24215"/>
+				<link refId="4847"/>
+				<link refId="4848"/>
+				<link refId="5452"/>
+				<link refId="5453"/>
+				<link refId="5454"/>
+				<link refId="7516"/>
+				<link refId="1362"/>
+				<link refId="1361"/>
+				<link refId="5937"/>
+				<link refId="1376"/>
+				<link refId="17111"/>
+				<link refId="17731"/>
+				<link refId="18014"/>
+				<link refId="17723"/>
+				<link refId="15208"/>
+				<link refId="5908"/>
+				<link refId="8491"/>
+				<link refId="8492"/>
+				<link refId="24212"/>
+				<link refId="24149"/>
+				<link refId="26855"/>
+				<link refId="20889"/>
+				<link refId="20890"/>
+				<link refId="20891"/>
+				<link refId="13022"/>
+				<link refId="27547"/>
+				<link refId="27549"/>
+				<link refId="27548"/>
+				<link refId="5962"/>
+				<link refId="24887"/>
+				<link refId="5420"/>
+				<link refId="5418"/>
+				<link refId="5416"/>
+				<link refId="5414"/>
+				<link refId="5412"/>
+				<link refId="18302"/>
+				<link refId="18304"/>
+				<link refId="18306"/>
+				<link refId="18308"/>
+				<link refId="18449"/>
+				<link refId="18450"/>
+				<link refId="25270"/>
+				<link refId="18518"/>
+				<link refId="18520"/>
+				<link refId="18522"/>
+				<link refId="25273"/>
+				<link refId="3994"/>
+				<link refId="26814"/>
+				<link refId="20743"/>
+				<link refId="20744"/>
+				<link refId="20745"/>
+				<link refId="20746"/>
+				<link refId="12857"/>
+				<link refId="6909"/>
+				<link refId="9708"/>
+				<link refId="15484"/>
+				<link refId="84"/>
+				<link refId="70"/>
+				<link refId="81"/>
+				<link refId="1644"/>
+				<link refId="4347"/>
+				<link refId="4326"/>
+				<link refId="1645"/>
+				<link refId="10867"/>
+			</route>
+			<departures>
+				<departure id="107037_08:10:00" departureTime="08:10:00" vehicleRefId="veh_38_bus"/>
+			</departures>
+		</transitRoute>
+		<transitRoute id="106637">
+			<description>shapeId:6951</description>
+			<transportMode>bus</transportMode>
+			<routeProfile>
+				<stop refId="10426.link:1654" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10434.link:1658" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10435.link:1658" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10427.link:16984" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10436.link:18417" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10442.link:16986" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10439.link:24154" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10559.link:5411" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10440.link:5417" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10445.link:24886" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10447.link:5965" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10449.link:1997" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10612.link:7226" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10614.link:7123" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10598.link:2087" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10615.link:2091" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="11221.link:17096" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true"/>
+				<stop refId="10622.link:14541" arrivalOffset="00:20:00" departureOffset="00:00:00" awaitDeparture="true"/>
+			</routeProfile>
+			<route>
+				<link refId="1654"/>
+				<link refId="1656"/>
+				<link refId="1658"/>
+				<link refId="1660"/>
+				<link refId="10742"/>
+				<link refId="16984"/>
+				<link refId="18417"/>
+				<link refId="pt_18417_16986"/>
+				<link refId="16986"/>
+				<link refId="16319"/>
+				<link refId="16330"/>
+				<link refId="15945"/>
+				<link refId="4327"/>
+				<link refId="24152"/>
+				<link refId="24154"/>
+				<link refId="5411"/>
+				<link refId="5413"/>
+				<link refId="5415"/>
+				<link refId="5417"/>
+				<link refId="5419"/>
+				<link refId="24886"/>
+				<link refId="5941"/>
+				<link refId="27551"/>
+				<link refId="23334"/>
+				<link refId="27543"/>
+				<link refId="21187"/>
+				<link refId="21188"/>
+				<link refId="5965"/>
+				<link refId="24005"/>
+				<link refId="7098"/>
+				<link refId="7099"/>
+				<link refId="17722"/>
+				<link refId="15213"/>
+				<link refId="1998"/>
+				<link refId="17732"/>
+				<link refId="1999"/>
+				<link refId="24004"/>
+				<link refId="1997"/>
+				<link refId="17496"/>
+				<link refId="23667"/>
+				<link refId="7226"/>
+				<link refId="5448"/>
+				<link refId="5449"/>
+				<link refId="5450"/>
+				<link refId="11840"/>
+				<link refId="7123"/>
+				<link refId="11839"/>
+				<link refId="9874"/>
+				<link refId="10363"/>
+				<link refId="10364"/>
+				<link refId="17101"/>
+				<link refId="2097"/>
+				<link refId="2087"/>
+				<link refId="2091"/>
+				<link refId="7712"/>
+				<link refId="7714"/>
+				<link refId="24756"/>
+				<link refId="7702"/>
+				<link refId="24752"/>
+				<link refId="25460"/>
+				<link refId="17096"/>
+				<link refId="21122"/>
+				<link refId="10024"/>
+				<link refId="9704"/>
+				<link refId="9705"/>
+				<link refId="3788"/>
+				<link refId="14541"/>
+			</route>
+			<departures>
+				<departure id="106637_20:25:00" departureTime="20:25:00" vehicleRefId="veh_39_bus"/>
+			</departures>
+		</transitRoute>
+	</transitLine>
+	<transitLine id="1598" name="5F">
+	</transitLine>
+	<transitLine id="1599" name="5T">
+	</transitLine>
+	<transitLine id="1600" name="6">
+	</transitLine>
+	<transitLine id="1601" name="6F">
+	</transitLine>
+	<transitLine id="1602" name="7">
+	</transitLine>
+	<transitLine id="1603" name="7T">
+	</transitLine>
+	<transitLine id="1604" name="9">
+	</transitLine>
+	<transitLine id="1605" name="9F">
+	</transitLine>
+	<transitLine id="1606" name="10">
+	</transitLine>
+	<transitLine id="1607" name="10A">
+	</transitLine>
+	<transitLine id="1608" name="10F">
+	</transitLine>
+	<transitLine id="1609" name="11">
+	</transitLine>
+	<transitLine id="1610" name="11C">
+	</transitLine>
+	<transitLine id="1611" name="12">
+	</transitLine>
+	<transitLine id="1612" name="12A">
+	</transitLine>
+	<transitLine id="1613" name="12R">
+	</transitLine>
+	<transitLine id="1614" name="13">
+	</transitLine>
+	<transitLine id="1615" name="13T">
+	</transitLine>
+	<transitLine id="1616" name="14">
+	</transitLine>
+	<transitLine id="1617" name="14T">
+	</transitLine>
+	<transitLine id="1618" name="16">
+	</transitLine>
+	<transitLine id="1619" name="16F">
+	</transitLine>
+	<transitLine id="1620" name="16G">
+	</transitLine>
+	<transitLine id="1621" name="17">
+	</transitLine>
+	<transitLine id="1622" name="18">
+	</transitLine>
+	<transitLine id="1623" name="18E">
+	</transitLine>
+	<transitLine id="1624" name="18F">
+	</transitLine>
+	<transitLine id="1625" name="19">
+	</transitLine>
+	<transitLine id="1626" name="19A">
+	</transitLine>
+	<transitLine id="1627" name="19R">
+	</transitLine>
+	<transitLine id="1628" name="19T">
+	</transitLine>
+	<transitLine id="1629" name="20">
+	</transitLine>
+	<transitLine id="1630" name="20T">
+	</transitLine>
+	<transitLine id="1631" name="21">
+	</transitLine>
+	<transitLine id="1632" name="21A">
+	</transitLine>
+	<transitLine id="1633" name="21R">
+	</transitLine>
+	<transitLine id="1634" name="21T">
+	</transitLine>
+	<transitLine id="1635" name="22">
+	</transitLine>
+	<transitLine id="1636" name="22F">
+	</transitLine>
+	<transitLine id="1637" name="23">
+	</transitLine>
+	<transitLine id="1638" name="23C">
+	</transitLine>
+	<transitLine id="1639" name="23F">
+	</transitLine>
+	<transitLine id="1640" name="24">
+	</transitLine>
+	<transitLine id="1641" name="24T">
+	</transitLine>
+	<transitLine id="1642" name="25">
+	</transitLine>
+	<transitLine id="1643" name="25T">
+	</transitLine>
+	<transitLine id="1644" name="26">
+	</transitLine>
+	<transitLine id="1645" name="27">
+	</transitLine>
+	<transitLine id="1646" name="27F">
+	</transitLine>
+	<transitLine id="1647" name="28">
+	</transitLine>
+	<transitLine id="1648" name="28F">
+	</transitLine>
+	<transitLine id="1649" name="29">
+	</transitLine>
+	<transitLine id="1650" name="30">
+	</transitLine>
+	<transitLine id="1651" name="30F">
+	</transitLine>
+	<transitLine id="1652" name="30R">
+	</transitLine>
+	<transitLine id="1653" name="30T">
+	</transitLine>
+	<transitLine id="1654" name="31">
+	</transitLine>
+	<transitLine id="1655" name="32">
+	</transitLine>
+	<transitLine id="1656" name="32A">
+	</transitLine>
+	<transitLine id="1657" name="32R">
+	</transitLine>
+	<transitLine id="1658" name="33">
+	</transitLine>
+	<transitLine id="1659" name="33R">
+	</transitLine>
+	<transitLine id="1660" name="34">
+	</transitLine>
+	<transitLine id="1661" name="34T">
+	</transitLine>
+	<transitLine id="1662" name="35">
+	</transitLine>
+	<transitLine id="1663" name="36">
+	</transitLine>
+	<transitLine id="1664" name="36F">
+	</transitLine>
+	<transitLine id="1665" name="36T">
+	</transitLine>
+	<transitLine id="1666" name="37">
+	</transitLine>
+	<transitLine id="1667" name="38">
+	</transitLine>
+	<transitLine id="1668" name="38F">
+	</transitLine>
+	<transitLine id="1669" name="38T">
+	</transitLine>
+	<transitLine id="1670" name="39">
+	</transitLine>
+	<transitLine id="1671" name="41">
+	</transitLine>
+	<transitLine id="1672" name="42C">
+	</transitLine>
+	<transitLine id="1673" name="42T">
+	</transitLine>
+	<transitLine id="1674" name="43">
+	</transitLine>
+	<transitLine id="1675" name="100">
+	</transitLine>
+	<transitLine id="1676" name="237">
+	</transitLine>
+	<transitLine id="1677" name="103">
+	</transitLine>
+	<transitLine id="1678" name="43T">
+	</transitLine>
+</transitSchedule>

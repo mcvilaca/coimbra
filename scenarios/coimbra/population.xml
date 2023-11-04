@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE population SYSTEM "http://www.matsim.org/files/dtd/population_v6.dtd">
+
+<population>
+
+
+
+<!-- ====================================================================== -->
+
+	<person id="560">
+		<plan selected="yes">
+			<activity type="casa" x="174394.97" y="363783.65" end_time="04:30:00" >
+			</activity>
+			<leg mode="bike" dep_time="04:30:00" trav_time="00:10:00">
+			</leg>
+			<activity type="casa" x="174234.402" y="365077.5691" end_time="04:40:00" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="562">
+		<plan selected="yes">
+			<activity type="trabalho" x="173808.3875" y="362623.1466" end_time="08:30:00" >
+			</activity>
+			<leg mode="car" dep_time="08:30:00" trav_time="00:10:00">
+			</leg>
+			<activity type="trabalho" x="174285.31" y="360742.06" end_time="08:40:00" >
+			</activity>
+			<activity type="casa" x="174285.31" y="360742.06" end_time="18:30:00" >
+			</activity>
+			<leg mode="car" dep_time="18:30:00" trav_time="00:30:00">
+			</leg>
+			<activity type="casa" x="173808.3875" y="362623.1466" end_time="19:00:00" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="571">
+		<plan selected="yes">
+			<activity type="buscar_levar_familiares" x="175352.2" y="360285.1" end_time="08:30:00" >
+			</activity>
+			<leg mode="car" dep_time="08:30:00" trav_time="00:30:00">
+			</leg>
+			<activity type="buscar_levar_familiares" x="175215.19" y="360377.01" end_time="09:00:00" >
+			</activity>
+			<activity type="casa" x="175215.19" y="360377.01" end_time="09:30:00" >
+			</activity>
+			<leg mode="car" dep_time="09:30:00" trav_time="00:30:00">
+			</leg>
+			<activity type="casa" x="175352.2" y="360285.1" end_time="10:00:00" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="593">
+		<plan selected="yes">
+			<activity type="trabalho" x="176006.9506" y="358627.057" end_time="08:30:00" >
+			</activity>
+			<leg mode="car" dep_time="08:30:00" trav_time="00:10:00">
+			</leg>
+			<activity type="trabalho" x="175961.41" y="357465.75" end_time="08:40:00" >
+			</activity>
+			<activity type="compras" x="175961.41" y="357465.75" end_time="17:00:00" >
+			</activity>
+			<leg mode="car" dep_time="17:00:00" trav_time="00:20:00">
+			</leg>
+			<activity type="compras" x="173561.55" y="360431.34" end_time="17:20:00" >
+			</activity>
+			<activity type="casa" x="173561.55" y="360431.34" end_time="18:00:00" >
+			</activity>
+			<leg mode="car" dep_time="18:00:00" trav_time="00:20:00">
+			</leg>
+			<activity type="casa" x="176006.9506" y="358627.057" end_time="18:20:00" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="604">
+		<plan selected="yes">
+			<activity type="compras" x="177415.4447" y="351341.0254" end_time="14:00:00" >
+			</activity>
+			<leg mode="car" dep_time="14:00:00" trav_time="00:15:00">
+			</leg>
+			<activity type="compras" x="176522.2" y="358440.9" end_time="14:15:00" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+</population>
