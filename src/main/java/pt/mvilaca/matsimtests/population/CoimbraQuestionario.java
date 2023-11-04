@@ -1,6 +1,7 @@
 package pt.mvilaca.matsimtests.population;
 
 import java.io.BufferedReader;
+
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
@@ -30,6 +31,7 @@ import org.matsim.core.config.groups.PlanCalcScoreConfigGroup.ActivityParams;
 import org.matsim.facilities.ActivityFacility;
 import org.matsim.facilities.ActivityOption;
 
+import pt.mvilaca.matsimtests.population.CoimbraQuestionario.MotivoViagem;
 import pt.mvilaca.matsimtests.population.CoimbraQuestionario.QuestionarioIndividual;
 
 /*This classe its developed to read the specific data survey of Coimbra region and classifies transport modes and trip purposes*/
@@ -443,7 +445,6 @@ public class CoimbraQuestionario {
 		for(Integer pid : personActivity.keySet()) {
 
 			Person person =population.getFactory().createPerson(Id.create(pid, Person.class));
-			
 			population.addPerson(person);
 //			population.getAttributes(age);
 //			population.getAttributes(gender);
@@ -452,20 +453,30 @@ public class CoimbraQuestionario {
 			TreeSet<QuestionarioIndividual> cis = personActivity.get(pid);
 			Plan plan = population.getFactory().createPlan();
 			plan.setPerson(person);
+			
+			//12/10
+			
+			double previousEndTime= 0.0;
+			
 			for(QuestionarioIndividual ci : cis) {
 				
 				String motivoViagem = ci.getMotivo().toString();
 				Activity inicio = population.getFactory().createActivityFromCoord(motivoViagem, ci.origem);
 				Activity fim = population.getFactory().createActivityFromCoord(motivoViagem, ci.destino); 
 
+				
 				inicio.setEndTime(ci.getInicio());
 				fim.setEndTime(ci.getFim());
+				inicio.setEndTime(previousEndTime);
+				fim.setEndTime(ci.getFim());
+
 
 				plan.addActivity(inicio);
 				Leg leg = population.getFactory().createLeg(ci.getMode());
 				leg.setDepartureTime(ci.getInicio());
 				leg.setTravelTime(ci.getDuration());
 				plan.addLeg(leg);
+				
 				plan.addActivity(fim);
 
 			}
@@ -586,6 +597,8 @@ public class CoimbraQuestionario {
 		double duration; 
 		MotivoViagem motivo;
 		String modo;
+		int startAtHome;
+		int endAtHome;
 
 
 		public QuestionarioIndividual(
@@ -593,8 +606,8 @@ public class CoimbraQuestionario {
 				Coord origem, 
 				Coord destino, 
 				Double inicio, 
-				Double fim, 
-				Double duration,
+				double d, 
+				double e,
 				MotivoViagem motivo,
 				String modo) {
 			super();
@@ -602,10 +615,10 @@ public class CoimbraQuestionario {
 			this.origem = origem;
 			this.destino = destino;
 			this.inicio = inicio;
-			this.fim = fim;
+			this.startAtHome= (int) d;
+			this.endAtHome = (int) e;
 			this.motivo = motivo;
 			this.modo = modo;
-			this.duration = duration;
 		}
 
 

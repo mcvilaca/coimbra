@@ -14,10 +14,10 @@ import java.util.List;
 public class FiltroReducaoEscala_EWGT {
     public static void main(String[] args) {
         // Define the path to the input TSV file
-        File inputFile = Paths.get("data", "population", "Syntheticpopulation_filtro2_simplified.tsv").toFile();
+        File inputFile = Paths.get("data", "population", "coimbra_filtro2.tsv").toFile();
         
         // Define the path to the output TSV file
-        File outputFile = Paths.get("data", "population", "Syntheticpopulation_filtro2_simplified_EWGT.tsv").toFile();
+        File outputFile = Paths.get("data", "population", "coimbra_filtro2_EWGT.tsv").toFile();
         
      // Define the values and ranges to keep in column 7 and 15
         List<Object> wantedValues = new ArrayList<>();

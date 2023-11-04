@@ -2,14 +2,15 @@ package pt.mvilaca.matsimtests.dataTreatment;
 
 import java.io.*;
 import java.util.*;
-
+/*Este código remove as linhas das viagens que não pertencem a SMM Coimbra. Ou melhor, reescreve apenas as linhas que não apresentam os concelhos a eliminar tanto na orgigem como no destino**/
 
 import java.nio.file.Paths;
-/*Este código remove as linhas das viagens que não pertencem a SMM Coimbra. Ou melhor, reescreve apenas as linhas que não apresentam os concelhos a eliminar tanto na origem como no destino**/
+
+/*Este filtro remove os concelhos que não fazem parte da SMM. Verifica se as colunas 9 e 16 apresentam o nome do concelho. Ainda remove casos em que a coordenada de origem e destino está duplicada*/
 public class Filtro3 {
 	public static void main(String[] args) throws Exception {
         // Open the input and output files
-        File inputFile = Paths.get("data", "population", "Syntheticpopulation_filtro2_simplified.tsv").toFile();
+        File inputFile = Paths.get("data", "population", "Syntheticpopulation_filtro2_startHome_simplified.tsv").toFile();
         File outputFile = Paths.get("data", "population", "Syntheticpopulation_filtro2_simplified_filtro3.tsv").toFile();
         Scanner scanner = new Scanner(inputFile);
         BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile));

@@ -12,6 +12,7 @@ import org.matsim.pt.transitSchedule.api.TransitLine;
 import org.matsim.pt.transitSchedule.api.TransitRoute;
 import org.matsim.pt.transitSchedule.api.TransitSchedule;
 import org.matsim.pt2matsim.config.PublicTransitMappingConfigGroup;
+import org.matsim.pt2matsim.config.PublicTransitMappingConfigGroup.TravelCostType;
 import org.matsim.pt2matsim.gtfs.GtfsConverter;
 import org.matsim.pt2matsim.gtfs.GtfsFeedImpl;
 import org.matsim.pt2matsim.mapping.PTMapper;
@@ -40,14 +41,14 @@ public class EWGT_Transport_MV {
 		
 		String sampleDayParam = GtfsConverter.DAY_WITH_MOST_TRIPS;
 		String coordinate= "EPSG:20790";
-		String scheduleFile = "scenarios/coimbra_ewgt/schedule.xml";
-		String vehicleFile = "scenarios/coimbra_ewgt/vehicle.xml";
+		String scheduleFile = "scenarios/coimbra_ewgtbaseline_v2/schedule.xml";
+		String vehicleFile = "scenarios/coimbra_ewgtbaseline_v2/vehicle.xml";
 		
 		
-		String scheduleFileWithTransports = "scenarios/coimbra_ewgt/scheduleWithTransports_MV.xml";
+		String scheduleFileWithTransports = "scenarios/coimbra_ewgtbaseline_v2/scheduleWithTransports.xml";
 		
-		String inputNetwork = "scenarios/coimbra_ewgt/network.xml";
-		String networkWithTransports = "scenarios/coimbra_ewgt/networkWithTransports_MV.xml";
+		String inputNetwork = "scenarios/coimbra_ewgtbaseline_v2/network.xml";
+		String networkWithTransports = "scenarios/coimbra_ewgtbaseline_v2/networkWithTransports.xml";
 		
 		Gtfs2TransitSchedule.run(gtfsFolder, sampleDayParam, coordinate, scheduleFile, vehicleFile);
 		
@@ -93,9 +94,13 @@ public class EWGT_Transport_MV {
 		// create PTM config
 		PublicTransitMappingConfigGroup config = PublicTransitMappingConfigGroup.createDefaultConfig();
 
-		config.setNLinkThreshold(4);
-		config.setMaxLinkCandidateDistance(300);
-//		config.setCandidateDistanceMultiplier(2.5);
+		config.setNLinkThreshold(6);
+		config.setMaxLinkCandidateDistance(800);
+//		config.setCandidateDistanceMultiplier(2);
+//		//or travel time
+//		config.setTravelCostType(TravelCostType.linkLength);
+		
+	
 		System.out.println("getNLinkThreshold " + config.getNLinkThreshold());
 		System.out.println("getCandidateDistanceMultiplier " + config.getCandidateDistanceMultiplier());
 		System.out.println("getMaxLinkCandidateDistance" + config.getMaxLinkCandidateDistance());

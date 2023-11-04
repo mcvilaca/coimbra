@@ -4,10 +4,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class vehiclesXml {
-
     public static void main(String[] args) {
-        String fileName = "scenarios/coimbra_ewgt_drt/vehicles_11000.xml";
-        int totalVehicles = 11000;
+        String fileName = "scenarios/coimbra_ewgtdrt_v2/vehicles_20000.xml";
+        int totalVehicles = 20000;
         String[] startLinks = {"48515", "1851", "28007", "46521", "35786", "57314"};
 
         try {

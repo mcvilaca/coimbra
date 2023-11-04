@@ -39,33 +39,39 @@ public static void main(String[] args) throws IOException, ParseException {
 
 		
 		
-		File f = Paths.get("data", "population", "Filtro2", "SyntheticPopulationCoimbra_EWGT.tsv").toFile();
+		File f = Paths.get("data", "population", "Syntheticpopulation_filtro2_simplified_filtro3_EWGT.tsv").toFile();
 		CoimbraQuestionario cq = CoimbraQuestionario.readCoimbraTSV(f);
 		
 	
 		//NETWORK
-		config.network().setInputFile("scenarios/coimbra_ewgt_test/networkWithTransports_MV.xml");
+		config.network().setInputFile("scenarios/coimbra_ewgt_v3/networkWithTransports.xml");
 		
 		
 
 		//PLANS
-		config.plans().setInputFile("scenarios/coimbra_ewgt_test/population_filtro4.xml");
+		config.plans().setInputFile("scenarios/coimbra_ewgt_v3/population_x.xml");
 
 		//FACILITIES
-		config.facilities().setInputFile("scenarios/coimbra_ewgt_test/facilities.xml");
+		config.facilities().setInputFile("scenarios/coimbra_ewgt_v3/facilities.xml");
 		config.facilities().setInputCRS("EPSG:20790");
 		
 		//COUNTS
 		config.counts().setAverageCountsOverIterations(0);
-		config.counts().setFilterModes(true);
 		config.counts().setInputCRS("EPSG:20790");
 		config.counts().setWriteCountsInterval(1);
+		config.counts().setFilterModes(true);
+		
+		
+//		config.jdeqSim().setCarSize(3.5);
+//		config.jdeqSim().setMinimumInFlowCapacity(0);
+	
 		
 		//SCORE
 		//new_score = (1-learningRate)*old_score + learningRate * score_from_mobsim.  learning rates close to zero emulate score averaging, but slow down initial convergence
 		config.planCalcScore().setLearningRate(1.0);
 		//logit model scale parameter. default: 1.  Has name and default value for historical reasons (see Bryan Raney's phd thesis)
 		config.planCalcScore().setBrainExpBeta(1.0);
+		config.planCalcScore().setWriteExperiencedPlans(true);
 		
 	
 		
@@ -77,13 +83,17 @@ public static void main(String[] args) throws IOException, ParseException {
 		//Number of random seeds was selected based on CPU cores of the WS
 		config.global().setRandomSeed(28);
 	
+		//LINKSTATS
+		config.linkStats().setAverageLinkStatsOverIterations(1);
+		config.linkStats().setWriteLinkStatsInterval(1);
 		
 		
 		//HERMES: Communication framework
 		config.hermes().setFlowCapacityFactor(1.2);//Try 1.2
 		config.hermes().setStorageCapacityFactor(1.2);//try 1.2
 		//time in seconds
-		config.hermes().setStuckTime(900);
+		config.hermes().setStuckTime(10);
+		config.hermes().setEndTime("24:00:00");
 		
 		
 		
@@ -92,23 +102,23 @@ public static void main(String[] args) throws IOException, ParseException {
 		config.qsim().setEndTime(86400);
 		
 		config.qsim().setInsertingWaitingVehiclesBeforeDrivingVehicles(true);
+		config.qsim().setNumberOfThreads(3);
 		
-		//to use lanes i have to allow the 
+		//to use lanes i have to allow the (true06/10)
 		config.qsim().setUseLanes(false);
 		config.qsim().setVehicleBehavior(VehicleBehavior.wait);
 		//change after
 		config.qsim().setVehiclesSource(VehiclesSource.defaultVehicle);
 		config.qsim().setUsePersonIdForMissingVehicleId(false);
 		config.qsim().setSimEndtimeInterpretation(EndtimeInterpretation.onlyUseEndtime);
-		config.qsim().setSimStarttimeInterpretation(StarttimeInterpretation.onlyUseStarttime);
+		config.qsim().setSimStarttimeInterpretation(StarttimeInterpretation.maxOfStarttimeAndEarliestActivityEnd);
 		config.qsim().setSnapshotStyle(SnapshotStyle.queue);
-		config.qsim().setStuckTime(900);
+		config.qsim().setStuckTime(10);
 		
-		config.qsim().setUseLanes(false);
 		
 		config.qsim().setFlowCapFactor(1.0);
 		config.qsim().setStorageCapFactor(1.0);
-		config.qsim().setInsertingWaitingVehiclesBeforeDrivingVehicles(true);
+//		config.qsim().setInsertingWaitingVehiclesBeforeDrivingVehicles(true);
 		config.qsim().setLinkDynamics(LinkDynamics.FIFO);
 		config.qsim().setRemoveStuckVehicles(false);
 		config.qsim().setTrafficDynamics(TrafficDynamics.queue);
@@ -118,10 +128,15 @@ public static void main(String[] args) throws IOException, ParseException {
 		
 	
 		
+//		config.strategy().setFractionOfIterationsToDisableInnovation(0.8);
+//		
+//		config.transit().setUseTransit(true);
+//		
+//		config.transitRouter().setAdditionalTransferTime(900);
 		
 		
-		
-		config.parallelEventHandling().setNumberOfThreads(1);
+		config.parallelEventHandling().setNumberOfThreads(3);
+//		config.parallelEventHandling().setEventsQueueSize(300000);
 		
 		//200meters
 		config.transitRouter().setMaxBeelineWalkConnectionDistance(200);
@@ -149,10 +164,11 @@ public static void main(String[] args) throws IOException, ParseException {
 		//CONTROLER
 		Controler controler = new Controler( scenario ) ;
 		
+		
 		config.controler().setOverwriteFileSetting( OverwriteFileSetting.deleteDirectoryIfExists );
-		config.controler().setOutputDirectory("scenarios/coimbra_ewgt_test/outputs_tst8");
+		config.controler().setOutputDirectory("scenarios/coimbra_ewgt_v3/outputs_baseline");
 		config.controler().setFirstIteration(1);
-		config.controler().setLastIteration(1);
+		config.controler().setLastIteration(5);
 		config.controler().setWriteEventsInterval(1);
 		config.controler().setWritePlansInterval(1);
 		config.controler().setWriteTripsInterval(1);
@@ -166,7 +182,7 @@ public static void main(String[] args) throws IOException, ParseException {
 		
 		//RUN
 		ConfigWriter w = new ConfigWriter(config);
-		w.write("scenarios/coimbra_ewgt_test/config.xml");
+		w.write("scenarios/coimbra_ewgt_v3/config.xml");
 		controler.run();
 	}
 }

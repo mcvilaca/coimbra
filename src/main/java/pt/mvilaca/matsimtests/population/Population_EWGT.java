@@ -29,25 +29,24 @@ public class Population_EWGT {
 public static void main(String[] args) throws IOException, ParseException {
 		
 		Config config = ConfigUtils.createConfig();
-		config.network().setInputFile("scenarios/coimbra_ewgt/network.xml");
+		config.network().setInputFile("scenarios/coimbra_ewgt_v3/networkWithTransports.xml");
 		
 		Scenario scenario = ScenarioUtils.loadScenario(config) ;
 //		Network network = scenario.getNetwork();
 //		Population population = scenario.getPopulation();
 		
 		
-		File f = Paths.get("data", "population", "Filtro2", "SyntheticPopulationCoimbra_EWGT.tsv").toFile();
+		File f = Paths.get("data", "population", "coimbra_transpMetric.tsv").toFile();
 		CoimbraQuestionario3 cq = CoimbraQuestionario3.readCoimbraTSV(f);
 		
 		cq.createFacilities(scenario);
 		cq.createQuestionaryPlan(scenario);
 		
-		
 		PopulationWriter populationWriter = new PopulationWriter(scenario.getPopulation(), scenario.getNetwork());
-		populationWriter.write("scenarios/coimbra_ewgt/population.xml");
+		populationWriter.write("scenarios/coimbra_ewgt_v3/population.xml");
 		
 		FacilitiesWriter facilitiesWriter = new FacilitiesWriter(scenario.getActivityFacilities());
-		facilitiesWriter.write("scenarios/coimbra_ewgt/facilities.xml");
+		facilitiesWriter.write("scenarios/coimbra_ewgt_v3/facilities.xml");
 	}
 	
 	

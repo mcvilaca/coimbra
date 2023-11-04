@@ -41,10 +41,11 @@ public class Coimbra_EWGTOsmToNetwork {
 		OsmNetworkReader reader = new OsmNetworkReader(network, transformation);
 		reader.parse(coimbra_file_path);
 		
-		
+//		new NetworkSimplifier().run(network);
+//		
 		new NetworkCleaner().run(network);
 		
-		new NetworkWriter(network).write("scenarios/coimbra_ewgt/network.xml");
+		new NetworkWriter(network).write("scenarios/coimbra_ewgtbaseline_v2/network.xml");
 	}
 }
 
