@@ -15,3 +15,11 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+.settings
+
+# Regra para nao meter outputs no git
+scenarios/*/outputs*
+
+# Regras de ficheiros grandes (ainda verificar o que fazer)
+data/osm/Coimbra_Region.osm
+
