@@ -21,5 +21,5 @@ buildNumber.properties
 scenarios/*/outputs*
 
 # Regras de ficheiros grandes (ainda verificar o que fazer)
-data/osm/Coimbra_Region.osm
+# data/osm/Coimbra_Region.osm
 
