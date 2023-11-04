@@ -1,0 +1,4 @@
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+Dias Úteis,1,1,1,1,1,0,0,20220508,20230508
+Domingos e Feriados,0,0,0,0,0,0,1,20220508,20230508
+Sábados,0,0,0,0,0,1,0,20220508,20230508

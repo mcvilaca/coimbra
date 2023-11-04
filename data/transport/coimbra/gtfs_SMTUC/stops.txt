@@ -1,0 +1,1524 @@
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon
+1,1000,Rua do Padrão - Est. Velha,,40.22257,-8.439551
+2,1001,Rua Henrique Barros - Quinta do Murtal,,40.254709,-8.427882
+3,1002,Rua St. Isabel - Sent. Carvalhais,,40.168269,-8.435414
+4,1003,Rua da Chainça - Sent. M. dos Pereiros,,40.167161,-8.434506
+5,1004,Rua Nova do Barreiro - Taveiro - Sent. Escola,,40.200105,-8.500362
+6,1005,Rua Nova do Barreiro - Taveiro - Sent. Coimbra,,40.19986,-8.500739
+7,1006,Rua de Stª Eufémia (paragem 1) - Cimo da Ribeira - Sent. Escola,,40.199495,-8.496693
+8,1007,Rua de Stª Eufémia (paragem 1) - Cimo da Ribeira - Sent. Coimbra,,40.199892,-8.496579
+9,1008,Rua de Stª Eufémia (paragem 2) - Cimo da Ribeira - Sent. Escola,,40.197887,-8.49616
+10,1009,Rua de Stª Eufémia (paragem 2) - Cimo da Ribeira - Sent. Coimbra,,40.198151,-8.496186
+11,1010,Rua de Stª Eufémia (paragem 3) - Cimo da Ribeira - Sent. Escola,,40.19541,-8.496132
+12,1011,Rua de Stª Eufémia (paragem 3) - Cimo da Ribeira - Sent. Coimbra,,40.19619,-8.496065
+13,1012,"Taveiro (esc. B. 2, 3 Taveiro) - sent. desc.",,40.194207,-8.500482
+14,1013,E. N. 341 - Ameal (sul) -sent. Arzila,,40.187382,-8.547225
+15,1014,E. N. 341 - Arzila (centro) - Sent. Ameal,,40.183824,-8.550542
+16,1015,E. N. 341 - Ameal (sul) -sent. Taveiro,,40.187485,-8.546976
+17,1016,Rua de Condeixa - Arzila - Sent. Anobra,,40.181723,-8.550062
+18,1017,Rua de Condeixa - Arzila - Sent. Coimbra,,40.182286,-8.549986
+19,1018,E. N. 341 - Arzila (norte) - Sent. Centro,,40.185307,-8.548925
+20,1019,E. N. 341 - Arzila (norte) - Sent. Ameal,,40.185597,-8.548585
+21,1020,E. N. 341 - Arzila (centro) - Sent. Cruz. Lameira,,40.183892,-8.550869
+22,1021,E. N. 605 - Cruzamento com Rua da Lameira,,40.179306,-8.545028
+23,1022,E. N. 341 - Ameal (norte) - Sent. Arzila,,40.191808,-8.53784
+24,1023,R. Principal - Ameal (centro) - Sent. Taveiro,,40.190529,-8.543093
+25,1024,R. Principal - Ameal (centro) - Sent. Arzila,,40.190626,-8.543202
+26,1025,E. N. 341 - Ameal (norte) - Sent. Taveiro,,40.191731,-8.537534
+27,1026,E. N. 341 - Ameal - Sent. Arzila,,40.189237,-8.54504
+28,1027,E. N. 341 - Ameal - Sent. Taveiro,,40.189361,-8.544791
+29,1028,E. M. 605 - Vila Pouca do Campo - Sent. Arzila,,40.195196,-8.527643
+30,1029,Vila Pouca do Campo - Junto à Escola,,40.190628,-8.522218
+31,1030,E. M.  605 - Vila Pouca do Campo - Sent. Taveiro,,40.195269,-8.527079
+32,1031,E. M. 605 - Arneiros - Sent. Taveiro,,40.196228,-8.52318
+33,1032,E. M. 605 - Arneiros - Sent. Vila Pouca,,40.196141,-8.523521
+34,1033,Rua Combatentes (1)- Vila Pouca - Sent. Taveiro,,40.193535,-8.527668
+35,1034,Rua Combatentes (1)- Vila Pouca - Sent. Ameal,,40.193109,-8.527504
+36,1035,Vila Pouca - Centro - Sent. Taveiro,,40.190644,-8.52565
+37,1036,Vila Pouca - Centro - Sent. Ameal,,40.190632,-8.525904
+38,1037,Vila Pouca - Estrada p/ Reveles - Sent. Vila Pouca,,40.190048,-8.518857
+39,1038,Vila Pouca - Estrada p/ Reveles - Sent. Coimbra,,40.190004,-8.51905
+40,1039,C. M. 116 - Reveles - Sent. Taveiro,,40.19011,-8.516742
+41,1040,C. M. 116 - Reveles - Sent. Vila Pouca,,40.189868,-8.51609
+42,1041,E. M. 605  - Reveles de Baixo - Sent. Taveiro,,40.199058,-8.517203
+43,1042,E. M. 605 - Reveles de Baixo - Sent. Arzila,,40.199076,-8.517516
+44,1043,E. N. 1-7 (mercado Abastecedor) - Sent.taveiro,,40.189594,-8.510275
+45,1044,C. M. 116 Reveles (cruzamento) - Sent. Taveiro,,40.186352,-8.511432
+46,1045,C. M. 116 Reveles (cruzamento) - Sent. Vila Pouca,,40.186461,-8.511457
+47,1046,E. N. 1-7 (mercado Abastecedor) - Sent.vila Pouca,,40.189322,-8.510698
+48,1047,E. N. 111(cruz. Alcarraques)  - Sent. Coimbra,,40.252379,-8.462594
+49,1048,Rua de Coimbra (barreiro) - Sent. Vil Matos,,40.281024,-8.485707
+50,1049,Rua de Coimbra (barreiro) - Sent. Coimbra,,40.280863,-8.485405
+51,1050,E. N. 110-2 Taveiro (apeadeiro) - Sent. Arzila,,40.203574,-8.500166
+52,1052,E.n. 1-7 Taveiro (centro) - Junto à Capela - Sent. Vila Pouca,,40.202351,-8.502364
+53,1053,E. N. 1-7 Taveiro (centro) - Junto à Capela - Sent. Coimbra,,40.202386,-8.502248
+54,1054,Tores do Mondego - Ladeira do Santo - Sent. Penacova,,40.194791,-8.381279
+55,1055,E. M. 537 - Estrada de Eiras (inem) - Sent. Eiras,,40.229045,-8.43702
+56,1056,E. M. 537 -estrada de Eiras (inem) - Sent. Centro,,40.228579,-8.437223
+57,1057,"Monsenhor Augusto Nunes Pereira, R. - Sent. Bandeiras",,40.201175,-8.404265
+58,1058,Taveiro (passagem de Nivel) - Sent. Coimbra,,40.200255,-8.507948
+59,1059,E. N. 1-7 Taveiro (sul) - Sent. Vila Pouca,,40.198951,-8.501627
+60,1060,E. N. 1-7 Taveiro (sul) - Sent. Taveiro,,40.199094,-8.50146
+61,1061,E. N. 110 - 2 Taveiro (apeadeiro) - Sent. Coimbra,,40.203703,-8.499783
+62,1062,Taveiro (cemitério) - Sent. Arzila,,40.19975,-8.507331
+63,1063,Taveiro - Parque Mondego - Sent. Vila Pouca,,40.191521,-8.508291
+64,1064,Taveiro - Parque Mondego - Sent. Coimbra,,40.191699,-8.507938
+65,1065,"Taveiro (esc. B. 2, 3 Taveiro) - sent. asc.",,40.194007,-8.500687
+66,1066,E. N. 1-7 Taveiro - Rotunda dos Telhões - Sent. Coimbra,,40.194111,-8.505734
+67,1067,Taveiro (cruzamento p/ Escola) - Sent. Taveiro,,40.197057,-8.503688
+68,1068,Taveiro - (casa da Criança) - Sent. Parq. Mondego,,40.196597,-8.504513
+69,1069,Taveiro - Zona Industrial (rotunda) - Sent. Coimbra,,40.198776,-8.507949
+70,1070,Taveiro - Parque Mondego (terminus L. 12),,40.191516,-8.50906
+71,1071,E. N. 1-7 Taveiro - Rotunda dos Telhões - Sent. Parq. Mondego,,40.194404,-8.50588
+72,1072,"Guarda Inglesa, Av. - Estádio Universitário - Sent. Almegue",,40.204917,-8.435785
+73,1073,"Guarda Inglesa, Av. - Estádio Universitário - Sent. Portagem",,40.204778,-8.435934
+74,1074,Vil de Matos - (centro) - Sent. Pisão,,40.283646,-8.486909
+75,1075,Vil de Matos - (centro) - Sent. Adémia,,40.282546,-8.487486
+76,1076,Vil de Matos - (norte) - Términus 2t,,40.286748,-8.489514
+77,1077,Vil de Matos - Sent. Pisão,,40.285225,-8.487556
+78,1078,Vil de Matos - Sent Coimbra,,40.285035,-8.487616
+79,1079,Mourelos - sent. Vil Matos,,40.275834,-8.486769
+80,1080,Casais (cemitério da Ribeira) - Sent. Taveiro,,40.203322,-8.485597
+81,1081,R. Pedro Rodrigues Santos - Rib.de Frades (escola) -  Sent. Coimbra,,40.205104,-8.491179
+82,1082,R. Pedro Rodrigues Santos - Rib.de Frades (escola) -  Sent. Taveiro,,40.205281,-8.491247
+83,1083,E. N. 110-2 - Ribeira de Frades (centro) - Sent. Coimbra,,40.205624,-8.495183
+84,1084,E. N. 110-2 - Ribeira de Frades (centro) - Sent. Taveiro,,40.205639,-8.495465
+85,1085,E. N. 110-2 Taveiro (centro de Saúde) - Sent. Coimbra,,40.20512,-8.497546
+86,1086,E. N. 110-2 Taveiro (centro de Saúde) - Sent. Arzila,,40.204747,-8.498269
+87,1087,E. N. 341 - Alto da Ribeira - Sent. Arzila,,40.201674,-8.497199
+88,1088,E. N. 341 - Alto da Ribeira - Sent.coimbra,,40.201486,-8.496894
+89,1089,E. N. 341 - Ribeira de Frades - Sent. Arzila,,40.202113,-8.493739
+90,1090,E. N. 341 - Ribeira de Frades - Sent. Coimbra,,40.20181,-8.493287
+91,1091,E. N. 110-2 (cruz.dos Casais) - Sent. Taveiro,,40.204667,-8.48652
+92,1092,E. M. 539 - Cruz. do Vale Velho - Sent. Lordemão,,40.241004,-8.404862
+93,1093,E. N. 110-2 - Outeiro da Ribeira 1 - Sent. Casais,,40.196468,-8.486497
+94,1094,E. N. 110-2 - Outeiro da Ribeira 1 - Sent. Valongo,,40.196808,-8.486717
+95,1095,E. N. 110-2 - Moinho do Calhau (norte) - Sent. Casais,,40.188234,-8.487578
+96,1096,E. N. 110-2 - Moinho do Calhau (norte) - Sent. Valongo,,40.187784,-8.487673
+97,1097,E. N. 110-2 - Moinho do Calhau - Sent. Casais,,40.183788,-8.487018
+98,1098,E. N. 110-2 - Entre Tremoçais (valongo) - Sent. Casais,,40.178894,-8.487195
+99,1099,E. N. 110-2 - Moinho do Calhau - Sent. Valongo,,40.183584,-8.487081
+100,1100,E. N. 110-2 - Entre Tremoçais (valongo) - Sent. Valongo,,40.178711,-8.487259
+101,1101,Vil de Matos - Escola - (sul) - Sent. Pisão,,40.279595,-8.483705
+102,1102,Vil de Matos - Escola - (sul) - Sent. Adémia,,40.27979,-8.483946
+103,1103,Rios Frios - Eira Velha - Sent. Vil de Matos,,40.275241,-8.475301
+104,1104,Rios Frios - Eira Velha - Sent. Adémia,,40.274933,-8.474856
+105,1105,Vendas de Santana - Viaduto - Sent. Vil de Matos,,40.277079,-8.478887
+106,1106,Vendas de Santana - Viaduto - Sent. Adémia,,40.27686,-8.478665
+107,1107,Vendas de Santana - Cruzamento - Sent. Vil de Matos,,40.277574,-8.482489
+108,1108,Vendas de Santana - Cruzamento - Sent. Adémia,,40.277307,-8.482147
+109,1109,Vendas de Santana - Cruzamento - Sent. Mourelos,,40.277189,-8.482428
+110,1110,E. N. 11o-2 (corujeira) - Sent. Coimbra,,40.207644,-8.476123
+111,1111,E. N. 110-2 (corujeira) - Sent. Taveiro,,40.207667,-8.476448
+112,1112,E. N. 110-2 - Casais (esc. Primária) - Sent. Taveiro,,40.205606,-8.482333
+113,1113,E. N. 110-2 - Casais (cruz. Casas Novas ) - Sent. Taveiro,,40.206459,-8.480519
+114,1114,Casais (cemitério da Ribeira) - Sent. Coimbra,,40.203816,-8.485786
+115,1115,E. N. 110-2 - Casais (apeadeiro) - Sent. Coimbra,,40.204609,-8.484984
+116,1116,E. N. 110-2 - (esc. Primária) - Sent. Coimbra,,40.205312,-8.482719
+117,1117,E. N. 110-2 - Casais (cruz. Casas Novas ) - Sent. Coimbra,,40.206606,-8.479714
+118,1118,Av. de Conimbriga (smtuc) - Sent. Coimbra,,40.210202,-8.437216
+119,1119,E. N. 110-2 - Outeiro dos Casais (sul)  - Sent. Casais,,40.199366,-8.486114
+120,1120,E. N. 110-2 - Outeiro dos Casais (sul) - Sent. Valongo,,40.199243,-8.486345
+121,1121,C. M. 1075 - Debaixo do Viaduto Via Rápida - Dir. Coalhadas,,40.203074,-8.478431
+122,1122,Rua 25 de Abril - Casais - Sent. Coalhadas,,40.203135,-8.482168
+123,1123,C. M. 1075 - Casa Novas - Dir. Coalhadas,,40.201628,-8.477932
+124,1124,"Guarda Inglesa, Av. - Escola 2,3 Silva Gaio - Sent. Portagem",,40.207873,-8.436843
+125,1125,Outeiro dos Casais (centro) - Sent. Coimbra,,40.200261,-8.483358
+126,1126,C. M. 1075 - Casa Novas (cruzamento p/ Estremão) - Sent. Coalhadas,,40.200089,-8.477342
+127,1127,Urbanização de S. Bento - Sent. Coimbra,,40.199481,-8.484845
+128,1128,Estremão (centro),,40.199934,-8.478606
+129,1129,E. N. 110-2 - Outeiro dos Casais (viaduto) - Sent. Valongo,,40.200847,-8.485348
+130,1130,Rua das Cerejeiras - Casais - Sent. Coalhadas,,40.203588,-8.483832
+131,1131,E. N. 110-2 - Outeiro dos Casais (viaduto) - Sent. Casais,,40.20159,-8.485254
+132,1132,C. M. 1075 - Coalhadas (cruz. p/ Casal da Bemposta) -sent. Bemposta,,40.198266,-8.476749
+133,1133,Rua Casal da Bemposta (fontenário),,40.197495,-8.478646
+134,1134,Rua Casal da Bemposta (casal da Bemposta),,40.196071,-8.480997
+135,1135,Rua Casal dos Ratos,,40.197362,-8.482326
+136,1136,Rua Casal dos Ratos(casal dos Ratos),,40.198812,-8.482652
+137,1137,Valongo (centro) Sent. - Esp. Santos das Touregas,,40.174172,-8.481974
+138,1138,R. Dr. Mendes Silva - Valongo (cruz. c/ E. N. 110-2) - sent. asc.,,40.175967,-8.484066
+139,1139,E. N. 110-2 - Valongo (norte),,40.176116,-8.485175
+140,1140,Rua Dr. Mendes Silva - Sent. Valongo,,40.176875,-8.478425
+141,1141,Rua Dr. Mendes Silva - Sent. Esp. Santo,,40.176553,-8.478652
+142,1142,Rios Frios - Cartacho - Sent. Vil de Matos,,40.271744,-8.467389
+143,1143,Rios Frios - Cartacho - Sent. Adémia,,40.271949,-8.468289
+144,1144,Rios Frios - Almuinhas - Sent. Vil de Matos,,40.27303,-8.470423
+145,1145,Rios Frios - Almuinhas - Sent. Adémia,,40.273416,-8.4714
+146,1146,E. M. 618 - Alcarraques (norte) - Sent. Rios Frios,,40.26516,-8.462245
+147,1147,E. M. 618 - Alcarraques (norte) - Sent. Adémia,,40.265257,-8.462609
+148,1148,E. M. 618 - Alcarraques (forno) - Sent. Adémia,,40.254001,-8.462579
+149,1149,E. M. 618 - Alcarraques (forno) - Sent. Alcarraques,,40.254217,-8.461905
+150,1150,E. N. 341 (desvio de Chafariz)- Sent. Taveiro,,40.210864,-8.465286
+151,1151,E. N. 110-2 - Parreiras (centro) - Sent. Taveiro,,40.21343,-8.46575
+152,1152,E. N. 110-2 - Montessão - Sent. Coimbra,,40.212606,-8.464019
+153,1153,E. N. 110-2 - Parreiras (rotunda),,40.211665,-8.46778
+154,1154,E. N. 110-2 - Estrada de Bencanta - Parreiras - Sent. Coimbra,,40.211852,-8.466623
+155,1155,E. N. 110-2 - Espadaneira - Sent. Taveiro,,40.210459,-8.470119
+156,1156,E. N. 110-2 - Espadaneira - Sent. Coimbra,,40.210217,-8.470456
+157,1157,E. N. 110-2- Pé de Cão  - Sent. Taveiro,,40.20967,-8.471948
+158,1158,E. N. 110-2- Pé de Cão  - Sent. Coimbra,,40.209104,-8.472175
+159,1159,Rua 1ºde Maio (chafariz) - Sent. Fala,,40.208109,-8.466152
+160,1160,Rua 1º de Maio (chafariz) - Sent. Coimbra,,40.208772,-8.465453
+161,1161,Rua 1º de Maio (cruzes)- Sent. Fala,,40.210376,-8.462726
+162,1162,Rua 1º de Maio (cruzes) -sent. Coimbra,,40.210317,-8.462452
+163,1163,Chafariz (viaduto) - Fala - Sent. Bencanta,,40.211142,-8.462743
+164,1164,E. N. 341 (desvio de Chafariz)- Sent. Coimbra,,40.212024,-8.461976
+165,1165,Rua da Escola Nova (sul) - Fala - Sent. Bencanta,,40.201403,-8.466039
+166,1166,E. N. 341 - Cruz. Fala (pitrolino) - Dir. Bencanta,,40.206204,-8.473919
+167,1167,E. N. 341 - Cruz. Fala (pitrolino) - Dir. Taveiro,,40.206185,-8.474657
+168,1168,Rua 1º de Maio - Sent. Covões,,40.206296,-8.467508
+169,1169,Rua 1º de Maio - Sent. Coimbra,,40.206512,-8.467106
+170,1170,Rua 1º de Maio - Fala (cruz. c/ R. Esc. Nova)-sent. Covões,,40.204738,-8.468477
+171,1171,Rua 1º de Maio - Fala (cruz. c/ R. Esc. Nova)-sent. Bencanta,,40.204582,-8.468328
+172,1172,Rua 1º de Maio - Fala (centro) - Sent. Covões,,40.202996,-8.469538
+173,1173,Rua 1º de Maio - Fala - Sent. Covões,,40.201495,-8.468087
+174,1174,Rua da Escola Nova - Fala- Sent. Bencanta,,40.202206,-8.46739
+175,1175,Rua Infante D. Henrique (1) - Fala  - Sent. Covões,,40.200742,-8.465746
+176,1176,Rua Infante D. Henrique (2) - Fala  - Sent. Covões,,40.199805,-8.464416
+177,1177,Rua da República (2) - Fala - Sent. Bencanta,,40.201099,-8.463197
+178,1178,Estrada das Touregas (bairro das Flores) - Sent. Covões,,40.191195,-8.463373
+179,1179,Esp. Santo das Touregas (inicio C. M. 1075),,40.190679,-8.469078
+180,1180,Estrada das Touregas (bairro das Flores) - Sent. Valongo,,40.191222,-8.463686
+181,1181,Rua Infante D. Henrique (3) - Fala  - Sent. Covões,,40.198308,-8.4631
+182,1182,Esp. Santo das Touregas - Cruz. - Sent. Covões,,40.185988,-8.469801
+183,1183,Esp. Santo das Touregas (centro) - Sent. Coalhadas,,40.18913,-8.469307
+184,1184,Esp. Santo das Touregas (centro) - Sent. Valongo,,40.188474,-8.469515
+185,1185,Esp. Santo das Touregas (cruz.) - Sent. Coalhadas,,40.186482,-8.470088
+186,1186,Esp. Santo das Touregas (cruz.) - Sent. Valoango,,40.185508,-8.470552
+187,1187,Estrada do Espirito Santo  - Sent. Esp. Santo,,40.18847,-8.46683
+188,1188,Estrada do Espirito Santo  - Sent. Covões,,40.188777,-8.466631
+189,1189,R. da Cavaleira - Esp. Santo - Sent. Valongo,,40.1833,-8.471804
+190,1190,R. da Cavaleira - Esp. Santo - Sent. Esp. Santo,,40.183499,-8.47148
+191,1191,C.m. 1138 - Adões (2f Ponto de Horário) - Sent. Sgt. Mor,,40.282077,-8.452098
+192,1192,C.m. 1138 - Adões (sul) - Sent. Sgt. Mor,,40.281116,-8.453803
+193,1193,C.m. 1138 - Adões (sul) - Sent. Coimbra,,40.280723,-8.453968
+194,1194,C.m. 1138 - Adões (2f Ponto de Horário) - Sent. Coimbra,,40.282055,-8.452353
+195,1195,Rua das Chãs - Adões (norte) - Sent. Sargento Mor,,40.284776,-8.451165
+196,1196,Rua das Chãs - Adões (norte) - Sent. Coimbra,,40.28459,-8.451314
+197,1197,Trouxemil (centro) - Sent. Sgt. Mor,,40.27517,-8.453981
+198,1198,C. M. 1138 - Trouxemil - Sent. Sgt. Mor,,40.278284,-8.454265
+199,1199,Trouxemil (junta de Freguesia) - Sent. Sgt. Mor,,40.273752,-8.452076
+200,1200,Trouxemil (inicio da Estrada para Cioga),,40.275288,-8.454707
+201,1201,Estrada para Cioga do Monte (cruz. para Rios Frios),,40.27266,-8.455819
+202,1202,C. M. 1138 - Trouxemil -sent. Coimbra,,40.277726,-8.454454
+203,1203,Cioga do Monte,,40.267639,-8.451097
+204,1204,Alcarraques - junto à Capela - Sent. Rios Frios,,40.262512,-8.460434
+205,1205,Alto da Cioga,,40.26827,-8.454268
+206,1206,Cioga do Monte (centro),,40.266734,-8.452237
+207,1207,Alcarraques (términus 2a) - junto à Capela - Sent. Adémia,,40.262323,-8.460488
+208,1208,Alcarraques - Casa da Mestra (junto ao Fontenário) - Sent. Rios Frios,,40.260985,-8.459994
+209,1209,Alcarraques - Casa da Mestra (junto ao Fontenário) - Sent. Adémia,,40.260546,-8.459198
+210,1210,Est. de Alcarraques (barrios) - Sent. Rios Frios,,40.257021,-8.460501
+211,1211,Est. de Alcarraques (barrios) - Sent. Adémia,,40.256355,-8.460837
+212,1212,Est. de Alcarraques (celeiro) - Sent. Rios Frios,,40.259943,-8.458745
+213,1213,Est. de Alcarraques (celeiro) - Sent. Adémia,,40.25955,-8.458894
+214,1214,E. N. 111 (centro de Saúde da Adémia) - Sent. Alcarraques,,40.251253,-8.455232
+215,1215,E. N. 111 (centro de Saúde da Adémia) - Sent. Coimbra,,40.251041,-8.454637
+216,1216,E. N. 111 Adémia (após P. de Nível) - Sent. Alcarraques,,40.250642,-8.451389
+218,1218,Est. Nova (s. M. Bispo) - Cruz das Cruzes - Sent. Bencanta,,40.209743,-8.459153
+219,1219,E. N. 341 (esc. Sup. Agrária) - Sent. Taveiro,,40.214459,-8.451559
+220,1220,E. N. 341 (esc. Sup. Agrária) - Sent. Coimbra,,40.2142,-8.451255
+221,1221,E. N. 341 - Bencanta (apeadeiro) - Sent. Taveiro,,40.214383,-8.45606
+222,1222,Bencanta (estrada de acesso à Esc. Agrária) - Sent. Coimbra,,40.213922,-8.456013
+223,1223,Rua da Tojeira (norte),,40.256158,-8.416845
+224,1224,E. N. 110-2 - Bencanta (junta de Freguesia) - Sent.coimbra,,40.214453,-8.458994
+225,1225,Ladeira de S. Martinho (res. Universitária) - Sent. Coimbra,,40.212394,-8.45649
+226,1226,Ladeira de S. Martinho (res. Universitária) - Sent. Covões,,40.212008,-8.456732
+227,1227,S. Martinho do Bispo (escola) - Sent. Covões,,40.210799,-8.457602
+228,1228,S. Martinho do Bispo (escola) - Sent. Coimbra,,40.210807,-8.457016
+229,1229,Av. Nova (s. M. Bispo - Cruz. das Cruzes) - Sent. Covões,,40.20915,-8.459691
+230,1230,Rua das Cruzes-sent. S. Martinho,,40.210186,-8.460462
+231,1231,Rua das Cruzes-sent. Fala,,40.210337,-8.46067
+232,1232,Bencanta (apeadeiro) - Sent. Coimbra,,40.214872,-8.456041
+233,1233,Gorgulão - Sent. Coimbra,,40.215579,-8.453456
+234,1234,Rua do Freixo - Sent. Coimbra,,40.216469,-8.451363
+235,1235,Estrada de Vilarinho,,40.255052,-8.423527
+236,1236,E. N. 110-2 - Parreiras - Bissaya Barreto - Sent. Coimbra,,40.213197,-8.462065
+237,1237,Rua da Bayer - Sent. Cruzeiro,,40.200413,-8.460463
+238,1238,S. Martinho (largo do Cruzeiro) - Sent. Covões,,40.205726,-8.459506
+239,1239,Rua dos Covões (largo da Bayer) - Sent. Covões,,40.200657,-8.460709
+240,1240,Rua dos Covões (ctt) - Sent. Covões,,40.202289,-8.459204
+241,1241,Rua dos Covões (ctt) - Sent. Bencanta,,40.202761,-8.459162
+242,1242,São Martinho (largo do Cruzeiro) - Sent. Bencanta,,40.205558,-8.45911
+243,1243,S. Martinho (av. Nova) - Sent. Covões,,40.207079,-8.45993
+244,1244,S. Martinho (av. Nova) - Sent. Bencanta,,40.207512,-8.459961
+245,1245,Rua da República (1) - Fala - Sent. Bencanta,,40.200852,-8.461639
+246,1246,Ladeira dos Alqueves,,40.200326,-8.449707
+247,1247,Rua 5 de Outubro - Sent. Covões,,40.199243,-8.461383
+248,1248,E.n. 341 (est. Covões) - Cruz. Rib. da Póvoa - Sent. Covões,,40.195566,-8.456328
+249,1249,Cimo de Fala - Pr. João Serrano (esc. de Enfermagem) - Sent. Covões,,40.197093,-8.461804
+250,1250,Rua 5 de Outubo (esc. de Enfermagem) - Sent. S. Martinho,,40.198128,-8.461516
+251,1251,E. N. 341 (est. Covões) - Cruz. Rib. Póvoa - Sent. Stª. Clara,,40.194833,-8.45627
+252,1252,E. N.341 - Póvoa - Sent. Santa Clara,,40.196316,-8.453849
+253,1253,E. N. 341 - Póvoa - Sent. Covões,,40.196367,-8.453703
+254,1254,Rua Dom Francisco de Lemos - Polo Ii,,40.184515,-8.415986
+255,1255,Rua dos Covões (hospital) - Sent. Santa Clara,,40.195877,-8.461407
+256,1256,Rua dos Covões (hospital) - Sent. S. Martinho,,40.195132,-8.460906
+257,1257,Est. das Touregas (c. Saúde-s. Martinho) - Sent. Esp. Santo,,40.193856,-8.460659
+258,1258,Est.das Touregas (c. Saúde-s. Martinho)- Sent. Covões,,40.194083,-8.460526
+259,1259,Rua das Touregas (cruz. p/ a Esc. Inês de Castro)- Sent. Esp. Santo,,40.192055,-8.461292
+260,1260,Rua das Touregas (cruz. p/ a Esc. Inês de Castro)- Sent. Covões,,40.191724,-8.461325
+261,1261,"Esc. 2, 3 Inês de Castro - Sent. Covões",,40.191495,-8.458214
+262,1262,"Esc. 2, 3 Inês de Castro - Sent. Santa Clara",,40.191265,-8.457525
+263,1263,E. N. 341 - Póvoa - (cruz. Quinta Cabeleira) - Sent. Santa Clara,,40.19547,-8.452139
+264,1264,Caminho das Vinhas (paragem 1),,40.197273,-8.452086
+265,1265,Caminho das Vinhas (paragem 2),,40.198918,-8.452489
+266,1266,Est. Cruz dos Morouços - Sent. Cruz dos Morouços,,40.183183,-8.451272
+267,1267,Cruz dos Morouços (centro - términus),,40.181266,-8.451912
+268,1268,Est. Cruz dos Morouços - Sent. Coimbra,,40.182789,-8.450956
+269,1269,Estrada do Lameirão - sent. Sargento-mor,,40.287687,-8.44919
+270,1270,Fornos (rot. Cioga do Monte) - Sent. Trouxemil,,40.267865,-8.44439
+271,1271,Fornos (fundo da Est. da Cioga) - Sent. Coimbra,,40.267383,-8.445186
+272,1272,Fornos (acesso ao viaduto) - Sent. Trouxemil,,40.266775,-8.441742
+273,1273,Fornos (acesso ao viaduto) - Sent. Coimbra,,40.266892,-8.441201
+274,1274,Largo de Santo António - Misarela - Sent. Desc.,,40.210084,-8.366306
+275,1275,E. N. 1 (cruz. p/ Vilela) - Sent. Fornos,,40.262025,-8.441328
+276,1276,E. N. 1 (cruz. p/ Vilela) - Sent. Coimbra,,40.261142,-8.441914
+277,1277,E. N. 1 (junto ao Betão Liz) - Sent. Fornos,,40.255499,-8.443901
+278,1278,E. N. 1 (junto ao Betão Liz) - Sent. Coimbra,,40.255198,-8.443997
+279,1279,Est. p/ Logo de Deus 1 -sent. Logo de Deus,,40.253497,-8.440602
+280,1280,Estrada Logo de Deus 3 - Sent. Coimbra,,40.25535,-8.438133
+281,1281,Estrada Logo de Deus - 2 - Sent. Coimbra,,40.254617,-8.439663
+282,1282,Est. p/ Logo de Deus 2 -sent. Logo de Deus,,40.25448,-8.439735
+283,1283,E. N. 1 - Urb. Colina do Sol - Sent. Fornos,,40.252699,-8.443371
+284,1284,E. N. 1- Urb. Colina do Sol - Sent. Coimbra,,40.253027,-8.443695
+285,1285,E. N. 111 - Adémia (centro) - Sent. Alcarraques,,40.250962,-8.447141
+286,1286,E. N. 111 Adémia (após P. de Nível) - Sent. Coimbra,,40.250336,-8.449963
+287,1287,Adémia (cruzamento) - Junto à Rotunda - Sent. Coimbra,,40.250968,-8.443884
+289,1289,E. N. 111 Adémia (centro) - Sent. Coimbra,,40.25108,-8.446593
+290,1290,Adémia (cruzamento) - Junto à Rotunda - Sent. Alcarraques,,40.251318,-8.444088
+291,1291,Estrada p/ Logo de Deus - Ponte de Eiras - Sent. Logo de Deus,,40.252459,-8.441999
+294,1294,E. N. 1 (b. Nossa Senhora de Fátima) - Sent. Adémia,,40.248024,-8.442553
+295,1295,E. N. 1 (b. Nossa Senhora de Fátima) - Sent. Coimbra,,40.247474,-8.442408
+296,1296,E. N. 111 Adémia (antes P. de Nível) - Sent. Alcarraques,,40.25042,-8.449149
+297,1297,"António Correia de Oliveira, R - Ponte de Eiras - Sent. Coimbra",,40.252731,-8.441668
+299,1299,Pedrulha (centro) - Sent. Coimbra,,40.242549,-8.445723
+300,1300,E. N.1 - Pedrulha (estaco) - Sent. Coimbra,,40.238446,-8.444541
+301,1301,Cruz. da Pedrulha (ex-matadouro) - Sent. Adémia,,40.241823,-8.4422
+302,1302,E. N. 1 - Pedrulha (estaco) - Sent. Adémia,,40.238803,-8.444227
+303,1303,Cruz. da Pedrulha (churrasqueira) - Sent. Pedrulha,,40.242828,-8.442738
+304,1304,Pedrulha (centro de Formação) - Sent. Est. Eiras,,40.239392,-8.439336
+305,1305,Pedrulha (centro de Formação) - Sent. Pedrulha (centro),,40.239635,-8.43937
+306,1306,Cruz. da Pedrulha (ex-matadouro) - Sent. Estação Velha,,40.241946,-8.441962
+307,1307,Rua 1º de Maio 1 - Sent. Coimbra,,40.241004,-8.446791
+308,1308,Rua 1º de Maio 2 (escola ) - Sent. Coimbra,,40.239411,-8.445443
+309,1309,Rua da Constituição (passagem nível Loreto ) -  Sent. Coimbra,,40.235854,-8.44512
+310,1310,Rua da Constituição (passagem nível Loreto ) -  Sent. Pedrulha,,40.236657,-8.444924
+311,1311,E. N. 1 - Loreto - Sent. Pedrulha,,40.232815,-8.438802
+312,1312,E. N. 1 - Loreto - Sent. Coimbra,,40.232932,-8.439174
+313,1313,Alto da Est. Velha - Sent. Coimbra,,40.226617,-8.439913
+314,1314,Alto da Est. Velha - Sent. Pedrulha,,40.226765,-8.439605
+315,1315,E. N. 1 (zona Industrial - Fábrica da Cerveja) - Sent. Coimbra,,40.234852,-8.442335
+316,1316,E. N. 1 (zona Industrial - Fábrica da Cerveja) - Sent. Pedrulha,,40.23496,-8.442423
+317,1317,Estrada de Eiras (rot. da Estação Velha) - Sent. Centro,,40.223961,-8.438918
+318,1318,Estação Velha - Sent. Centro,,40.223941,-8.439801
+319,1319,Rua do Padrão (est. Velha) - Sent. Pedrulha,,40.222661,-8.439338
+320,1320,Rua António Jardim (4) - Qt.ª do Cedro - Sent. Desc.,,40.211118,-8.399686
+321,1321,Casa do Sal Sul (parque Ecovia 2) - Sent.centro,,40.218508,-8.438528
+322,1322,Casa do Sal Sul (parque Ecovia) - Sent.centro,,40.217543,-8.43835
+323,1323,Av. Guarda Inglesa (guarda Inglesa) - Sent. Taveiro,,40.21096,-8.439785
+324,1324,"José Bonifácio A. Silva, R. (forum) - Sent. Desc.",,40.21278,-8.443501
+325,1325,Almegue (sob a Ponte Açude) - Sent. Taveiro,,40.214945,-8.441558
+326,1326,Est. Principal do Vale Velho - Cz. Bairro das Fachadas - sent. S. Paulo Frades,,40.242159,-8.402387
+327,1327,E.n. 341 (vale Gemil) - Sent. Taveiro,,40.21453,-8.448246
+328,1328,Estrada de acesso à Esc. Sup. Agrária (vale Gemil) - Sent. Coimbra,,40.214327,-8.447741
+329,1329,Vale Gemil - Entrada E.n. 341 - Sent Coimbra,,40.214186,-8.446826
+330,1330,"José Bonifácio A. Silva, Av. (forum) - Sent. Sta Clara",,40.212361,-8.445237
+331,1331,"Carrington da Costa, R. - Almas de Freire - Dir. Covões",,40.19927,-8.441086
+332,1332,"Carrington da Costa, R. - Almas de Freire - Dir. Portagem",,40.1993,-8.440897
+333,1333,C. Saúde de Santa Clara - Via Nova St. Clara - Sent. Rot. do Lagar,,40.202437,-8.443087
+334,1334,Vale do Rosal (paragem 1),,40.199179,-8.44771
+335,1335,Caminho do Cabeço - sent. Q. da Portela,,40.18589,-8.408038
+336,1336,R. Ruben A. - Quinta da Portela,,40.184834,-8.405465
+337,1337,R. Conimbricence 1 - sent. Polo Ii,,40.183396,-8.405269
+338,1338,"José Almeida Balbino, Rua - Rotunda do Lagar - Term. 38",,40.200356,-8.440673
+339,1339,"José Almeida Balbino, Rua - Urb. Santa Isabel - Sent. C. Saúde S. Clara",,40.200838,-8.440812
+340,1340,"Augusto de Matos, R. (paragem 2) - Sent. G. Inglesa",,40.202159,-8.440113
+341,1341,"Augusto de Matos, R. (paragem 3) - Sent. G. Inglesa",,40.203914,-8.441466
+342,1342,"Coelho da Rocha, R. (paragem 1) - Sent. G. Inglesa",,40.205474,-8.440524
+343,1343,"José Bonifácio A. Silva, Av. (via do Planalto) - Sent. Centro Saúde Stª Clara",,40.205953,-8.44427
+344,1344,"José Bonifácio A. Silva, Av. (via do Planalto) - Sent. Forum",,40.206217,-8.444082
+345,1345,C. Saúde de Santa Clara - Via Nova St. Clara - Sent. Forum,,40.202644,-8.443593
+346,1346,E.n. 341/est. dos Covões - Bairro Azul - Dir. Covões,,40.197889,-8.444673
+347,1347,E.n. 341/est. dos Covões - Mesura - Dir. Portagem,,40.196233,-8.446458
+348,1348,E.n. 341/est. dos Covões - Bairro Azul - Dir. Portagem,,40.198109,-8.443978
+349,1349,E.n. 341 (est. Covões - Mesura) -sent. Covões,,40.195971,-8.446924
+350,1350,"Vitorino Planas, R. (paragem 1)- Sent. Alto dos Barreiros",,40.198963,-8.43885
+351,1351,"Vitorino Planas, R. (paragem 1) - Sent. Santa Clara",,40.19904,-8.438546
+352,1352,"Capitão Pereirinha, R. (paragem 1) - Sent. Alto dos Barreiros",,40.195396,-8.439907
+353,1353,"Capitão Pereirinha, R. (paragem 1) - Sent. Santa Clara",,40.19571,-8.439769
+354,1354,Barreiros (paragem 1) - Sent. Alto dos Barreiros,,40.19084,-8.439643
+355,1355,Barreiros (paragem 1) - Sent. Santa Clara,,40.190901,-8.439568
+356,1356,E. N. 341 (est. dos Covões - Alqueves) - Sent. Covões,,40.195363,-8.449004
+357,1357,E. N. 341 (est. dos Covões - Alqueves) - Sent. Almas de Freire,,40.195295,-8.448866
+358,1358,Caminho das Vinhas (ponto de Horário L. 41),,40.196069,-8.450182
+359,1359,Vale do Rosal (paragem 2),,40.197928,-8.445501
+360,1360,"10 de Junho, R. (paragem 1) - Sent. Alqueves",,40.192839,-8.448358
+361,1361,"10 de Junho, R. (paragem 2) - Sent. Alqueves",,40.194222,-8.449162
+362,1362,"Capitão Pereirinha, R. (paragem 2) - Sent. Alto dos Barreiros",,40.192228,-8.440345
+363,1363,"Capitão Pereirinha, R. (paragem 2) - Sent. Santa Clara",,40.193353,-8.440216
+364,1364,"Vitorino Planas, R. - Cemitério de Santa Clara (paragem 2) - Sent. Alto dos Barreiros",,40.19697,-8.439378
+365,1365,"Vitorino Planas, R. - Cemitério de Santa Clara (paragem 2) - Sent. Santa Clara",,40.197283,-8.439091
+366,1366,Alto dos Barreiros - (paragem 1 junto Móveis Tenreiro)  - Sent. Santa Clara,,40.186371,-8.441446
+367,1367,Cruz dos Morouços (rotunda),,40.181932,-8.448416
+368,1368,Barreiros (paragem 2) - Sent. Santa Clara,,40.188724,-8.440818
+369,1369,Rua D. Manuel I - Esc. Avelar Brotero,,40.20554,-8.408994
+370,1370,Barreiros (paragem 2) - Sent. Alto dos Barreiros,,40.188298,-8.440834
+372,1372,Rua de Santa Clara (nó dos Carvalhais) - Sent. Assafarge,,40.180585,-8.441864
+373,1373,Rua de Santa Clara (nó dos Carvalhais) - Sent. Coimbra,,40.180913,-8.44195
+374,1374,E. N. 1 Cruz Morouços (jardim Infância) - Sent. Cruz Morouços,,40.183211,-8.445725
+375,1375,E. N. 1 Cruz Morouços (jardim Infância) - Sent. Santa Clara,,40.183207,-8.445129
+376,1376,Alto dos Barreiros - Estrada Antiga de Lisboa - sent. Cruz. Morouços,,40.185408,-8.442058
+377,1377,Rua Principal - Carvalhais de Baixo - Sent. Assafarge,,40.172329,-8.438906
+378,1378,Rua Principal - Carvalhais de Baixo - Sent. Coimbra,,40.172449,-8.438849
+379,1379,Estrada Antiga de Lisboa (quinta da Machada),,40.187438,-8.436092
+380,1380,Rua Principal (cruz. do Algar) - Sent. Assafarge,,40.175316,-8.440742
+381,1381,Rua Principal (cruz. do Algar) - Sent. Coimbra,,40.175741,-8.440815
+382,1382,Caminho da Valdeira - Sent. Ribeiro de Vilela,,40.275444,-8.426818
+383,1383,Vilela - Rua do Troviscal - Sent. Coimbra,,40.271894,-8.431281
+384,1384,Ribeiro de Vilela (terminus L. 39),,40.277136,-8.429047
+385,1385,Vilela (centro) - Sent. Torre de Vilela,,40.268684,-8.42992
+386,1386,Vilela (centro) - Sent. Coimbra,,40.268539,-8.430443
+387,1387,Rua do Campo de Futebol - Em 537-2 - Vilela - Sent Torre de Vilela,,40.266793,-8.434431
+388,1388,Rua do Campo de Futebol - Em 537-2 - Caselho - Sent. Torre de Vilela,,40.264653,-8.438763
+389,1389,Vilela (junta de Freguesia) - Sent. Rib. de Vilela,,40.270814,-8.426885
+390,1390,Vilela (junta de Freguesia) - Sent. Coimbra,,40.270557,-8.427396
+391,1391,"Calvário, R. do - (vilela) 1 - Sent. Coimbra",,40.265527,-8.430188
+392,1392,"Calvário, R. do - (vilela) 2 - Sent. Coimbra",,40.264227,-8.429784
+393,1393,Logo de Deus (capela) - Sent. Coimbra,,40.265361,-8.427886
+394,1394,Logo de Deus (sul) - Sent. Coimbra,,40.263335,-8.429209
+395,1395,Vilela (escola) - Sent. Rib. de Vilela,,40.269878,-8.428583
+396,1396,Vilela (escola) - Sent. Coimbra,,40.269667,-8.429104
+397,1397,Rua Principal - Logo de Deus - Sent. Coimbra,,40.265787,-8.427381
+398,1398,R. Joaquim de Carvalho 1  (desvio p/ Novo Horizonte) - Sent. Novo Horizonte,,40.25656,-8.436991
+399,1399,Bairro de Santa Apolónia (café),,40.253928,-8.436256
+400,1400,R. Ferreira de Castro 1 - Sent. Santa Apolónia,,40.256352,-8.435095
+401,1401,Bairro de Santa Apolónia (escola Primária)-sent.ponte de Eiras,,40.255383,-8.434022
+402,1402,Bairro de Santa Apolónia (escola Primária)-sent. Eiras,,40.255322,-8.433798
+403,1403,E. M. 537-2 (estrada da Ribeira de Eiras) - Sent. Eiras,,40.25476,-8.429228
+404,1404,E. M. 537-2 ((estrada da Ribeira de Eiras) - Sent. Ponte de Eiras,,40.254887,-8.430544
+405,1405,Est. p/ Logo de Deus 3 -sent. Logo de Deus,,40.255391,-8.437875
+406,1406,Rua Principal 1 - Sent. Coimbra,,40.261843,-8.432607
+407,1407,Rua Principal 2 - Sent. Coimbra,,40.259956,-8.434967
+408,1408,Rua Principal 3 - Sent. Coimbra,,40.258098,-8.436127
+409,1409,R. Joaquim de Carvalho 2 - Sent. Novo Horizonte,,40.257018,-8.434727
+410,1410,R. Ferreira de Castro 2 - Sent. Santa Apolónia,,40.255374,-8.436041
+411,1411,E. M. 537-2 (est. de Eiras) - Esc. Rainha Santa Isabel - Sent. Rot. da Adémia,,40.252104,-8.437666
+412,1412,E. M. 537-2 (santa Apolónia) - Sent. Rot. da Adémia,,40.253199,-8.434937
+413,1413,E. M. 537-2 (santa Apolónia) - Sent. Eiras,,40.253283,-8.434205
+414,1414,"E. M. 537-2 (est. de Eiras) - Escola 2,3 da Pedrulha - Sent.santa Apolónia",,40.252,-8.437468
+415,1415,E. M. 537 - Est. Eiras (farbeira)-sent. Eiras,,40.246376,-8.429264
+416,1416,E. M. 537 - Est. Eiras (farbeira)-sent. B. Brinca,,40.245877,-8.429934
+417,1417,E. M. 537 - Monte Romeiras (esc. Sec. D. Dinis) - Sent. Eiras,,40.241497,-8.434268
+418,1418,E. M. 537 - Monte Romeiras - Diário de Coimbra - Sent. B. Brinca,,40.241661,-8.434398
+419,1419,Bairro São Miguel (centro) - Sent. Est. de Eiras,,40.235578,-8.431562
+420,1420,E. M. 537 (est. de Eiras - Renault) - Sent. Eiras,,40.237876,-8.435633
+421,1421,E. M. 537 (est. de Eiras - Renault) - Sent. Estação Velha,,40.237707,-8.435902
+422,1422,Bairro São Miguel (centro) - Sent. Bairro da Liberdade,,40.235438,-8.432637
+423,1423,E. M. 537 - Est. Eiras - M. Romeiras (norte) - Sent. Eiras,,40.243756,-8.432141
+424,1424,E. M. 537 - Est. Eiras - M. Romeiras (norte) - Sent. B.brinca,,40.243961,-8.432085
+425,1425,"Vale de S. Miguel, R. - Sent. Ingote",,40.237817,-8.427216
+426,1426,"Vale de S. Miguel, R. - Sent. Est. de Eiras",,40.237695,-8.42802
+427,1427,E. M. 537 (rot. do Bairro S. Miguel) - Sent. Monte Romeiras,,40.23587,-8.434646
+428,1428,Bairro São Miguel - Sent. Bairro da Liberdade,,40.235901,-8.430214
+429,1429,Rua Manuel Almeida e Sousa (urb. Do Loreto) - Sent. Pedrulha,,40.230303,-8.437965
+430,1430,Bairro da Rosa (cruz.) - Sent. Bairro do Ingote,,40.227207,-8.430698
+431,1431,Bairro da Rosa - Sent. Monte Formoso,,40.228373,-8.431072
+432,1432,Rua Manuel Almeida e Sousa (urb. Do Loreto) - Sent. Estação Velha,,40.230667,-8.438053
+433,1433,Bairro do Ingote (ponto horário - L. 28) - Sent. Bairro da Liberdade,,40.230434,-8.429273
+434,1434,Urbanização Ar e Sol - Sent. Ingote,,40.233054,-8.427395
+435,1435,E. M. 537 (rot. do Bairro S. Miguel) - Sent. Est. Velha,,40.234453,-8.434443
+436,1436,E. M. 537 (est. Eiras - B. Brinca) - Sent. Est. Velha,,40.230792,-8.436711
+437,1437,E. M. 537 (est. Eiras - B. Brinca) - Sent. Monte Romeiras,,40.231728,-8.436101
+438,1438,E. M. 537 (est. Eiras - B. Brinca/relvinha) - Sent. Monte Romeiras,,40.233582,-8.434646
+439,1439,Est.de acesso B. Ingote/b. S. Miguel - Sent. Bairro São Miguel,,40.233928,-8.430287
+440,1440,Urbanização Ar e Sol - Sent. Bairro da Liberdade,,40.233351,-8.4273
+441,1441,Bairro do Ingote (ponto horário - L. 27) - Sent. Monte Formoso,,40.230921,-8.429174
+442,1442,Bairro da Rosa - Sent. Bairro do Ingote,,40.228788,-8.430651
+443,1443,E. M. 537 (estrada de Eiras - Gorgulão - Cruz. Lidl) - Sent. Monte Romeiras,,40.227261,-8.43729
+444,1444,E. M. 537 (estrada de Eiras - Gorgulão - Cruz. Lidl) - Sent. Est. Velha,,40.226159,-8.437867
+445,1445,"José Afonso, R. (loreto)",,40.23275,-8.438453
+446,1446,"5 de Outubro, R. (relvinha)",,40.233994,-8.437197
+447,1447,"5 de Outubro, R. (relvinha - Norte)",,40.235575,-8.438446
+448,1448,Rua Cidade de Poitier 1 (monte Formoso) - Sent. Ingote,,40.222029,-8.436142
+449,1449,Est. de Coselhas (cruz. Rua Vale Figueiras) - Sent. Centro,,40.222024,-8.426876
+450,1450,Rua Cidade de Yaroslav - Sent. Monte Formoso,,40.225762,-8.433195
+451,1451,Rua Cidade de Fez - Sent. Ingote,,40.225408,-8.432358
+452,1452,Circular Interna (rot. de Coselhas),,40.220926,-8.429384
+453,1453,Est. de Coselhas (cruz. Rua Vale Figueiras) - Sent. Lordemão,,40.220819,-8.428699
+454,1454,Est. de Coselhas 2 (fucoli) - Sent. Huc,,40.219995,-8.430576
+455,1455,Est. de Coselhas 2 (fucoli) - Sent. Centro,,40.219826,-8.43123
+456,1456,Rua Cidade de Poitiers 1 (monte Formoso) - Sent. Rot. Casa do Sal,,40.221711,-8.436465
+457,1457,Rua do Padrão (após Rotunda Casa do Sal) - Sent. Pedrulha,,40.220249,-8.438756
+458,1458,Rua Cidade Poitiers (saída da Rot. Casa do Sal) - Sent. Ingote,,40.220305,-8.437364
+459,1459,Casa do Sal (jardim),,40.218701,-8.43781
+460,1460,Estrada de Coselhas 1 - Sent. Huc,,40.219369,-8.433397
+461,1461,Rua Cidade Poitiers (rot. Casa do Sal) - Sent. Centro,,40.220095,-8.438134
+462,1462,Estrada de Coselhas 1 - Sent. Centro,,40.219494,-8.43378
+463,1463,Rua Cidade de Poitiers 2 (monte Formoso) - Sent. Rot. Casa do Sal,,40.222947,-8.43584
+464,1464,Rua Cidade de Poitier 2  (monte Formoso) - Sent. Ingote,,40.223193,-8.435578
+465,1465,Olimpio Nicolau Rui Fernandes - Psp 1 - Sent. Desc.,,40.211658,-8.42771
+466,1467,Olimpio Nicolau Rui Fernandes - Psp 3 - Sent. Desc.,,40.211676,-8.428153
+467,1468,"Fernão de Magalhães, Av. (edifício Coimbra) - Sent. Casa do Sal",,40.213972,-8.433939
+468,1469,"João Machado, R.  - Palácio 1",,40.214715,-8.432717
+469,1470,"João Machado, R.  - Palácio 2",,40.214626,-8.432793
+470,1471,"João Machado, R.  - Palácio 3",,40.214527,-8.432885
+472,1473,"Fernão Magalhães, Av. - Ctt - Dir. Portagem",,40.212319,-8.433097
+473,1474,"António Granjo, R. - Esc. S. Bartolomeu 1",,40.209513,-8.431887
+474,1475,"António Granjo, R. - Est. Nova",,40.209224,-8.432224
+475,1476,"Fernão Magalhães, Av. - Loja do Cidadão - Dir. Arnado",,40.21136,-8.432388
+476,1477,"António Granjo, R. - Esc. S. Bartolomeu 2",,40.20946,-8.432023
+477,1478,Largo do  Arnado,,40.213634,-8.434056
+478,1480,"Manuel Rodrigues, R.  - Arnado 4",,40.213894,-8.432022
+479,1483,Olimpio Nicolau Rui Fernandes - J. Manga 2 - Sent. Asc.,,40.211513,-8.427784
+480,1484,"António José de Almeida, R. - Largo da Conchada - Dir. Celas",,40.214171,-8.427745
+481,1485,Largo Vale do Coelho,,40.208784,-8.372013
+482,1486,"Aveiro, R. - Conchada",,40.214598,-8.429163
+483,1487,"Aveiro, R. - Cruz. Rua Figueira da Foz",,40.216561,-8.43507
+484,1488,"Fernão de Magalhães, Av. - R.b.l. - Sent. Est. Velha",,40.216912,-8.436861
+485,1489,"Fernão de Magalhães, Av. - R. B. L. - Sent. Arnado",,40.216038,-8.436369
+486,1490,"Padre Estevão Cabral, R.",,40.215322,-8.436026
+487,1491,"Fernão de Magalhães, Av. - Oposta Ed. Coimbra - Sent. Portagem",,40.214158,-8.434536
+488,1492,"Fernão de Magalhães, Av. -  Loja do Cidadão - Sent. Portagem",,40.210945,-8.432316
+490,1494,"Sofia, R. da - Palácio (téminus 39)",,40.214809,-8.432226
+491,1496,"Emídio Navarro, Av. - Beira Rio 1",,40.207816,-8.431489
+492,1497,"Emídio Navarro, Av. - Beira Rio 2",,40.207624,-8.431208
+493,1498,"Emídio Navarro, Av. - Beira Rio 3",,40.207545,-8.431086
+494,1499,"Emídio Navarro, Av. - Beira Rio 4",,40.207461,-8.430968
+495,1500,"Emídio Navarro, Av. - Beira Rio 5",,40.207354,-8.430813
+496,1501,"Emídio Navarro, Av. - Beira Rio 6",,40.207269,-8.430486
+497,1502,"Carlos Alberto Pinto de Abreu, R. - Paragem 1 - Sent. Asc.",,40.200767,-8.435934
+498,1503,"Carlos Alberto Pinto de Abreu, R. - Paragem 2 - Sent. Asc.",,40.199195,-8.435674
+499,1504,"Mendes dos Remédios, R. - Rainha Santa - Sent.asc.",,40.200511,-8.437457
+500,1505,"Carrington da Costa, R. - Rainha Santa - Dir. Portagem",,40.20007,-8.438149
+501,1506,"Carlos Alberto Pinto de Abreu, R. - Paragem 2 - Sent. Desc.",,40.200162,-8.435813
+502,1507,"Carlos Alberto Pinto de Abreu, R. - Paragem 1 - Sent. Desc.",,40.201648,-8.435691
+503,1508,"João das Regras, Av. - Rossio de S. Clara - Dir. Portagem",,40.203479,-8.43345
+504,1509,"Emídio Navarro, Av. - Portagem 1 - Dir. Arnado",,40.207579,-8.430285
+505,1510,"Emídio Navarro, Av. - Portagem 2 - Dir. Arnado",,40.207673,-8.430429
+506,1511,"Emídio Navarro, Av. - Portagem 3 - Dir. Arnado",,40.2079,-8.430791
+507,1512,"Emídio Navarro, Av. - Portagem 4 - Dir. Arnado",,40.207979,-8.430929
+508,1513,"Emídio Navarro, Av. - Parque Dr. Manuel Braga 1 - Dir. Av. Lousã",,40.206661,-8.429213
+509,1514,"Emídio Navarro, Av. - Parque Dr. Manuel Braga 2 - Dir. Av. Lousã",,40.206481,-8.42897
+510,1515,"Guarda Inglesa, Av. - Escola Silva Gaio - Sent. Almegue",,40.20799,-8.437972
+511,1516,Esc. Secundária D. Duarte,,40.199234,-8.432301
+512,1517,"Vitorino Planas, R.(cruz. com Rua Carrington - Santa Clara)",,40.199986,-8.438059
+513,1518,"Feitoria dos Linhos, R. (portugal dos Pequenitos)",,40.201418,-8.434406
+514,1519,"João das Regras, Av. - Rossio de S. Clara - Sent. S. Clara",,40.203737,-8.433264
+515,1521,"Emídio Navarro, Av. - Portagem 8 - Dir. Arnado",,40.20815,-8.431191
+516,1523,Largo Rossio Sta Clara (rotunda) - Sent. Sta Clara,,40.203095,-8.435512
+517,1524,"Coelho da Rocha, R. (paragem 2) - Sent. G. Inglesa",,40.206056,-8.438632
+518,1525,"Guarda Inglesa, Av. - Escola 2,3 Silva Gaio - Sent. Portugal dos Pequenitos",,40.206746,-8.437618
+519,1526,"António Augusto Gonçalves, R. - Portugal Pequenitos - Sent. Lages",,40.202782,-8.434289
+520,1527,"António Augusto Gonçalves, R. - Esc. D. Duarte - Sent. Lages",,40.199643,-8.432695
+521,1528,"Mendes dos Remédios, R. - Volta das Calçadas - Sent.asc.",,40.198215,-8.436615
+522,1529,"Mendes dos Remédios, R. - Volta das Calçadas - Sent.desc.",,40.198633,-8.43675
+523,1530,"Mendes dos Remédios, R. - Rot. de Jericó - Sent.desc.",,40.197263,-8.4366
+524,1531,I. C. 2 - Cruz. das Lages - Sent. Banhos Secos,,40.195343,-8.431977
+525,1532,I. C. 2 - Cruz. das Lages - Sent. Ponte Santa Clara,,40.195578,-8.431455
+526,1533,E. N. 110-2 - Cruz. das Lages - Sent. Sobral Cid,,40.194365,-8.430481
+527,1534,E. N. 110-2 - Cruz. das Lages - Sent. Portagem,,40.194661,-8.430503
+528,1535,E. N. 110-2 - Lages (norte) - Sent. Portagem,,40.191364,-8.428685
+529,1536,E. N. 110-2 - Lages (norte) - Sent. Sobral Cid,,40.191377,-8.428434
+530,1537,E. N. 110-2 - Lages (sul) - Sent. Portagem,,40.191062,-8.426758
+531,1538,E. N. 110-2 - Lages (sul) - Sent. Sobral Cid,,40.190916,-8.426702
+532,1539,I. C. 2 (banhos Secos - Norte) - Sent. Carvalhais,,40.191109,-8.431585
+533,1540,Quinta das Lágrimas - Sent. Lages,,40.197372,-8.431962
+534,1541,Quinta das Lágrimas - Sent. Coimbra,,40.197261,-8.431909
+535,1542,I. C. 2 (banhos Secos) - Sent. Coimbra,,40.187101,-8.429245
+536,1543,I. C. 2 (banhos Secos) - Sent. Carvalhais,,40.187284,-8.42956
+537,1544,I. C. 2 (banhos Secos - Cruz. Miradouro) - Sent. Coimbra,,40.184831,-8.431472
+538,1545,I. C. 2 (banhos Secos - Cruz. Miradouro) - Sent. Carvalhais,,40.185303,-8.431401
+539,1546,I. C. 2 (iveco) - Sent.carvalhais,,40.183331,-8.438741
+540,1547,"António Menano, R. - (banhos Secos Sul)",,40.185836,-8.431412
+541,1548,Estrada Antiga de Lisboa,,40.185768,-8.43839
+542,1549,"António Menano, R. - Junto ao Cruz. c/ Est. Ant. Lisboa",,40.188312,-8.432561
+543,1550,I. C. 2 (banhos Secos - Norte) - Sent. Coimbra,,40.189465,-8.429411
+544,1551,Rua do Progresso (cruz. Carvalhais de Cima) - Sent. Assafarge,,40.168395,-8.438578
+545,1552,Carvalhais de Baixo - Sent. Coimbra,,40.171172,-8.438243
+546,1553,Carvalhais de Baixo - Sent. Assafarge,,40.171319,-8.438218
+547,1554,Rua do Progresso (cruz. Carvalhais de Cima) - Sent. Coimbra,,40.168667,-8.438579
+548,1555,C. M. 1158 - Assafarge 1 - Sent. Coimbra,,40.160369,-8.433795
+549,1556,C. M. 1158 - Assafarge (quinta da Chanfurrina) - Sent. Assafarge,,40.161604,-8.436785
+550,1557,C. M. 1158 - Assafarge (quinta da Chanfurrina) - Sent. Coimbra,,40.162022,-8.436991
+551,1558,E. N. 110-2 - Assafarge 3 - Sent. Coimbra,,40.160116,-8.42899
+552,1559,C. M. 1158 - Assafarge 1 - Sent. Marco Pereiros,,40.160142,-8.43347
+553,1560,E. N. 110-2 - Assafarge (centro) - Sent. Coimbra,,40.160022,-8.432005
+554,1561,E. N. 110-2 - Assafarge (centro) - Sent. Marco Pereiros,,40.16007,-8.4316
+555,1562,E. N. 110-2 - Assafarge 3 - Sent. Marco Pereiros,,40.160205,-8.428139
+556,1563,Torre de Vilela,,40.272301,-8.423547
+557,1564,Logo de Deus (centro) - Sent. Coimbra,,40.266014,-8.425066
+558,1565,E. M. 537 - Eiras (centro) -sent. S. Paulo de Frades,,40.248399,-8.415501
+559,1566,E. M. 537 - Eiras (farmácia) - Sent. S. Paulo de Frades,,40.248956,-8.417679
+560,1567,E. M.537-2 - Estrada de Eiras (cruz. p/ Pragueira) - Sent. Santa Apolónia,,40.251719,-8.422125
+561,1568,E. M.537-2 - Estrada de Eiras (cruz. p/ Pragueira) - Sent. Eiras,,40.250834,-8.421029
+562,1569,E. M.537-2 - Estrada de Eiras - Sent. Eiras,,40.252782,-8.424012
+563,1570,"Entre Vinhas, Rua (centro de Saúde) - Sent. Monte Romeiras",,40.25173,-8.425511
+564,1571,Estrada de Eiras  - Sent. Sta Apolonia,,40.25361,-8.425088
+565,1572,E. M. 537-2 - Estrada de Eiras (marcopolo) - Sent. Santa Apolónia,,40.252843,-8.423844
+566,1573,E. M. 537 (pragueira) - Sent. Monte Romeiras,,40.248734,-8.427026
+567,1574,E. M. 537 (pragueira) - Sent. Eiras,,40.24882,-8.426586
+568,1575,Variante de Eiras 1 - Sent. Coimbra,,40.249522,-8.415408
+569,1576,Variante de Eiras 2 - Sent. Coimbra,,40.250673,-8.41834
+570,1577,"Pragueira, Rua da (centro de Saúde) - Sent. Sta. Apolónia",,40.249995,-8.424094
+571,1578,"Entre Vinhas, Rua (centro de Saúde) - Sent. Eiras",,40.251029,-8.425787
+572,1579,Bairro da Liberdade - Sent. Bairro de S. Miguel,,40.237059,-8.425351
+573,1580,Bairro da Liberdade - Sent. Bairro do Ingote,,40.236635,-8.425622
+574,1581,Av. José R. Sousa Fernandes (arca)-sent. Lordemão,,40.235444,-8.416987
+575,1582,Av. José R. Sousa Fernandes (arca) -sent.ingote,,40.235511,-8.417225
+576,1583,E. M. 539 - Corrente (s) - Sent. Coselhas,,40.227685,-8.416398
+577,1584,E. M. 539 - Corrente (s) - Sent. Lordemão,,40.227619,-8.416342
+578,1585,Av. José R. Sousa Fernandes (bairro da Liberdade - Cruz.) Sent. Ingote,,40.232988,-8.426919
+579,1586,Av. José R. Sousa Fernandes (bairro da Liberdade - Cruz.) Sent. Arca,,40.233044,-8.426617
+580,1587,Av. José R. Sousa Fernandes (quinta do Melo - Cruz.) Sent. Arca,,40.234138,-8.421333
+581,1588,Av. José R. Sousa Fernandes (quinta do Melo - Cruz.) Sent. Ingote,,40.234172,-8.421635
+582,1589,E. M. 539 - Estrada de Coselhas (gonfil) - Sent. Lordemão,,40.223385,-8.423581
+583,1590,E. M. 539 - Estrada de Coselhas (gonfil) - Sent. Centro,,40.223308,-8.424163
+584,1591,E. M. 539 (coselhas) - após Ponte - Sent. Lordemão,,40.224989,-8.419618
+585,1592,E. M. 539 (coselhas) - após Ponte - Sent. Centro,,40.224985,-8.420272
+586,1593,Largo da Sé Velha,,40.208956,-8.427521
+587,1596,"República, Praça da - Norte 3",,40.20995,-8.41958
+588,1598,"República, Praça da - Norte 5",,40.209971,-8.42001
+589,1599,"Sá da Bandeira, Av. - Manutenção - Sent. Desc.",,40.211608,-8.423815
+590,1600,"Sá da Bandeira, Av. - Mercado Municipal - Sent. Asc.",,40.211507,-8.425055
+591,1601,"Sá da Bandeira, Av. - Manutenção - Sent. Asc.",,40.211198,-8.423604
+592,1602,"Saragoça, R. - Montarroio - Sent. Asc.",,40.212377,-8.425795
+593,1603,"António José de Almeida, R. - (x) Nic. Chant. - Dir. Celas",,40.213412,-8.425517
+594,1604,"António José de Almeida, R. - 2 - Dir. Celas",,40.213087,-8.422669
+595,1605,"António José de Almeida, R. - Montes Claros - Dir. Celas",,40.212637,-8.419632
+596,1606,"António José de Almeida, R. - Residência Universitária - Dir. Celas",,40.212343,-8.417201
+597,1607,"Calouste Gulbenkian, Av. - Sent. Conchada",,40.21452,-8.415816
+598,1608,"Nicolau Chanterenne, R.  - Paragem 1 - Sent. Conchada",,40.214476,-8.41886
+599,1609,"Nicolau Chanterenne, R.  - Paragem 2 - Sent. Conchada",,40.213871,-8.421849
+600,1610,"Nicolau Chanterenne, R.  - Paragem 3 - Sent. Conchada",,40.213805,-8.425617
+601,1611,E. M. 539 (coselhas) - Hospital,,40.224826,-8.421786
+602,1612,"Sá da Bandeira, Av. - Paragem 3 - Gil Vicente - Sent. Asc.",,40.20967,-8.420742
+603,1613,"Sá da Bandeira, Av. - Paragem 4 - Gil Vicente - Sent. Asc.",,40.209511,-8.420464
+604,1614,"Padre António Vieira, R. - Paragem 1 - Aac - Sent. Asc.",,40.209689,-8.421761
+605,1615,"Padre António Vieira, R. - Paragem 2 - Sent. Asc.",,40.21054,-8.425292
+606,1616,Museu Machado de Castro,,40.209215,-8.425027
+608,1618,"Lourenço Almeida Azevedo, R. - Campo Santa Cruz - Sent. Asc.",,40.211061,-8.415483
+609,1619,"Antero de Quental, R. - Quartel General - Sent. Desc.",,40.211665,-8.41666
+610,1620,Rua Pedro Monteiro - Casa da Cultura,,40.209954,-8.415254
+611,1621,"Sá da Bandeira, Av. - Travessa junto à Acic",,40.210961,-8.422352
+612,1622,"Machado de Castro, Rua - Sent. Celas",,40.214332,-8.417917
+613,1623,"Calouste Gulbenkian, Av. - Sent. Celas",,40.214332,-8.414819
+614,1624,"Antero de Quental, R. - Centro Saúde Celas - Sent. Asc.",,40.210725,-8.41911
+615,1625,Pr. da Républica - Transversal Sá Bandeira (terminus L.26),,40.210125,-8.421055
+616,1626,Santa Teresa - Dir. Arcos,,40.206692,-8.416455
+617,1627,"Alexandre Herculano,r.",,40.207206,-8.419785
+618,1628,"Castro Matoso, R.  - Escadas Monumentais",,40.208028,-8.421514
+619,1629,"Larga, R. - Universidade - Sent.praça D. Dinis",,40.207865,-8.424318
+620,1630,"Júlio Henriques, Al. - Jardim Botânico - Sent. S. José",,40.206357,-8.420355
+621,1631,"Júlio Henriques, Al. - Jardim Botânico - Sent. Praça da República",,40.206091,-8.420081
+622,1632,Santa Teresa - Dir. Solum,,40.206533,-8.416621
+623,1633,"Júlio Henriques, Al. - Jardim Escola - Sent. Praça da República",,40.203808,-8.419453
+624,1634,"Combatentes, R. - Seminário Maior de Coimbra (ex-gráfica) - Sent. S. José",,40.202982,-8.419434
+625,1635,"Marnoco e Sousa, R. - Paragem 1 - Sent. Asc.",,40.20361,-8.418706
+626,1636,"Marnoco e Sousa, R. - Paragem 2 (penedo da Saudade) - Sent. Asc.",,40.204792,-8.415686
+627,1637,"Combatentes, R. - Acapo - Sent. Arcos do Jardim",,40.203191,-8.417318
+628,1638,"Combatentes, R. - Acapo - Sent. S. José",,40.203138,-8.416452
+629,1639,"Brasil, R. - Paragem 3 (alpenduradas) - Sent. Portagem",,40.201202,-8.417227
+630,1640,"Brasil, R. - Paragem 2 (alpenduradas) - Sent. S. José",,40.201509,-8.416104
+631,1641,"Brasil, R. - Paragem 4 (s. Teotónio) - Sent. Portagem",,40.199858,-8.421053
+632,1642,"Brasil, R. - Paragem 1 (s. Teotónio) - Sent. S. José",,40.200229,-8.419437
+633,1643,"Brasil, R. - Paragem 5 (ladeira do Batista) - Sent. Portagem",,40.200686,-8.422214
+634,1644,"Lousã, Av. - Insua dos Bentos - Sent. Rua do Brasil",,40.203722,-8.425407
+635,1645,"Emídio Navarro, Av.- Alegria - Dir. Portagem",,40.204783,-8.426137
+636,1646,"Martim de Freitas, Rua - Sent. Rot. Arcos do Jardim",,40.20682,-8.420789
+637,1647,Rua Pedro Monteiro - Largo de Santana,,40.206954,-8.417064
+638,1648,"Lousã, Av. - Parque Verde do Mondego - Sent. Rua do Brasil",,40.201685,-8.424348
+639,1649,"Emídio Navarro, Av.- Estação Parque - Dir. Portagem",,40.203772,-8.424745
+641,1654,"Urbano Duarte, Av.- Dir. Vale das Flores",,40.194628,-8.421007
+642,1655,"Urbano Duarte, Av.- Dir. Portagem",,40.195061,-8.420719
+643,1656,"Mendes Silva, Av. - Quinta da Nora - Dir. Vale das Flores",,40.192707,-8.417802
+644,1657,"Carlos Seixas, R. - Paragem 1 - Sent. Desc.",,40.194127,-8.418843
+645,1658,"Verde Pinho, R. - Paragem 2 - Sent. Desc.",,40.195091,-8.418623
+646,1659,"Verde Pinho, R. - Paragem 3 - Sent. Desc.",,40.195513,-8.419305
+647,1660,Urbanização da Boavista - Sent. Polo Ii,,40.190683,-8.419477
+648,1661,Urbanização da Boavista - Sent. Rot. Boavista,,40.190893,-8.419885
+649,1662,"Carlos Seixas, R. - Paragem 2 - Sent. Desc. (38)",,40.195587,-8.415701
+650,1663,Arregaça (urb. Quinta da Estrela),,40.196019,-8.420285
+651,1664,Boavista (escola de Hotelaria) - Sent. Rot. Boavista,,40.190033,-8.418507
+652,1665,Boavista (escola de Hotelaria) - Sent. Pólo Ii,,40.189951,-8.418658
+653,1666,E. N. 110-2 (volta do Salgueiral) - Sent. Conraria,,40.186783,-8.425916
+654,1667,E. N. 110-2 (volta do Salgueiral) - Sent. Lages,,40.187177,-8.425731
+655,1668,"Miguel Bombarda, R. (boavista) - Sentido Polo Ii",,40.187007,-8.415896
+656,1669,"Miguel Bombarda, R. (boavista) - Sent. Rot. da Boavista",,40.187115,-8.416491
+657,1670,E. N. 110-2 (srª do Amparo) - Sent. Conraria,,40.182775,-8.42422
+658,1671,E. N. 110-2 (srª do Amparo) - Sent. Lages,,40.183487,-8.424341
+659,1672,E. N. 110-2 (copeira - Cruz. 110 - 3) - Sent. Lages,,40.18,-8.421927
+660,1673,E. N. 110-2 (copeira - Cruz. 110 - 3) - Sent. Conraria,,40.180392,-8.4224
+661,1674,E. N. 110-2 (univ.vasco da Gama) - Sent. Lages,,40.176609,-8.416124
+662,1675,E. N. 110-2 (univ. Vasco da Gama) - Sent. Conraria,,40.176373,-8.415598
+663,1676,E. N. 110-3 - Marco dos Pereiros (centro) - Sent. Assafarge,,40.165912,-8.417439
+664,1677,Santa Luzia - Sent. Assafarge,,40.163202,-8.422725
+665,1678,E. N. 110-3 - Marco dos Pereiros (centro) - Sent. Castelo Viegas,,40.165934,-8.416868
+666,1679,Santa Luzia - Sent. Hospital S. Cid,,40.163288,-8.422577
+667,1680,E. N. 110-2 - Marco dos Pereiros (sul) - Sent. Assafarge,,40.163831,-8.416367
+668,1681,E. N. 110-2 - Marco dos Pereiros (sul) - Sent. Hospital S. Cid,,40.163473,-8.416167
+669,1682,E. N. 110-2 - Marco dos Pereiros - Sub-estação - Sent. Hospital S. Cid,,40.163803,-8.420294
+670,1683,E. N. 110-2 - Marco dos Pereiros - Sub-estação - Sent. Assafarge,,40.163836,-8.420109
+671,1684,Rua Nova - Alto do Balancho,,40.255181,-8.404488
+672,1685,Rua 25 de Abril 1 - Alto do Balancho - Sent. Eiras,,40.25405,-8.405741
+673,1686,E. M. 537 - Casais de Eiras - Sent. Santa Apolónia,,40.249042,-8.413438
+674,1687,E. M. 537-1 - Casal dos Penedos(cruz.casal da Rosa)  - Sent. Eiras,,40.250173,-8.403983
+675,1688,E. M. 537 - Casais de Eiras - Sent. São Paulo de Frades,,40.248926,-8.413405
+676,1689,C. M. 1143 - Casal dos Penedos (cruz. Casal da Rosa) - Sent. Casal da Rosa,,40.250417,-8.403718
+677,1690,E. M. 537-1 - Casal dos Penedos(cruz.casal da Rosa)  - Sent. S. P.frades,,40.250235,-8.403461
+678,1691,E. M. 537-1 - Casais de Eiras (cruz. p/ Brasfemes) - Sent. Santa Apolónia,,40.24904,-8.410441
+679,1692,E. M. 537-1- Casais de Eiras (cruz. p/ Brasfemes) - Sent. S. P. de Frades,,40.248853,-8.410121
+680,1693,E. M. 537-1 - Casal dos Penedos  - Sent. S. P. Frades,,40.249249,-8.406035
+681,1694,E. M. 537-1 - Casal dos Penedos  - Sent. Eiras,,40.249032,-8.406391
+682,1695,Redonda,,40.245228,-8.410589
+683,1696,Rua Fonte das Hortas (sul) - Sent. Eiras,,40.251391,-8.407541
+684,1697,E. M. 539 - Lordemão - Sent. Rocha Nova,,40.235469,-8.409144
+685,1698,E. M. 539 - Lordemão - Sent. Coselhas,,40.235738,-8.409252
+686,1699,E. M. 539 - Cruz.p/ Redonda - Sent. Rocha Nova,,40.238142,-8.4082
+687,1700,E. M. 539 - Cruz p/ Redonda - Sent. Coselhas,,40.238459,-8.407937
+688,1701,Rua do Depósito 1 (lordemão) - sent. Lordemão,,40.236859,-8.4047
+689,1702,E. M. 539 - Cruz. do Vale Velho - Sent. Rocha Nova,,40.240654,-8.40507
+690,1703,C. M. 1145 - Cruz. do Vale Velho - Sent. Rocha Nova,,40.24052,-8.404708
+691,1704,C. M. 1145 - Cruz. do Vale Velho - Sent. Coselhas,,40.24091,-8.404674
+696,1709,Rua do Depósito 2 (lordemão) - sent. Lordemão,,40.236386,-8.406241
+697,1710,Av. José R. Sousa Fernandes -  (inst. de Lordemão),,40.235602,-8.414696
+698,1711,Quinta da Mainça (lordemão) - Sent. São Romão,,40.228809,-8.408768
+699,1712,E. M. 539 - Corrente (zona) - Sent. Coselhas,,40.229166,-8.414999
+700,1713,E. M. 539 - Corrente (zona) - Sent. Lordemão,,40.229305,-8.414766
+701,1714,Rua do Luseiro 4 - Sent. Lordemão,,40.234385,-8.403711
+702,1715,Rua do Pinheiro (lordemão) - Sent. São Romão,,40.234543,-8.40724
+703,1716,E. M. 539 - Lordemão (sul) - Sent. Coselhas,,40.233298,-8.412648
+704,1717,E. M. 539 - (lordemão (sul) - Sent. Rocha Nova,,40.234102,-8.412235
+705,1718,Rua do Luseiro 3 - Sent. Lordemão,,40.231875,-8.403678
+706,1719,Rua da Mainça de Baixo 1 - Sent. S. Romão,,40.233004,-8.406145
+707,1720,Rua da Mainça de Baixo 2 - Sent. S. Romão,,40.231468,-8.407114
+708,1721,Rua do Pinhal - Sent. S. Romão,,40.226753,-8.403546
+709,1722,E. M. 539 - Corrente (norte) - Sent. Lordemão,,40.231098,-8.413103
+710,1723,E. M. 539 - Corrente (norte) - Sent. Coimbra,,40.231435,-8.413086
+711,1724,"Bissaya Barreto, Av. (penedo da Meditação) - Sent. Celas",,40.2223,-8.409538
+712,1725,"Bissaya Barreto, Av. (penedo da Meditação) - Sent. Tovim",,40.222618,-8.409428
+713,1726,"Bissaya Barreto, Av. (hospitais U.c.) - Sent. Celas",,40.220582,-8.409811
+714,1727,"Bissaya Barreto, Av. (hospitais U.c.) - Sent. Tovim",,40.21985,-8.409717
+715,1728,"Mota Pinto, Largo Prof. (rotunda 1) - H.u.c. - Sul",,40.218359,-8.413853
+716,1729,"Bissaya Barreto, Av. (i.p.o.) - Sent. Celas",,40.217513,-8.410055
+717,1730,"Bissaya Barreto, Av. (i.p.o.) - Sent. Tovim",,40.218176,-8.40989
+718,1731,"Afrânio Peixoto, R. (paragem 1) - Sent. Ascendente",,40.221469,-8.40755
+719,1732,"Afrânio Peixoto, R. (paragem 1) - Sent. Descendente",,40.221495,-8.407376
+720,1733,"Afrânio Peixoto, R. (paragem 2 - Pinheiro Manso) - Sent. Ascendente",,40.219338,-8.407168
+721,1734,"Afrânio Peixoto, R. (paragem 2 - Pinheiro Manso) - Sent. Descendente",,40.219753,-8.407064
+722,1735,Nó dos Olivais  - Sent. Tovim,,40.21782,-8.405591
+723,1736,"Brigadeiro Correia Cardoso, R. (igreja dos Olivais) - Sent. Celas",,40.217729,-8.404123
+724,1737,"Mota Pinto, Largo Prof. (rotunda 2) - H.u.c. - Sul",,40.218337,-8.414087
+725,1738,Rua do Açude - Sent. S.romão,,40.225574,-8.40626
+726,1739,"Álvaro Correia, Rua - Sent. S.romão",,40.225275,-8.403004
+727,1740,Hospitais da Universidade de Coimbra - Interior do Hospital (sent. Celas),,40.21974,-8.412166
+728,1741,"António Portugal, Av. - Cruz. Calçada do Gato - Sent. Celas",,40.218071,-8.405193
+729,1742,"Afonso Henriques, Av. - Paragem 1 - Escola José Falcão - Dir. Arcos",,40.211537,-8.413366
+730,1743,"Afonso Henriques, Av. - Paragem 2 - (x) Correia Teles - Dir. Arcos",,40.209001,-8.414556
+731,1744,"Cruz de Celas, Largo",,40.213465,-8.414226
+732,1745,"Augusta , R. (cruz de Celas)",,40.213178,-8.414215
+733,1746,"Augusto Rocha, R. (escadas José Falcão)",,40.212169,-8.413908
+734,1747,"Armando Gonçalves, Al. (escola Martim de Freitas) - Dir. Celas",,40.21623,-8.41347
+735,1748,"Armando Gonçalves, Al. - Dir. H.u.c.",,40.215064,-8.413437
+736,1749,"Bernardo de Albuquerque, R. - Bcg - Dir. Celas",,40.214775,-8.411564
+737,1750,"Bernardo de Albuquerque, R. - Bcg - Dir. Olivais",,40.214638,-8.411526
+738,1751,"Bernardo de Albuquerque, R. - Dir. Celas",,40.215565,-8.409814
+739,1752,"Bernardo de Albuquerque, R. - Dir. Olivais",,40.215786,-8.409435
+740,1753,"Dias da Silva, Av.  - Olivais - Sent. Desc.",,40.216181,-8.407426
+741,1754,"Dias da Silva, Av.  - Olivais - Sent. Asc.",,40.216425,-8.406951
+742,1755,"São Teotónio, R. - Inst. de Oncologia",,40.217312,-8.410358
+743,1756,"Dias da Silva, Av.- Fac. Economia - Sent. Asc.",,40.215078,-8.408392
+744,1757,"Dias da Silva, Av.  - Paragem 3 - Sent. Desc.",,40.213413,-8.409511
+745,1758,"Dias da Silva, Av.  - Paragem 3 - Sent. Asc.",,40.213381,-8.4094
+746,1759,"Dias da Silva, Av.  - Paragem 2 - Sent. Desc.",,40.2112,-8.410871
+747,1760,"Dias da Silva, Av.  - Paragem 2 - Sent. Asc.",,40.210926,-8.410906
+748,1761,"Sacadura Cabral, R. (esc. Eugénio de Castro) - Dir. Rot. Quinta da Maia",,40.208532,-8.403363
+749,1762,"Sacadura Cabral, R. (esc. Eugénio de Castro) - Dir. Solum",,40.208552,-8.4036
+750,1763,"Sá Carneiro, R. -sent. Desc.",,40.215214,-8.405418
+751,1764,"Quinta S. Jerónimo, Urb.",,40.213978,-8.404335
+752,1765,"Pinheiro Chagas, R.",,40.209554,-8.413966
+753,1766,"Henriques Seco, R.",,40.209189,-8.412722
+754,1767,"Benardim Ribeiro, R.",,40.210086,-8.409118
+755,1768,"Alberto Oliveira, R",,40.208795,-8.408054
+756,1769,"Falcão Resende, R.",,40.209735,-8.407358
+757,1770,"Gil Vicente, R. - Paragem 1",,40.211218,-8.40808
+758,1771,"Gil Vicente, R. - Paragem 2",,40.212506,-8.408277
+759,1772,"Luis de Camões, R.",,40.214964,-8.407354
+760,1776,"Dias da Silva, Av.  - Paragem 1 - Sent. Desc.",,40.207809,-8.413858
+761,1777,"Dias da Silva, Av.  - Paragem 1 - Sent. Asc.",,40.208061,-8.41358
+762,1778,"Marnoco e Sousa, R. - Paragem 3 (carmelitas)- Sent. Asc.",,40.206391,-8.414557
+763,1779,"Miguel Torga, R. (maternidade Daniel de Matos) - Paragem 1 - Sent. Desc.",,40.207251,-8.412011
+764,1780,"Miguel Torga, R. (maternidade Daniel de Matos) - Paragem 1 - Sent. Asc.",,40.207555,-8.411147
+765,1781,"Miguel Torga, R.  - Paragem 2 - Sent. Asc.",,40.207863,-8.406888
+766,1782,"Miguel Torga, R.  - Paragem 2 - Sent. Desc.",,40.207722,-8.407484
+767,1783,"Infanta D. Maria, R. (liceu D. Maria)",,40.206213,-8.407703
+768,1784,"Carolina Michaellis, R. (tamoeiro) - Sent. Asc.",,40.205853,-8.40409
+769,1785,"Carolina Michaellis, R. (tamoeiro) - Sent. Desc.",,40.205607,-8.404267
+770,1786,"D. João Iii, R. (esc. Sup.de Educação)",,40.205562,-8.406233
+771,1787,"General Humberto Delgado, R. (esc. Sec. Brotero) - Dir. Solum",,40.204887,-8.409689
+772,1788,"General Humberto Delgado, R. (1) - Dir. Arcos",,40.205013,-8.41013
+773,1789,"General Humberto Delgado, R. (2) - Dir. Arcos",,40.204215,-8.413172
+774,1790,"Combatentes, R. - Paragem 3 - Sent. Desc.",,40.203427,-8.413169
+775,1791,"Combatentes, R. - S. José - Sent. Desc.",,40.202457,-8.410279
+776,1792,"Combatentes, R. - S. José - Sent. Asc.",,40.202736,-8.410072
+777,1793,"D. Manuel I, R. (casa Paroquial) - Dir. Bairro",,40.202146,-8.408708
+778,1794,"D. João Iii, R. - Estádio Cidade de Coimbra - Casal da Eira",,40.202458,-8.406338
+780,1796,"Brasil, R. - Paragem 2 - Dir. Portagem",,40.201921,-8.414538
+781,1797,"Brasil, R. - Paragem 3 - Dir. S. José",,40.201928,-8.412767
+782,1798,"Brasil, R. -paragem 1 -dir. Portagem",,40.201965,-8.412103
+783,1799,"Brasil, R.  - Sob viaduto do Calhabé - Dir. Bandeiras",,40.201114,-8.408383
+784,1800,"Brasil, R. - Fonte da Cheira - Dir. Alto S. João",,40.200515,-8.406041
+785,1801,"Brasil, R. - Fonte da Cheira - Dir.calhabé",,40.200359,-8.404918
+786,1802,"Brasil, R. - Bandeiras - Dir. Alto S. João",,40.198369,-8.40275
+787,1803,"Angola, R. - Paragem 2 - Dir. Calhabé",,40.199697,-8.405319
+788,1804,"Angola, R. - Paragem 1 - Dir. Calhabé",,40.200259,-8.407568
+789,1805,"Angola, R. - Paragem 1 - Dir. Bairro",,40.200305,-8.40811
+790,1806,"Guiné, R.",,40.199144,-8.406326
+791,1807,"João de Deus Ramos, Rua - Solum - Sent. Carolina Michaellis",,40.203646,-8.404102
+792,1808,"Vasco da Gama, R. - Dir. Vale das Flores",,40.198878,-8.408794
+793,1809,"Vasco da Gama, R. - Bairro Norton de Matos (horário 11c)",,40.198919,-8.411207
+794,1810,"Mouzinho de Albuquerque, R. - B. N. Matos (horário 24t)",,40.198379,-8.410684
+795,1811,"Moçambique, R. - Paragem 1",,40.197683,-8.407278
+796,1812,"Moçambique, R. - Paragem 2",,40.198117,-8.403983
+797,1813,"Daniel de Matos, R. - Dir.vale das Flores",,40.197166,-8.412045
+798,1814,"Daniel de Matos, R. - Dir.calhabé",,40.196976,-8.412074
+799,1815,"Verde Pinho, R. - Paragem 1 - Sent. Desc.",,40.196721,-8.415015
+800,1816,"Carlos Seixas, R. - Paragem 2 (feira) - Sent. Desc.",,40.195912,-8.414946
+801,1817,"Carlos Seixas, R. - Paragem 2 (feira) - Sent. Asc..",,40.195956,-8.414585
+802,1818,"D. Pedro Cristo, R. (rotunda da Feira) - Sent. Asc.",,40.195456,-8.413484
+803,1819,"Mendes Silva, Av. - Quinta das Flores - Dir. Portagem",,40.194439,-8.413723
+804,1820,"Mendes Silva, Av. - Quinta das Flores - Dir. Vale das Flores",,40.194751,-8.410999
+805,1821,"Mendes Silva, Av. - Vale das Flores (continente) - Dir. Alto S. João",,40.194806,-8.407414
+806,1822,"Vale das Flores, Rot. (continente)",,40.194736,-8.406249
+807,1823,"Paulo Quintela, R. (após rot. da R. Pedro Cristo) Sent. Est. Beira",,40.19554,-8.41196
+808,1824,"Paulo Quintela, R. (vale das Flores-meio da Rua) Sent. Est. Beira",,40.196429,-8.407084
+809,1825,"Paulo Quintela, R. (antes da Est. da Beira) Sent. Est. Beira",,40.197026,-8.403443
+810,1826,Quinta de Marrocos - Sent. Continente,,40.190796,-8.405422
+811,1827,"Câmara Pestana, R. - Sent. Continente",,40.192822,-8.406772
+812,1828,"Paulo Quintela, R. (antes da Est. da Beira) Sent. Centro",,40.196818,-8.405065
+813,1829,"Paulo Quintela, R. (vale das Flores-meio da Rua) Sent. Centro",,40.196588,-8.407961
+814,1830,"Mendes Silva, Av. - Parque Vale das Flores  - Dir. Alto S. João",,40.194378,-8.413212
+815,1832,Pólo Ii da Universidade de Coimbra - Términus L.38,,40.186149,-8.413003
+816,1833,"Rebolim, R. - Sent. Alto de S. João",,40.187092,-8.410752
+817,1834,"Pinhal de Marrocos, R. - Sent. Alto de S. João",,40.189991,-8.407194
+818,1835,Pólo Ii da Universidade de Coimbra - Linha nº 34,,40.186402,-8.413004
+819,1836,E. N.-2 (quinta Cavada) - Sent. Lages,,40.175833,-8.407234
+820,1837,E. N.-2 (quinta Cavada) - Sent. Conraria,,40.175886,-8.406854
+821,1838,E. N. 110-2 (quinta da Urgeiriça) - Sent. Conraria,,40.169485,-8.406869
+822,1839,E. N. 110-2 (quinta da Urgeiriça) - Sent. Castelo Viegas,,40.169733,-8.407011
+823,1840,E. N. 110-2 (castelo Viegas) - Sent. Conraria,,40.165209,-8.408212
+824,1841,E. N. 110-2 (castelo Viegas) - Sent. Marco dos Pereiros,,40.165275,-8.408225
+825,1842,E. N. 110-2 (castelo Viegas - Centro) - Sent. Marco dos Pereiros,,40.163235,-8.408102
+826,1843,E. N. 110-2 (castelo Viegas - Centro) - Sent. Conraria,,40.163061,-8.40817
+827,1844,E. N. 110-2 - Castelo Viegas - Junta de Freguesia - Sent. Marco Pereiros,,40.161938,-8.413421
+828,1845,E. N. 110-2 - Castelo Viegas - Junta de Freguesia - Sent. Hospital S. Cid,,40.161738,-8.413819
+829,1846,E. N. 110-2 - Castelo Viegas - Cemiterio - Sent. Hospital S. Cid,,40.16226,-8.41125
+830,1847,E. N. 110-2 - Castelo Viegas - Cemitero - Sent. Marco Pereiros,,40.162302,-8.411391
+831,1848,Casal da Rosa (largo) - Términus L. 25,,40.253647,-8.394394
+832,1849,Rua Nova - Paredes,,40.258208,-8.395716
+833,1850,Rua das Paredes 2 - Sent. Eiras,,40.25642,-8.39924
+834,1851,Rua das Paredes 3 - Sent. Eiras,,40.254238,-8.403675
+835,1852,São Paulo de Frades (centro) - Sent. Lordemão,,40.246026,-8.39412
+836,1853,São Paulo de Frades (centro) - Sent. Eiras,,40.246204,-8.393764
+837,1854,E. M. 537-1- (são Paulo de Frades - Norte) - Sent. Lordemão,,40.249117,-8.399256
+838,1855,E. M. 537-1- (são Paulo de Frades - Norte) - Sent. Eiras,,40.2489,-8.398921
+839,1856,R. 25 de Abril (vale da Luz) - Sent. Casal da Rosa,,40.251625,-8.400359
+840,1857,C. M. 1143 (vale da Luz) - Sent. Casal da Rosa,,40.251791,-8.396139
+841,1858,São Paulo de Frades (igreja) - Sent. Lordemão,,40.244895,-8.395994
+842,1859,São Paulo de Frades (igreja) - Sent. Eiras,,40.245094,-8.395722
+843,1860,C. M. 1145 (lordemão - Cruz. São Romão) - Sent. Rocha Nova,,40.237874,-8.40319
+844,1861,C. M. 1145 (lordemão - Cruz. São Romão) - Sent. Vale Velho,,40.238318,-8.403576
+845,1862,C. M. 1145 - Estrada da Rocha Nova - Sent. Rocha Nova,,40.237065,-8.399305
+846,1863,C. M. 1145 - Estrada da Rocha Nova - Sent. Lordemão,,40.237008,-8.399852
+847,1864,C. M. 1145 - (rocha Nova - Centro) - Sent. Lordemão,,40.23624,-8.394297
+848,1865,C. M. 1145 - (rocha Nova - Centro) - Sent. Serra da Rocha,,40.236118,-8.394541
+849,1866,C. M. 1145 - (casal do Além) - Sent. Serra da Rocha,,40.23746,-8.392363
+850,1867,C. M. 1145 - (casal do Além) - Sent. Lordemão,,40.237199,-8.392543
+851,1868,E. N. 539 (são Paulo de Frades - Sul) - Sent. Lordemão,,40.242788,-8.398974
+852,1869,E. N. 539 (são Paulo de Frades - Sul) - Sent. Eiras,,40.243017,-8.398326
+853,1870,Rua do Luseiro 2 - Sent. Lordemão,,40.230488,-8.402826
+854,1871,"Brigadeiro Correia Cardoso, R. (igreja dos Olivais) - Sent. Tovim",,40.217728,-8.403497
+855,1872,São Romão - Ponto de horário na Linha nº 19r,,40.223091,-8.403453
+856,1873,Rua Ivo Cortesão - Sent. Lordemão,,40.224534,-8.40209
+857,1874,"Brigadeiro Correia Cardoso, R. (são Sebastião) - Sent. Olivais",,40.217378,-8.400624
+858,1875,"Brigadeiro Correia Cardoso, R. (são Sebastião) - Sent. Tovim",,40.217125,-8.399586
+859,1876,"Brigadeiro Correia Cardoso, R. - Sent. Olivais",,40.216598,-8.397373
+860,1877,"Brigadeiro Correia Cardoso, R. - Sent. Tovim",,40.216243,-8.397274
+861,1878,"Elísio de Moura, Av. - Paragem 1 - Tovim - (p. horário Linha Nº 7)",,40.214398,-8.395638
+862,1879,"Elísio de Moura, Av - Tovim - (p. horário Lin. 7t)",,40.214393,-8.395097
+863,1880,Est. de Vale de Canas (tovim 1) - Sent. São Sebastião,,40.214577,-8.394802
+864,1881,Est. de Vale de Canas (tovim 1) - Sent. Vale de Canas,,40.214335,-8.394536
+865,1882,"Elísio de Moura, Av. - Paragem 2 - Sent. Desc.",,40.211211,-8.397588
+866,1883,"Elísio de Moura, Av. - Paragem 2 - Sent. Asc.",,40.210885,-8.397276
+867,1884,Quinta da Maia (rotunda),,40.213027,-8.402045
+868,1885,Est. de Vale de Canas (tovim do Meio 1) - Sent. Tovim,,40.212426,-8.391352
+869,1886,Est. de Vale de Canas (tovim do Meio 1) - Sent. Vale de Canas,,40.212527,-8.391772
+870,1887,"Luis Cunha, R. (quinta da Maia) - Sent. Ascendente",,40.211499,-8.401894
+871,1888,Est. de Vale de Canas (tovim 2) - Sent. São Sebastião,,40.214026,-8.392725
+872,1889,Est. de Vale de Canas (tovim 2) - Sent. Vale de Canas,,40.21388,-8.392335
+873,1890,"Elísio de Moura, Av. - Paragem 3 (rotunda) - Sent. Desc.",,40.208127,-8.399839
+874,1891,"Elísio de Moura, Av. - Paragem 3 (rotunda) - Sent. Asc.",,40.208354,-8.39932
+875,1892,"Gago Coutinho, R. - Esc. Eugénio de Castro",,40.207659,-8.403313
+876,1893,"Fernando Namora, Av. - Paragem 1 (rotunda) - Dir. Vale das Flores",,40.204098,-8.400856
+877,1894,"Fernando Namora, Av. - Paragem 1 (rotunda) - Dir. Solum",,40.204122,-8.40066
+878,1895,"Fernando Namora, Av. - Paragem 2 - Dir. Vale das Flores",,40.20066,-8.399211
+879,1896,"Fernando Namora, Av. - Paragem 2 - Dir. Solum",,40.201078,-8.399277
+880,1897,"Brasil, R. - Bandeiras - Dir.calhabé",,40.19917,-8.402766
+881,1898,Chão do Bispo (estrada dos Malheiros) - Términus L. 26,,40.203187,-8.393098
+882,1899,Estrada dos Malheiros (chão do Bispo) - Sent. Tovim,,40.205156,-8.391805
+883,1900,"Elisio de Moura, Av. - (atrium Solum)-  Sent. Casa Branca",,40.206213,-8.401028
+884,1901,Quinta da Lomba - Sent. Ch. do Bispo,,40.202601,-8.398892
+885,1902,Ladeira de Chão do Bispo - Sent. Ch. do Bispo,,40.203853,-8.396971
+886,1903,"Monsenhor Augusto Nunes Pereira,r. - Dir. Solum",,40.199982,-8.403107
+887,1904,"Fernando Namora, Av. - Paragem 3 (casa Branca) -dir. Solum",,40.199191,-8.397704
+888,1905,"Fernando Namora, Av. - Paragem 3 (casa Branca) -dir. Vale das Flores",,40.198959,-8.397891
+889,1906,E. N. 17 (makro) - Dir. Calhabé,,40.196039,-8.402587
+890,1907,E. N. 17 (makro) - Dir. Alto de S. João,,40.195787,-8.40272
+891,1908,E. N. 17  - Rot. Alto S. João - Dir. Portela,,40.192844,-8.402657
+892,1909,E. N. 17  - Rot. Alto S. João - Dir. Calhabé,,40.192887,-8.402575
+893,1910,Alto de São João (rotunda) - Dir. Vale das Flores,,40.193646,-8.40206
+894,1911,Alto de São João (rotunda) - Dir. Quinta da Fonte,,40.193581,-8.40158
+895,1912,"Fernando Namora, Av. - Paragem 4 (quinta da Fonte) -dir. Solum",,40.195545,-8.397583
+896,1913,"Fernando Namora, Av. - Paragem 4 (quinta da Fonte) -dir. Vale das Flores",,40.195447,-8.397912
+897,1914,Quinta da Fonte (rotunda) - Dir. Solum,,40.193977,-8.398061
+898,1915,E. N. 17 - Alto de S. João (areeiro) - Dir. Calhabé,,40.190887,-8.401804
+899,1916,E. N. 17 - Alto de S. João (areeiro) - Dir. Portela,,40.190536,-8.40173
+900,1917,Urbanização Quinta da Romeira 1 - Sent. Asc.,,40.193762,-8.396793
+901,1918,Urbanização Quinta da Romeira 2 - Sent. Asc.,,40.195413,-8.393409
+902,1919,Urbanização Quinta da Romeira 3,,40.193644,-8.394455
+903,1920,Urbanização Quinta da Romeira 4,,40.194704,-8.392326
+904,1921,Urbanização Quinta da Romeira 2 - Sent. Desc.,,40.195795,-8.393462
+905,1922,Urbanização Quinta da Romeira 1 - Sent. Desc.,,40.193498,-8.397018
+906,1923,Areeiro - Capela -sent. Quinta da Fonte,,40.190885,-8.398167
+907,1924,"Quinta da Fonte,sul (rotunda) - Sent. Est. Beira",,40.193049,-8.397894
+908,1925,E. N. 17 (portela do Mondego) - Sent. Ponte da Portela,,40.185044,-8.398628
+909,1926,C. M. 1151 (escola B. 2+3 de Ceira - Términus L. 23),,40.184018,-8.393327
+910,1927,E. N. 17 - Portela do Mondego (rotunda) - Sent. Alto S. João,,40.185189,-8.396987
+911,1928,E. N. 17 (portela - Norte) - Sent. Alto S. João,,40.185814,-8.399272
+912,1929,E. N. 110 - Barca - Sent. Portela,,40.191481,-8.389076
+913,1930,E. N. 110 - Barca - Sent. Torres do Mondego,,40.191673,-8.388056
+914,1931,Areeiro - Parque de Campismo - Sent. Areeiro,,40.18925,-8.399644
+915,1932,Areeiro - Escola - Sent. Areeiro,,40.189888,-8.398857
+916,1933,R. de Tomar -ceira (centro) - Sent. Conraria,,40.174533,-8.391906
+917,1934,Via Central de Ceira - Sent. Coimbra,,40.173333,-8.391859
+918,1935,Conraria - Sent. Ceira,,40.173742,-8.394673
+919,1936,Conraria (centro) - Sent. Hospital Sobral Cid,,40.176248,-8.39668
+920,1937,E. N. 110-2 (h. Sobral Cid - Términus L. 10/18) - Sent. Lages,,40.17503,-8.402503
+921,1938,E. N. 110-2 (h. Sobral Cid) - Sent. M. Pereiros,,40.175278,-8.403054
+922,1939,Conraria (centro) - Sent. Ceira,,40.176109,-8.396715
+923,1940,Conraria - Sent. Hospital S. Cid,,40.17418,-8.394863
+924,1941,E. N. 17 (cruz. p/ Carvalhosas) - Sent. Ceira,,40.179521,-8.392094
+925,1942,E. N. 17 (cruz. p/ Carvalhosas) - Sent. Portela,,40.179239,-8.391839
+926,1943,Ceira (antes ponte sobre a Linha da Cp) - Sent. Conraria,,40.17176,-8.3933
+927,1944,Ceira (depois ponte sobre a Linha da Cp) - Sent. Portela,,40.171976,-8.39301
+928,1945,Estrada Principal da Rocha - Alto da Rocha Nova - Sent. Serra da Rocha,,40.237818,-8.390642
+929,1946,E. M. 536 (cruz. Est.dos Malheiros ) - Sent. Vale de Canas,,40.212036,-8.389435
+930,1947,E. M. 536 (cruz.est. dos Malheiros) - Sent. São Sebatião,,40.212191,-8.389753
+931,1948,E. M. 536 (tovim de Cima - Paragem 1) - Sent.vale de Canas,,40.213043,-8.387024
+932,1949,E. M. 536 (tovim de Cima - Paragem 1) - Sent. São Sebastião,,40.213174,-8.386402
+933,1950,E. M. 536 (tovim de Cima - Paragem 2) - Sent. Vale de Canas,,40.210931,-8.384999
+934,1951,E. M. 536 (tovim de Cima - Paragem 2) - Sent. São Sebastião,,40.211135,-8.384735
+935,1952,E. M. 536 (tovim de Cima) - Sent. São Sebastião,,40.212982,-8.384366
+936,1953,E. M. 536 (tovim de Cima) - Sent. Vale de Canas,,40.213059,-8.384196
+937,1954,E. M. 536 (picoto dos Barbados) - Sent. Vale de Canas,,40.212144,-8.383514
+938,1955,E. M. 536 (picoto dos Barbados) - Sent. São Sebastião,,40.212566,-8.383659
+939,1956,"Daniel Rodrigues, R. - Sent. Olivais",,40.210142,-8.390045
+940,1957,Malheiros - Sent. Olivais,,40.207717,-8.390151
+941,1958,E. N. 110 (torres do Mondego - Sul) - Sent. Casal da Misarela,,40.192881,-8.384595
+942,1959,E. N. 110 (torres do Mondego - Centro) - Sent. Portela,,40.195025,-8.380977
+943,1960,E. N. 110 (torres do Mondego - Sul) - Sent. Portela,,40.192998,-8.384544
+944,1961,C. M. 1151 Estrada das Carvalhosas (rotunda) - Sent. Coimbra,,40.180659,-8.392254
+945,1962,C. M. 1146 (golpe)- Sent. Carapinheira,,40.246064,-8.36969
+946,1963,C. M. 1146 (golpe)- Sent. Rocha Velha,,40.246144,-8.369766
+947,1964,C. M. 1146 (golpe - Norte) - Sent. Carapinheira,,40.249252,-8.369137
+948,1965,C. M. 1146 (golpe - Norte) - Sent. Rocha Velha,,40.249534,-8.368962
+949,1966,C. M. 1146 (rocha Velha - Términus L. 16g),,40.250021,-8.371971
+950,1967,E. M. 536 (cova do Ouro - Paragem 2 - Cruz.) - Sent. Carapinheira,,40.228353,-8.374888
+951,1968,E. M. 536 (cova do Ouro - Paragem 2 - Cruz.) - Sent. Vale de Canas,,40.228443,-8.374484
+952,1969,E. M. 536 (cova do Ouro - Paragem 3) - Sent. Carapinheira,,40.229169,-8.372979
+953,1970,E. M. 536 (cova do Ouro - Paragem 3) - Sent. Vale de Canas,,40.228874,-8.373296
+954,1971,E. M. 536 (dianteiro - Cemitério - Paragem 1) - Sent.carapinheira,,40.232722,-8.370616
+955,1972,E. M. 536 (dianteiro - Cemitério - Paragem 1) - Sent. Vale de Canas,,40.232541,-8.370731
+956,1973,E. M. 536 (dianteiro - Paragem 2) «escola» - Sent.carapinheira,,40.234451,-8.367474
+957,1974,E. M. 536 (dianteiro - Paragem 2) «escola»- Sent. Vale de Canas,,40.234619,-8.367398
+958,1975,C. M. 1145 (serra da Rocha 2) - Sent. Rocha Nova,,40.23544,-8.378298
+959,1976,C. M. 1145 (serra da Rocha 2) - Sent. Cova do Ouro,,40.235276,-8.378257
+960,1977,C. M. 1145 Cova do Ouro (vale de Fontinha) - Sent. Rocha Nova,,40.230529,-8.376452
+961,1978,C. M. 1145 Cova do Ouro - (vale de Fontinha) - Sent. Dianteiro,,40.230263,-8.376454
+962,1979,E. M. 536 (casal do Lobo - Paragem 2 - Centro) - Sent. Vale de Canas,,40.217652,-8.374583
+963,1980,E. M. 536 (casal do Lobo - Paragem 2 - Centro) - Sent. Carapinheira,,40.217433,-8.37446
+964,1981,E. M. 536 (casal do Lobo - Paragem 3) - Sent. Vale de Canas,,40.219827,-8.373918
+965,1982,E. M. 536 (casal do Lobo - Paragem 3) - Sent. Carapinheira,,40.219491,-8.374041
+966,1983,E. M. 536 (casal do Lobo - Paragem 4) - Sent. Vale de Canas,,40.223883,-8.375687
+967,1984,E. M. 536 (casal do Lobo - Paragem 4) - Sent. Carapinheira,,40.223377,-8.375423
+968,1985,E. M. 536 (cova do Ouro - Paragem 1) - Sent. Vale de Canas,,40.226926,-8.376384
+969,1986,E. M. 536 (cova do Ouro - Paragem 1) - Sent. Carapinheira,,40.226504,-8.376293
+970,1987,E. M. 536 (vale de Canas - Mata Nacional) - Sent. Carapinheira,,40.210274,-8.37938
+971,1988,E. M.536 (vale de Canas - Mata Nacional) - Sent. Tovim,,40.210506,-8.379472
+972,1989,E. M.536 (vale de Canas - Norte) - Sent. Carapinheira,,40.212732,-8.377008
+973,1990,E. M.536 (vale de Canas - Norte) - Sent. Tovim,,40.212322,-8.377262
+974,1991,E. M. 536 (casal do Lobo - Paragem 1) - Sent. Carapinheira,,40.215012,-8.373766
+975,1992,E. M. 536 (casal do Lobo - Paragem 1) - Sent. Vale de Canas,,40.214439,-8.374552
+976,1993,E. N. 110 (cruz. p/ Vale de Canas) - Sent. Casal da Misarela,,40.199889,-8.370651
+977,1994,E. N. 110 (cruz. p/ Vale de Canas) - Sent. Torres do Mondego,,40.200056,-8.370588
+978,1995,E. N. 110-2 (torres do Mondego - Centro) - Sent. Casal da Misarela,,40.195917,-8.379124
+979,1996,E. N. 110 (torres do Mondego - Norte) - Sent. Casal da Misarela,,40.197706,-8.376915
+980,1997,E. N. 110 (torres do Mondego - Norte) - Sent. Portela,,40.197232,-8.377893
+981,1998,E. M. 536 (cruz. do Golpe) - Sent. Carapinheira,,40.245613,-8.363645
+982,1999,C. M. 1146 (cruz. do Golpe) - Sent. Rocha Velha,,40.246078,-8.364143
+983,2000,E. M. 536 (carapinheira da Serra) - Sent. Aveleira,,40.240416,-8.363066
+984,2001,E. M. 536 (carapinheira da Serra) - Sent. Vale de Canas,,40.240576,-8.363226
+985,2002,E. M. 536 (dianteiro - Paragem - Centro) - Sent. Carapinheira,,40.23749,-8.362779
+986,2003,E. M. 536 (dianteiro - Paragem - Centro) - Sent. Vale de Canas,,40.237308,-8.362874
+987,2004,E. M. 536 (dianteiro - Paragem 4) «centro»- Sent. Carapinheira,,40.236029,-8.363778
+988,2005,E. M. 536 (dianteiro - Paragem 4) «centro»- Sent. Vale de Canas,,40.236155,-8.36375
+989,2006,E. M. 536 (carapinheira da Serra - Urb. Valbon) - Sent. Aveleira,,40.243092,-8.362452
+990,2007,E. M. 536 (carapinheira da Serra - Urb. Valbon) - Sent. Vale de Canas,,40.242532,-8.362551
+991,2008,E. M. 536 (dianteiro - Paragem 3) - Sent. Carapinheira,,40.235256,-8.365877
+992,2009,E. M. 536 (dianteiro - Paragem 3) - Sent. Vale de Canas,,40.235444,-8.36561
+993,2010,E. M. 110 (casal da Misarela - Centro) - Sent. Penacova,,40.205564,-8.363694
+994,2011,E. M. 110 (casal da Misarela - Centro) - Sent. Coimbra,,40.205623,-8.364091
+995,2012,E. M. 110 (casal da Misarela - Sul) - Sent. Casal da Misarela,,40.202735,-8.367314
+996,2013,E. M. 110 (casal da Misarela - Sul) - Sent. Torres do Mondego,,40.202239,-8.367947
+997,2014,E. M. 110 (casal da Misarela - Norte) - Terminús L. 9,,40.207499,-8.359618
+998,2015,Rua Combatentes (2)- Vila Pouca - Sent. Taveiro,,40.191619,-8.526575
+999,2016,Rua Combatentes (2)- Vila Pouca - Sent. Ameal,,40.191479,-8.526565
+1000,2017,Rua Central - Apeadeiro dos Casais - Sent. Taveiro,,40.204907,-8.484604
+1001,2018,Variante Nova - Casais -sent. Cemiterio,,40.203143,-8.484963
+1002,2019,Rua Central - Apeadeiro dos Casais Sent. Coimbra,,40.204882,-8.484445
+1003,2020,Rua das Paredes 1 - Sent. Eiras,,40.258068,-8.397206
+1004,2021,Rua 25 Abril - Vale da Luz - Sent. Casal da Rosa,,40.252572,-8.395008
+1005,2022,Rua António Jardim (1),,40.21667,-8.399152
+1006,2023,Rua António Jardim (2),,40.214943,-8.397921
+1007,2024,Rua António Jardim (3),,40.212698,-8.399027
+1008,2025,Rua António Jardim (5),,40.210522,-8.398592
+1009,2026,Rua João de Deus Ramos,,40.203689,-8.404266
+1010,2027,Rua da Mata - sent. Asc.,,40.211811,-8.377258
+1011,2028,Rua de S. Bento - cz. trav. Vale do Melo,,40.204104,-8.369647
+1012,2029,Rua Eládio Alle Alvarez - 1,,40.211546,-8.380317
+1013,2030,Rua Eládio Alle Alvarez - 2,,40.213376,-8.381161
+1014,2031,Rua António Neves da Costa - 1,,40.216545,-8.384597
+1015,2032,Rua António Neves da Costa - 2,,40.215599,-8.386021
+1016,2033,Estrada de Coselhas,,40.222245,-8.426316
+1017,2034,Variante de Eiras 1 - Sent. S. Paulo de Frades,,40.249418,-8.415315
+1018,2035,Rua da Oureça,,40.251317,-8.416097
+1019,2036,Rua da Tojeira,,40.252714,-8.417331
+1020,2037,"José Bonifácio A. Silva, Av. (forum - Bombas) - Sent. Centro Saúde Stª Clara",,40.20975,-8.444698
+1021,2038,"José Bonifácio A. Silva, Av. (forum - Bombas) - Sent. Pollo Ii",,40.208966,-8.443805
+1022,2039,R. José Leite de Vasconcelos - Stª Apolónia - Sent. Ponte Eiras,,40.253676,-8.43546
+1023,2040,Largo da Portagem,,40.207274,-8.429275
+1024,2042,Rua José Alberto dos Reis,,40.216752,-8.409075
+1025,2043,R. O Conimbricence 2 - sent. Polo Ii,,40.182954,-8.407097
+1026,2044,Largo Poço do Mato - Sent. Carvalhais,,40.166037,-8.432033
+1027,2045,Largo Poço do Mato - Sent. M. dos Pereiros,,40.165855,-8.432049
+1028,2046,Casal de S. João - Sent. Carvalhais,,40.164237,-8.426687
+1029,2047,Casal de S. João - Sent. M. dos Pereiros,,40.164178,-8.426775
+1030,2048,Santa Luzia - Sent. Carvalhais,,40.163856,-8.423152
+1031,2049,Santa Luzia - Sent. M. dos Pereiros,,40.163742,-8.422963
+1032,2050,Marco dos Pereiros (centro - Rua da Portela) - Sent. Coimbra,,40.165357,-8.417705
+1033,2051,Marco dos Pereiros (centro - Rua da Portela) - Sent. Almalaguês,,40.164761,-8.418156
+1034,2052,Rua da Portela - 1 - Sent. Coimbra,,40.161128,-8.419099
+1035,2053,Rua da Portela - 1 - Sent. Almalaguês,,40.161323,-8.419672
+1036,2054,Rua da Portela - 2 - Sent. Coimbra,,40.158688,-8.417889
+1037,2055,Rua da Portela - 2 - Sent. Almalaguês,,40.159009,-8.417838
+1038,2056,Rua da Portela - 3 - Sent. Coimbra,,40.152085,-8.415573
+1039,2057,Rua da Portela - 3 - Sent. Almalaguês,,40.152508,-8.415705
+1040,2058,Portela do Gato - Sent. Coimbra,,40.148274,-8.412121
+1041,2059,Portela do Gato - Sent. Almalaguês,,40.148078,-8.411926
+1042,2060,Rua do Meio - Sent. Coimbra,,40.146968,-8.410751
+1043,2061,Rua do Meio - Sent. Almalaguês,,40.146243,-8.410899
+1044,2062,Rua da Oliveira - Céstas - Sent. Coimbra,,40.142707,-8.40856
+1045,2063,Rua da Oliveira - Céstas - Sent. Almalaguês,,40.142876,-8.408746
+1046,2064,Outeiro de Bera - Sent. Coimbra,,40.140203,-8.405019
+1047,2065,Outeiro de Bera - Sent. Almalaguês,,40.139978,-8.404945
+1048,2066,Rua dos Lagos - 1 - Sent. Coimbra,,40.136459,-8.40225
+1049,2067,Rua dos Lagos - 1 - Sent. Almalaguês,,40.136729,-8.402574
+1050,2068,Rua dos Lagos - 2 - Sent. Coimbra,,40.136191,-8.397603
+1051,2069,Rua dos Lagos - 2 - Sent. Almalaguês,,40.136203,-8.397196
+1052,2070,Rua da Estr. Nova 1- Sent. Coimbra,,40.13419,-8.393584
+1053,2071,Rua da Estr. Nova 1 - Sent. Almalaguês (centro),,40.134145,-8.393327
+1054,2072,Rua do Santo Cristo - Sent. Coimbra,,40.135199,-8.391957
+1055,2073,Rua dos Pereiros - Sent. Almalaguês (centro),,40.135303,-8.39146
+1056,2074,Rua de Santiago - Sent. Almalaguês (centro),,40.135157,-8.390296
+1057,2075,Rua de Santiago - Sent. Coimbra,,40.13525,-8.390149
+1058,2076,Largo do Terreiro - Almalaguês (centro),,40.130178,-8.391231
+1059,2077,"Mendes Silva, Av. - Quinta da Nora - Dir. Portagem",,40.19305,-8.418965
+1062,2080,Mourelos - sent. Granja de Ança,,40.275964,-8.486842
+1063,2081,Fonte da Portela - Mourelos,,40.27475,-8.490193
+1064,2082,Rua de São Bento - Cz. E.n. 110,,40.200085,-8.370604
+1065,2083,Rua 25 Abril 1 - Vale de Canas - Sent. Olivais,,40.207015,-8.372035
+1066,2084,Rua de São Bento 1,,40.20228,-8.369686
+1067,2085,Rua 25 Abril 2 - Vale de Canas - Sent. Olivais,,40.20591,-8.37148
+1068,2086,Rua do Lagar  - Sargento Mor,,40.28909,-8.447206
+1069,2087,Estrada do Lameirão - sent. Adões,,40.287214,-8.449641
+1070,2088,Rua da Estr. Nova 2 - Sent. Coimbra,,40.135438,-8.395161
+1071,2089,Rua da Estr. Nova 2 - Sent. Almalaguês (centro),,40.134871,-8.394722
+1072,2090,Av.afonso Romão - Polo Iii,,40.221275,-8.416876
+1073,2091,Rua de Baixo - Reveles - sent. Vila Pouca,,40.188526,-8.514619
+1074,2092,Rua de Baixo - Reveles - sent. Taveiro,,40.188638,-8.514905
+1075,2093,Est. Principal do Vale Velho - Cz. Bairro das Fachadas - sent. Lordemão,,40.2422,-8.402107
+1076,2094,Rua da Almaziva (s.p.frades) - sent. Eiras,,40.247254,-8.395565
+1077,2095,Rua da Almaziva (s.p.frades) - sent. Lordemão,,40.247022,-8.395205
+1078,2096,Rua 25 de Abril - Cova do Ouro - sent. Dianteiro,,40.230812,-8.372469
+1079,2097,Rua 25 de Abril - Cova do Ouro - sent. Coimbra,,40.23067,-8.37275
+1080,2098,Rua do Regatinho - cz R.do Cabeço - sent. Golpe,,40.246539,-8.368433
+1081,2099,Rua do Regatinho - cz R.do Cabeço - sent. Carapinheira,,40.246759,-8.368193
+1082,2100,Estrada da Beira - cz R. dos Correios - sent. Coimbra,,40.173765,-8.390881
+1083,2101,R. Abílio Fernandes - sent. Polo Ii,,40.185406,-8.411568
+1084,2102,Praia do Rebolim - sent. Polo Ii,,40.182887,-8.411268
+1085,2103,Parque Industrial Taveiro 1,,40.198244,-8.512679
+1086,2104,Parque Industrial Taveiro 2,,40.196303,-8.509321
+1087,2105,Hosp. Pediátrico - Cir. Interna,,40.222691,-8.414527
+1088,2106,Rua de Condeixa - Cemitério - sent. Lameira,,40.180899,-8.548057
+1089,2107,Rua de Condeixa - Cemitério - sent. Arzila,,40.181054,-8.548269
+1090,2109,Fala - travessa da Rua Esc. Nova,,40.201646,-8.467588
+1110,1479,Rua de Santo António - Misarela - Sent. Asc.,,40.210556,-8.366363
+1111,1481,Jardim Botânico (mata),,40.205248,-8.424322
+1112,1522,Couraça de Lisboa,,40.206887,-8.428573
+1113,1520,"Larga, R. - Universidade - Sent. Porta Férrea",,40.207977,-8.424345
+1114,1495,Jardim Botânico (estufa),,40.206627,-8.422606
+1115,1482,Jardim Botânico (bambuzal),,40.206104,-8.423551
+1116,1466,"Luís António Verney, R. - Estádio Universário - Sent. Av. Conimbriga",,40.207913,-8.436337
+1117,1597,Rua da Chavinha - Casas Novas - Sent Coalhadas,,40.202524,-8.480535
+1118,1595,Estr. de Valongo - Cruz. R. da Gândara - Sent. Esp. Santo,,40.181998,-8.472528
+1119,1594,Estr. de Valongo - Cruz. R. da Gândara - Sent. Valongo,,40.181543,-8.473066
+1120,1650,Conchada - Cemitério,,40.217084,-8.431667
+1121,1653,Rua do Freixo,,40.216665,-8.451124
+1122,1775,E. N. 110-2 - Bencanta (junta de Freguesia) - Sent. Taveiro,,40.214486,-8.459311
+1123,1774,Bencanta (apeadeiro) - Sent. Taveiro,,40.214791,-8.456992
+1124,1773,Gorgulão,,40.215453,-8.454024
+1125,1831,E. N. 110-2 - 2 - Parreiras - Bissaya Barreto - Sent. Taveiro,,40.213344,-8.461909
+1126,2041,E. N. 110-2 - Montessão - Sent. Taveiro,,40.212606,-8.464331
+1127,2113,Rua do Pinheiro Manso - S. Martinho - Sent. Bencanta,,40.210808,-8.455218
+1128,2112,S. Martinho - Piscinas - Sent. Norte,,40.209554,-8.454288
+1129,2111,Rua da Misericórdia - Términus 13p,,40.207246,-8.454501
+1130,2110,S. Martinho - Piscinas - Sent. Sul,,40.209302,-8.454438
+1131,2108,Rua do Pinheiro Manso - S. Martinho - Sent. Piscinas,,40.210264,-8.455418
+1132,1051,Rua da Casa do Povo - Misarela - Sent. Asc.,,40.208069,-8.364067
+1134,1651,C. M. 1150 - Casal do Lobo - Sent. Misarela,,40.214046,-8.3745
+1135,1652,C. M. 1150 - Casal do Lobo - Sent. Vale de Canas,,40.214116,-8.374518
+1136,2114,Rua do Luseiro 1 - Sent. Lordemão,,40.226244,-8.401142
+1137,2115,"Afonso Henriques, Av. - Paragem 3 - Dir Arcos",,40.207366,-8.415331
+1138,2116,Póvoa - (rotunda) - sent. S.martinho,,40.195646,-8.450741
+1139,2118,Rua Quinta da Portela 1 - sent. Alto de S. João,,40.18895,-8.401507
+1140,2117,Rua Quinta da Portela 1 - sent. Q. da Portela,,40.188578,-8.401722
+1141,2120,Alameda Marquesa de Pomares - Q. Portela (centro) - sent. Alto S. João,,40.184882,-8.403328
+1142,2119,Alameda Marquesa de Pomares - Q. Portela (centro) - sent.ic3,,40.184806,-8.403736
+1143,2121,Rotunda das Carvalhosas - sent. Zorro,,40.181162,-8.392202
+1144,2122,Escola de Ceira - sent. Coimbra,,40.184117,-8.393708
+1145,2123,Rua do Corgo (carvalhosas)- sent. Coimbra,,40.188644,-8.383279
+1146,2124,Rua do Corgo (carvalhosas)- sent. Zorro,,40.188861,-8.383058
+1147,2126,Rua 25 de Abril 1 (carvalhosas ) - sent. Coimbra,,40.188312,-8.38123
+1148,2125,Rua 25 de Abril 1 (carvalhosas ) - sent. Zorro,,40.188325,-8.380961
+1149,2128,Rua 25 de Abril 2 (carvalhosas) - sent. Coimbra,,40.190019,-8.377837
+1150,2127,Rua 25 de Abril 2 (carvalhosas ) - sent. Zorro,,40.189979,-8.377774
+1151,2130,Estrada dos Palheiros 1 (carvalhosas) - sent. Coimbra,,40.190773,-8.374786
+1152,2129,Estrada dos Palheiros 1 (carvalhosas) - sent. Zorro,,40.190785,-8.37468
+1153,2132,Estrada dos Palheiros 2 (carvalhosas) - sent. Coimbra,,40.193608,-8.37315
+1154,2131,Estrada dos Palheiros 2 (carvalhosas) - sent. Zorro,,40.193744,-8.373105
+1155,2136,Rua da Barca 2 ( Praia Fluvial) - sent. Coimbra,,40.198917,-8.366087
+1156,2135,Rua da Barca 2 ( Praia Fluvial) - sent. Zorro,,40.19875,-8.365909
+1157,2134,Rua da Barca 1 ( Cemitério) - sent. Coimbra,,40.196855,-8.369026
+1158,2133,Rua da Barca 1 ( Cemitério) - sent. Zorro,,40.196922,-8.368787
+1159,2145,Largo de São Francisco - Zorro,,40.202525,-8.354062
+1160,2144,Rua da Liberdade 4 ( Palheiros ) - sent. Coimbra,,40.202564,-8.357892
+1161,2143,Rua da Liberdade 4 ( Palheiros ) - sent. Zorro,,40.202561,-8.357826
+1162,2142,Rua da Liberdade 3 ( Palheiros ) - sent. Coimbra,,40.201853,-8.359944
+1163,2141,Rua da Liberdade 3 ( Palheiros ) - sent. Zorro,,40.201807,-8.359809
+1164,2140,Rua da Liberdade 2 ( Palheiros ) - sent. Coimbra,,40.201756,-8.361719
+1165,2139,Rua da Liberdade 2 ( Palheiros ) - sent. Zorro,,40.201718,-8.361672
+1166,2138,Rua da Liberdade 1 ( Palheiros ) - sent. Coimbra,,40.200656,-8.363916
+1167,2137,Rua da Liberdade 1 ( Palheiros ) - sent. Zorro,,40.200858,-8.363713
+1168,2147,Rua das Vendas 1 (vendas de Ceira) - sent. Coimbra,,40.169267,-8.391295
+1169,2146,Rua das Vendas 1 (vendas de Ceira) - sent. Anaguéis,,40.16945,-8.391201
+1170,2153,Rua do Sobral - centro (sobral de Ceira) - sent. Coimbra,,40.165262,-8.387667
+1171,2152,Rua do Sobral - centro (sobral de Ceira) - sent. Anaguéis,,40.164759,-8.3872
+1172,2151,Carvalhais (cruzamento) - Ic2 - sent. Coimbra,,40.181549,-8.442345
+1173,2150,Carvalhais (cruzamento) - Ic2 - sent. Antanhol,,40.181909,-8.442227
+1174,2149,Rua das Vendas 2 (vendas de Ceira) - sent. Coimbra,,40.167714,-8.391697
+1175,2148,Rua das Vendas 2 (vendas de Ceira) - sent. Anaguéis,,40.167423,-8.391621
+1176,2159,Rua Principal 3 (cartaxos) - sent. Coimbra,,40.154513,-8.390242
+1177,2158,Rua Principal 3 (cartaxos)- sent. Anaguéis,,40.154499,-8.390336
+1178,2157,Rua Principal  (crz.abelheira) - sent. Coimbra,,40.159639,-8.385339
+1179,2156,Rua Principal 2 (cruz. Abelheira) - sent. Anaguéis,,40.15979,-8.38554
+1180,2155,Rua Principal 1 (sobral de Ceira 3) - sent. Coimbra,,40.163231,-8.385419
+1181,2154,Rua Principal 1 (sobral de Ceira 3) - sent. Anaguéis,,40.16318,-8.385746
+1182,2161,Rua Principal 4 (cruz. Cartaxos) - sent. Coimbra,,40.153014,-8.390975
+1183,2160,Rua Principal 4 (cruz. Cartaxos) - sent. Anaguéis,,40.152996,-8.391136
+1186,2170,Rua da Madroa 2 - sent. Almalaguês,,40.137733,-8.393043
+1187,2169,Rua da Madroa 1 - sent. Ceira,,40.140273,-8.394816
+1188,2168,Rua da Madroa 1 - sent. Almalaguês,,40.139927,-8.394864
+1189,2167,Rua da Catraia (anaguéis 3) - sent. Ceira,,40.144259,-8.392101
+1190,2166,Rua da Catraia (anaguéis 3) - sent. Almalaguês,,40.143782,-8.392572
+1191,2165,Largo Srª. da Graça ( Anaguéis - centro) - sent. Ceira,,40.145563,-8.391093
+1192,2164,Largo Srª. da Graça ( Anaguéis - centro) - sent. Almalaguês,,40.145694,-8.39114
+1193,2163,Rua do Jardim - Escola (anaguéis 1) sent. Ceira,,40.147562,-8.391275
+1194,2162,Rua do Jardim - Escola (anaguéis 1) sent. Almalaguês,,40.147411,-8.392057
+1197,2173,Rua da Madroa (almalaguês - centro) -  sent. Ceira,,40.13596,-8.39187
+1198,2171,Rua da Madroa 2 - sent. Ceira,,40.138426,-8.393142
+1199,2174,E. N. 111(cruz. Alcarraques)  - Sent. Alcarraques,,40.252522,-8.463
+1200,2176,Rua Quinta da Portela 2 - sent. Alto de S.joão,,40.186524,-8.403439
+1201,2175,Rua Quinta da Portela 2 - sent. Q. da Portela,,40.186462,-8.404163
+1202,2177,"Emídio Navarro, Av. - Parque Dr. Manuel Braga 3 - Dir. Av. Lousã",,40.206324,-8.428737
+1203,2185,Antanhol (casa Meada) - Estrada da Ponte - sent. Coimbra,,40.163608,-8.459914
+1204,2184,Antanhol (casa Meada) - Estrada da Ponte - sent. Cernache,,40.163266,-8.460216
+1205,2183,Casa Meada (cruzamento) - Estrada Principal - sent. Coimbra,,40.16324,-8.457549
+1206,2182,Casa Meada - Ic2 - sent. Coimbra,,40.164943,-8.457508
+1207,2181,Murteira - Ic2 - sent. Coimbra,,40.168909,-8.455354
+1208,2180,Murteira - Ic2 - sent. Cernache,,40.168942,-8.455578
+1209,2179,Quinta do Limoeiro - Ic2 - sent. Coimbra,,40.175576,-8.450839
+1210,2178,Quinta do Limoeiro - Ic2 - sent. Antanhol,,40.175207,-8.451513
+1211,2201,Rua da Chanfurrina - sent. Palheira,,40.160582,-8.436462
+1212,2200,Rua da Chanfurrina - sent. Assafarge,,40.160685,-8.436284
+1213,2199,Palheira (zona Industrial) - Estrada Principal - sent. Antanhol,,40.162138,-8.446529
+1214,2198,Palheira (zona Industrial) - Estrada Principal - sent. Assafarge,,40.161958,-8.446394
+1215,2197,Palheira (escola) - Estrada Principal - sent. Antanhol,,40.163291,-8.448874
+1216,2196,Palheira (escola) - Estrada Principal - sent. Assafarge,,40.163049,-8.448681
+1217,2195,Palheira (centro) - Estrada Principal - sent. Antanhol,,40.163477,-8.45057
+1218,2194,Palheira (centro) - Estrada Principal - sent. Assafarge,,40.16342,-8.450382
+1219,2193,Palheira 2 - Estrada Principal - sent. Cernache,,40.164171,-8.452581
+1220,2192,Palheira 2 - Estrada Principal - sent. Assafarge,,40.163911,-8.452348
+1221,2191,Palheira 1 - Estrada Principal - sent. Antanhol,,40.162868,-8.454331
+1222,2190,Palheira 1 - Estrada Principal - sent. Assafarge,,40.162819,-8.454159
+1223,2189,Palheira (cruzamento) - Rua da Fontita - sent. Antanhol,,40.161736,-8.456683
+1224,2188,Palheira (cruzamento) - Rua da Fontita - sent. Palheira,,40.161908,-8.456531
+1225,2187,Casa Meada (viaduto) - Rua da Fontita - sent. Antanhol,,40.161024,-8.459436
+1226,2186,Casa Meada (viaduto) - Rua da Fontita - sent. Palheira,,40.160898,-8.459108
+1227,2204,Casa Nova (cruzamento) - Rua da Fonte - sent. Assafarge,,40.157617,-8.43292
+1228,2203,Casa Nova (cruzamento) - Rua Nova - sent. Assafarge,,40.15768,-8.432318
+1229,2202,Casa Nova (cruzamento) - Rua Nova - sent. Abrunheira,,40.158012,-8.432775
+1230,2211,Vale de Cântaro - centro,,40.1472,-8.438616
+1231,2210,Vale de Cântaro 2 - sent. Assafarge,,40.149024,-8.437773
+1232,2209,Vale de Cântaro 2 - sent. V. Cântaro,,40.148588,-8.437829
+1233,2208,Vale de Cântaro 1 - sent. Assafarge,,40.150806,-8.438796
+1234,2207,Vale de Cântaro 1 - sent. V. Cântaro,,40.150587,-8.438984
+1235,2206,Rua da Fonte - sent. Assafarge,,40.154379,-8.435445
+1236,2205,Rua da Fonte - sent. Vale Cântaro,,40.154642,-8.435485
+1237,2221,Abrunheira 4 - Rua Principal - sent. Assafarge,,40.14662,-8.426656
+1238,2220,Abrunheira 4 - Rua Principal - sent. Loureiro,,40.146622,-8.426763
+1239,2219,Abrunheira (centro) - Largo do Rabaçal - sent. Assafarge,,40.149241,-8.427755
+1240,2218,Abrunheira (centro) - Largo do Rabaçal - sent. Loureiro,,40.149132,-8.427846
+1241,2217,Abrunheira 2 - Rua Principal - sent. Assafarge,,40.150263,-8.429322
+1242,2216,Abrunheira 2 - Rua Principal - sent. Abrunheira,,40.150052,-8.429137
+1243,2215,Abrunheira 1 - Rua Principal - sent. Assafarge,,40.152586,-8.430726
+1244,2214,Abrunheira 1 - Rua Principal - sent. Abrunheira,,40.152216,-8.430577
+1245,2213,Assafarge (casa Nova) - Rua Principal - sent. Assafarge,,40.155643,-8.430859
+1246,2212,Assafarge (casa Nova) - Rua Principal - sent. Abrunheira,,40.155323,-8.43129
+1247,2236,Pousada 3 - rua Felisberto Cardoso - sent. Cernache,,40.140395,-8.458943
+1248,2235,Pousada (centro) - rua do Buxo - sent. Cernache,,40.140752,-8.455955
+1249,2234,Pousada (escola) - rua da Escola - sent. Cernache,,40.139939,-8.454766
+1250,2233,Vendas da Pousada - Rua do Ribeiro - sent. Cernache,,40.138476,-8.454802
+1251,2232,Telhadela 4 - Cm 1165-1 (entrocamento para a Feteira) - sent. Cernache,,40.137941,-8.450912
+1252,2231,Telhadela 3 - Cm 1165-1 (junto à associação) - sent. Cernache,,40.138788,-8.447322
+1253,2230,Telhadela (centro) - Cm 1165-1 - sent. Cernache,,40.139402,-8.445444
+1254,2229,Telhadela 1 - Cm 1165-1 - sent. Cernache,,40.138389,-8.443092
+1255,2228,Loureiro 4 - rua Caminho da Barreira - sent. Telhadela,,40.135046,-8.433963
+1256,2227,Loureiro (centro) - rua do Pombal - sent. Assafarge,,40.134075,-8.431294
+1257,2226,Loureiro (centro) - rua do Pombal - sent. C. Telhada,,40.133976,-8.43159
+1258,2225,Loureiro 2 (rua das Figueiras) - sent. Assafarge,,40.135268,-8.429435
+1259,2224,Loureiro 2 (rua das Figueiras) - sent. C. Telhada,,40.135253,-8.429791
+1260,2223,Loureiro 1 (entroncamento rua dos Olheiros) - sent. Assafarge,,40.137439,-8.429035
+1261,2222,Loureiro 1 (entroncamento rua dos Olheiros) - sent. C. Telhada,,40.137288,-8.429031
+1262,2248,Vila Nova 3 - Rua do Pinheiro Manso - sent. C. Telhada,,40.130115,-8.459383
+1263,2247,Moita Santa 2 - Rua do Salema,,40.134013,-8.464119
+1264,2246,Moita Santa 1 - Rua A,,40.133446,-8.462906
+1265,2245,Vila Nova (centro) - Rua Nova,,40.130837,-8.464466
+1266,2244,Vila Nova 1 - Rua Campos Figueiredo - sent. Cernache,,40.133249,-8.466932
+1267,2243,Vila Nova 1 - Rua Campos Figueiredo - sent. Vila Nova,,40.132968,-8.46661
+1268,2242,Cernache (centro de Saúde) - Rua Campos Figueiredo - sent. Cemiterio,,40.13638,-8.467752
+1269,2241,Cernache (centro de Saúde Ph 47) - Rua Campos Figueiredo - sent. Vila Nova,,40.136887,-8.467787
+1270,2240,Lameira 2 - Rua 1ª de Maio - sent. Cernache,,40.140503,-8.465865
+1271,2239,Lameira 1 - via de acesso à Rua do Tirado - sent. Cemiterio,,40.139417,-8.466264
+1272,2238,Lameira 1 - via de acesso à Rua do Tirado - sent. C. Saude,,40.139397,-8.466802
+1273,2237,Cernache (este) - rua do tirado,,40.140416,-8.461993
+1274,2259,Arneiro - Rua  Venda do Cego - sent. Antanhol,,40.149177,-8.465704
+1275,2258,Arneiro - Rua  Venda do Cego - sent. Cernache,,40.149117,-8.465841
+1276,2257,Venda do Cego - Rua  Venda do Cego - sent. Antanhol,,40.152564,-8.463798
+1277,2256,Venda do Cego - Rua  Venda do Cego - sent. Cernache,,40.153032,-8.463704
+1278,2255,Casa Meada 2 - Estrada da Ponte - sent. Antanhol,,40.159018,-8.462738
+1279,2254,Casa Meada 2 - Estrada da Ponte - sent. Cernache,,40.158011,-8.463274
+1280,2253,Casa Meada 1 - Estrada da Ponte - sent. Antanhol,,40.161196,-8.462191
+1281,2252,Casa Meada 1 - Estrada da Ponte - sent. Cernache,,40.161449,-8.462165
+1284,2249,Casa Telhada (centro) - Rua Estrada Principal,,40.125155,-8.444738
+1285,2268,Rua das Chãs,,40.133894,-8.468086
+1286,2267,Casconha (interface) - Rua das Chãs,,40.133431,-8.471887
+1287,2266,Penedo Alto - viaduto,,40.133763,-8.473906
+1288,2265,Cernache 4 - Rua da Cruz,,40.136058,-8.471177
+1289,2264,Cernache (centro) - Rua do Cabo,,40.13842,-8.469518
+1290,2263,Cernache 2 - Rua da Mesura - sent. Antanhol,,40.141604,-8.468125
+1291,2262,Cernache 2 - Rua da Mesura - sent. Cernache,,40.141299,-8.468291
+1292,2261,Cernache 1 - Rua Venda do Cego - sent. Antanhol,,40.144114,-8.467582
+1293,2260,Cernache 1 - Rua da Mesura - sent. Cernache,,40.143796,-8.467784
+1294,2272,I-parque 2 (praça Central) - sent. Valongo,,40.179432,-8.467172
+1295,2271,I-parque 2 (praça Central) - sent. Cruz,,40.179122,-8.467257
+1296,2270,I-parque 1 - sent. Valongo,,40.1805,-8.470624
+1297,2269,I-parque 1 - sent. Cruz,,40.180198,-8.470627
+1298,2291,Antanhol (cruzamento) - Estrada do Adro Velho - sent. Valongo,,40.16533,-8.460989
+1299,2290,Antanhol (cruzamento) - Estrada do Adro Velho - sent. Ic 2,,40.165287,-8.460568
+1300,2289,Antanhol 4 - Estrada do Adro Velho - sent. Valongo,,40.165733,-8.462674
+1301,2288,Antanhol 4 - Estrada do Adro Velho - sent. Ic 2,,40.165586,-8.462625
+1302,2287,Antanhol (centro) - Largo da Cruzinha - sent. Valongo,,40.167317,-8.463546
+1303,2286,Antanhol (centro) - Largo da Cruzinha - sent. Ic 2,,40.167553,-8.463987
+1304,2285,Antanhol 2 - Estrada Santo António - sent. Valongo,,40.167533,-8.467109
+1305,2284,Antanhol 2 - Estrada Santo António - sent. Antanhol,,40.167653,-8.466195
+1306,2283,Antanhol 1 - Estrada Santo António - sent. Valongo,,40.167583,-8.472634
+1307,2282,Antanhol 1 - Estrada Santo António - sent. Antanhol,,40.167602,-8.472263
+1308,2281,Albergaria 3 - Estrada Santo António - sent. Valongo,,40.168241,-8.475769
+1309,2280,Albergaria 3 - Estrada Santo António - sent. Antanhol,,40.168023,-8.475584
+1310,2279,Albergaria (centro) - Rua Principal -sent. Valongo,,40.169313,-8.478069
+1311,2278,Albergaria (centro) - Rua Principal -sent. Antanhol,,40.169115,-8.477742
+1312,2277,Albergaria 1 - Rua Principal -sent. Valongo,,40.171446,-8.480726
+1313,2276,Albergaria 1 - Rua Principal -sent. Antanhol,,40.171138,-8.480466
+1314,2275,Valongo (cruzamento) - Rua da Fonte - sent. Ribeira,,40.173745,-8.482366
+1315,2274,Valongo (cruzamento) - Rua da Fonte - sent. Antanhol,,40.173462,-8.482277
+1316,2273,Rua Dr. Mendes Silva - Valongo (cruz. c/ E. N. 110-2) - sent. desc.,,40.17598,-8.483639
+1317,2297,Bela Cruz - Estrada Antiga de Lisboa - sent. Coimbra,,40.185619,-8.438267
+1318,2296,Quinta da Machada - Rua António Menano - sent. Coimbra,,40.188029,-8.435553
+1319,2295,Mario Pio (cruzamento) - Ladeira do Vale do Inferno - sent. Coimbra,,40.193352,-8.436389
+1320,2294,Mario Pio (cruzamento) - Ladeira do Vale do Inferno - sent. Antanhol,,40.193526,-8.436703
+1321,2293,Rotunda Baden Powell - Ladeira do Vale do Inferno - sent. Coimbra,,40.197081,-8.436294
+1322,2292,Rotunda Baden Powell - Ladeira do Vale do Inferno - sent. Antanhol,,40.196828,-8.436661
+1323,2298,Alto dos Barreiros - Estrada Antiga de Lisboa - sent. Coimbra,,40.185839,-8.440971
+1324,2299,Cruz dos Morouços (rotunda) - Estrada Antiga de Lisboa - sent. Antanhol,,40.181679,-8.448893
+1325,2313,Antanhol (cruzamento) - Estrada da Chapeleira - sent. Coimbra,,40.165818,-8.459682
+1326,2312,Antanhol (cruzamento) - Estrada da Chapeleira - sent. Cernache,,40.166,-8.459766
+1327,2311,Antanhol - Estrada da Chapeleira - sent. Coimbra,,40.168473,-8.457613
+1328,2310,Antanhol - Estrada da Chapeleira - sent. Cernache,,40.168321,-8.457905
+1329,2309,Ladeira da Paula 4 - rua Ladeira da Paula - sent. Coimbra,,40.170722,-8.455678
+1330,2308,Ladeira da Paula 4 - rua Ladeira da Paula - sent. Antanhol,,40.170714,-8.455831
+1331,2307,Ladeira da Paula 3 - rua Ladeira da Paula - sent. Coimbra,,40.173513,-8.454188
+1332,2306,Ladeira da Paula 3 - rua Ladeira da Paula - sent. Antanhol,,40.173113,-8.45425
+1333,2305,Ladeira da Paula 2 - rua Ladeira da Paula - sent. Coimbra,,40.175411,-8.453719
+1334,2304,Ladeira da Paula 2 - rua Ladeira da Paula - sent. Antanhol,,40.175685,-8.453837
+1335,2303,Ladeira da Paula 1 - rua Ladeira da Paula - sent. Coimbra,,40.177475,-8.451723
+1336,2302,Ladeira da Paula 1 - rua Ladeira da Paula - sent. Antanhol,,40.177519,-8.45226
+1337,2301,Estrada Antiga de Lisboa - sent. Coimbra,,40.178293,-8.450387
+1338,2300,Estrada Antiga de Lisboa - sent. Antanhol,,40.178148,-8.450643
+1339,2329,Largo do Rossio - Monforte,,40.107896,-8.38708
+1340,2328,Bairro Porto das Vendas (rio de Galinhas) - sent. Almalaguês,,40.107983,-8.393502
+1341,2327,Bairro Porto das Vendas (rio de Galinhas) - sent. Monforte,,40.107873,-8.393185
+1342,2326,Bairro Largo (rio de Galinhas) - sent. Almalaguês,,40.110586,-8.395796
+1343,2325,Bairro Largo (rio de Galinhas) - sent. Monforte,,40.110354,-8.395963
+1344,2324,Bairro de Vale de Vilões (rio de Galinhas) - sent. Almalaguês,,40.113502,-8.396166
+1345,2323,Bairro de Vale de Vilões (rio de Galinhas) - sent. Monforte,,40.113111,-8.396757
+1346,2322,Rua do Pinhal (rio de Galinhas) - sent. Almalaguês,,40.116119,-8.396502
+1347,2321,Rua do Pinhal (rio de Galinhas) - sent. Monforte,,40.116008,-8.396559
+1348,2320,Rua Nova (rio de Galinhas) - sent. Almalaguês,,40.115274,-8.400131
+1349,2319,Rua Nova (rio de Galinhas) - sent. Monforte,,40.115188,-8.399916
+1350,2318,Rua do Moinho de Vento - sent. Almalaguês,,40.128236,-8.398316
+1351,2317,Rua do Moinho de Vento - sent. Monforte,,40.128302,-8.398839
+1352,2316,Rua do Jogo da Bola - sent. Almalaguês,,40.130317,-8.394656
+1353,2315,Rua do Jogo da Bola - sent. Monforte,,40.130299,-8.394944
+1354,2314,Rua da Escola Nova - sent. Monforte,,40.134973,-8.395284
+1355,2331,Estrada da Redonda 3 - sent. Lordemão,,40.243426,-8.408347
+1356,2330,Av. José R. Sousa Fernandes (uni. Vasco da Gama) -sent.lordemão,,40.235467,-8.414567
+1357,2332,Estrada Principal da Rocha - Alto da Rocha Nova - Sent. Lordemão,,40.237837,-8.39042
+1358,2335,Rua da Lapa - sent. Lordemão,,40.235521,-8.408825
+1359,2334,Rua do Depósito 2 (lordemão) - sent. Rocha Nova,,40.236374,-8.40615
+1360,2333,Rua do Depósito 1 (lordemão) - sent. Alto da Rocha,,40.236832,-8.404169
+1362,2340,Estrada da Redonda 3 - sent. Redonda,,40.243554,-8.408287
+1363,2339,Estrada da Redonda 2 - sent. Lordemão,,40.240477,-8.408637
+1364,2338,Estrada da Redonda 2 - sent. Redonda,,40.240722,-8.408567
+1365,2337,Estrada da Redonda 1 - sent. Lordemão,,40.238276,-8.40867
+1366,2336,Estrada da Redonda 1 - sent. Redonda,,40.238468,-8.408598
+1367,2342,E. N. 110-2 - Outeiro da Ribeira 2 - Sent. Casais,,40.191227,-8.487091
+1368,2341,E. N. 110-2 - Outeiro da Ribeira 2 - Sent. Valongo,,40.191049,-8.487228
+1370,2344,Rua Pedro Nunes,,40.193146,-8.411768
+1371,2345,"Rua 1.º de Maio (junto da rotunda do Ex. Caic, no sent. Cernache – Lameira)",,40.140403,-8.467623
+1372,2346,Rua Nossa Senhora dos Milagres (cernache - centro) - sent. Vila Pouca,,40.13873,-8.46986
+1373,2350,Rua Barreiro (barroca) - sent. Vila Pouca,,40.136916,-8.482308
+1374,2349,Rua Padre Nogueira Roque (ribeira de Cernache 2) - sent. Vila Pouca,,40.137243,-8.476666
+1375,2348,Rua Padre Nogueira Roque (ribeira de Cernache 1) - sent. Vila Pouca,,40.137776,-8.473697
+1376,2347,"Rua Padre Nogueira Roque (cernache, Igreja ) - sent. Vila Pouca",,40.139431,-8.470771
+1377,2356,Rua do Pinheiro (casal de São Bento),,40.130386,-8.485904
+1378,2355,Rua do Pinheiro - sent. Casal S. Bento,,40.132491,-8.490883
+1379,2354,Rua do Pinheiro (vila Pouca - Oeste),,40.134991,-8.491861
+1380,2353,Rua de Santo António (vila Pouca - centro),,40.135733,-8.49005
+1381,2352,Rua Santa Luzia (vila Pouca- este),,40.13608,-8.487561
+1382,2351,Rua Santa Luzia (escola Primária de Vila Pouca) – Pt  H. 201,,40.136942,-8.48601
+1383,2360,Rua Fonte da Lapa 3 - sent. Casconha,,40.130699,-8.472976
+1384,2359,Rua Fonte da Lapa 2 - sent. Casconha,,40.131268,-8.474374
+1385,2358,Rua Fonte da Lapa 1 - sent. Casconha,,40.131442,-8.47652
+1386,2357,Casal de São Lourenço - sent. Ic2,,40.129299,-8.483304
+1387,2361,Largo da Pêla - (casconha centro),,40.131111,-8.471712
+1388,2363,Rua do Zambujal 2,,40.133922,-8.459943
+1389,2362,Rua do Zambujal 1,,40.130632,-8.460139
+1390,2366,Rua 29 de Junho - Vendas da Pousada,,40.138225,-8.455015
+1391,2365,Largo da Fonte - Vendas da Pousada,,40.137268,-8.455675
+1392,2364,Rua Ponte Marvão - (feteira - Ponte Marvão),,40.13586,-8.457979
+1393,2371,Loureiro 4 - rua Caminho da Barreira - sent. Abrunheira,,40.134355,-8.433726
+1394,2370,Telhadela 1 - Cm 1165-1 - sent. Loureiro,,40.138462,-8.443323
+1395,2369,Telhadela (centro) - Cm 1165-1 - sent. Loureiro,,40.139322,-8.445448
+1396,2368,Telhadela 3 - Cm 1165-1 (junto à associação) - sent. Loureiro,,40.138667,-8.447346
+1397,2367,Telhadela 4 - Cm 1165-1 (entrocamento para a Feteira) - sent. Loureiro,,40.137883,-8.450795
+1398,2372,Vila Nova 3 - Rua do Pinheiro Manso - sent. Cernache,,40.129983,-8.457809
+1399,2373,Orelhudo (rotunda) - sent. Casconha,,40.129976,-8.479107
+1400,2374,Largo da Pêla - (casconha centro),,40.131225,-8.471893
+1401,2378,Largo da Fonte - Orelhudo,,40.126955,-8.480537
+1402,2377,Orelhudo - centro,,40.127072,-8.478186
+1403,2376,Rua da Ribeira - Ribeira de Casconha 2,,40.128021,-8.473281
+1404,2375,Rua da Ribeira - Ribeira de Casconha 1,,40.129252,-8.470942
+1405,2382,"Rua de Alcorredores 2, sent. Fornos",,40.271083,-8.438497
+1406,2381,"Rua de Alcorredores 2, sent. Souselas",,40.271187,-8.438389
+1407,2380,"Rua de Alcorredores 1, sent. Fornos",,40.267734,-8.440449
+1408,2379,"Rua de Alcorredores 1, sent. Souselas",,40.267823,-8.440107
+1409,2388,"Rua José Antunes Vaz Serra 2, sent. Brasfemes",,40.249922,-8.40913
+1410,2387,"Rua Cabeço da Fragosa, Ribeiro de Vilela, sent. Souselas",,40.277212,-8.428852
+1411,2385,"Rua da Ponte Pedrinha 2, sent. Souselas",,40.276758,-8.43116
+1412,2386,"Rua da Ponte Pedrinha 2, sent. Fornos",,40.276553,-8.43134
+1413,2384,"Rua da Ponte Pedrinha 1, sent. Fornos",,40.272972,-8.434825
+1414,2383,"Rua da Ponte Pedrinha 1, sent. Souselas",,40.272725,-8.434898
+1415,2392,"Rua dos Correios, sent. Fornos",,40.286843,-8.424957
+1416,2391,"Rua dos Correios, sent. Souselas",,40.286266,-8.424909
+1417,2390,"Rua da Adega Cooperativa, sent. Fornos",,40.281275,-8.428327
+1418,2389,"Rua da Adega Cooperativa, sent. Souselas",,40.281521,-8.42816
+1419,2400,"Rua Vale de S. Pedro 4, sent. Souselas",,40.295238,-8.427154
+1420,2399,"Rua Vale de S. Pedro 4, sent. Marmeleira",,40.295438,-8.427127
+1421,2398,"Rua Vale de S. Pedro 3, sent. Souselas",,40.292781,-8.42606
+1422,2397,"Rua Vale de S. Pedro 3, sent. Marmeleira",,40.293088,-8.426207
+1423,2396,"Rua Vale de S. Pedro 2, sent. Souselas",,40.291575,-8.424465
+1424,2395,"Rua Vale de S. Pedro 2, sent. Marmeleira",,40.291678,-8.424481
+1425,2394,"Rua Vale de S. Pedro 1, sent. Souselas",,40.290161,-8.423597
+1426,2393,"Rua Vale de S. Pedro 1, sent. Marmeleira",,40.290505,-8.423645
+1427,2404,"Rua João Manuel Pereira Gonçalves, sent. Souselas",,40.306811,-8.426557
+1428,2403,"Rua João Manuel Pereira Gonçalves, sent. Marmeleira",,40.307155,-8.426375
+1429,2402,"Rua Senhora da Agonia, sent. Souselas",,40.303764,-8.426196
+1430,2401,"Rua Senhora da Agonia, sent. Marmeleira",,40.304091,-8.426147
+1431,2411,"Rua do Pó, Marmeleira",,40.311132,-8.4268
+1432,2410,"Rua do Carril, Marmeleira",,40.313194,-8.427526
+1433,2409,"Rua 1ª de Maio, Marmeleira",,40.312037,-8.425835
+1434,2408,"Rua José Leopoldino dos Santos, Marmeleira, sent. Souselas",,40.3105,-8.425499
+1435,2407,"Rua José Leopoldino dos Santos, Marmeleira, sent. Marmeleira",,40.310473,-8.425452
+1436,2406,"Rua 25 de Abril, Marmeleira, sent.souselas",,40.308659,-8.425329
+1437,2405,"Rua 25 de Abril, Marmeleira, sent.marmeleira",,40.308401,-8.42545
+1438,2414,"Rua das Lentieiras 2, S. Martinho do Pinheiro, sent. S.mart. Pinheiro",,40.298002,-8.437874
+1439,2415,"Rua das Lentieiras 2, S. Martinho do Pinheiro, sent. Marmeleira",,40.297976,-8.437226
+1440,2413,"Rua das Lentieiras 1, S. Martinho do Pinheiro, sent. Marmeleira",,40.298273,-8.43385
+1441,2412,"Rua das Lentieiras 1, S. Martinho do Pinheiro, sent. S.mart. Pinheiro",,40.29833,-8.433721
+1442,2417,"Largo N. Sr.ª da Nazaré, S. Martinho do Pinheiro, sent. S.martinho do Pinheiro",,40.296949,-8.438011
+1443,2416,"Largo N. Sr.ª da Nazaré, S. Martinho do Pinheiro, sent. Zouparria",,40.296728,-8.43794
+1444,2420,"Rua Carriça dos Sargaçais, Zouparria do Monte, sent. Souselas",,40.290431,-8.434495
+1445,2419,"Rua Central da Fonte 1, Zouparria do Monte, sent. Sargento Mor",,40.290746,-8.435258
+1446,2418,"Rua da Ponte de S. Bento, Zouparria, sent. S.martinho do Pinheiro",,40.29087,-8.434766
+1447,2427,"Rua do Lagar, Sargento Mor",,40.288764,-8.446994
+1448,2426,"Rua Alto da Eira, Sargento Mor, sent. Souselas",,40.289178,-8.444355
+1449,2425,"Rua Alto da Eira, Sargento Mor, sent. Ic2",,40.289486,-8.444233
+1450,2424,"Rua da Liberdade, Zouparria do Monte, sent. Souselas",,40.289829,-8.44025
+1451,2423,"Rua dos Calços, Zouparria do Monte, sent. Sargento Mor",,40.289918,-8.440376
+1452,2422,"Rua Central da Fonte 2, Zouparria do Monte, sent. Souselas",,40.290529,-8.437436
+1453,2421,"Rua Central da Fonte 2, Zouparria do Monte, sent. Sargento Mor",,40.290486,-8.437622
+1454,2433,"Rua Zeca Afonso, Souselas, sent. sul",,40.291218,-8.427987
+1455,2432,"Rua Zeca Afonso, Souselas, sent. norte",,40.291347,-8.42788
+1456,2430,"Rua Nova dos Sargaçais 2, Souselas, sent. Sargennto Mor",,40.289759,-8.428317
+1457,2431,"Rua Nova dos Sargaçais 2, Souselas, sent. Souselas",,40.289718,-8.428103
+1458,2429,"Rua Nova dos Sargaçais 1, Souselas, sent. Souselas",,40.290058,-8.431555
+1459,2428,"Rua Nova dos Sargaçais 1, Souselas, sent. Sargento Mor",,40.290136,-8.430997
+1460,2440,Interface Ponte de Eiras,,40.250891,-8.441719
+1461,2439,"Rua Augusto Luiz Martha 2, sent. Loreto",,40.237135,-8.438636
+1462,2437,"Rua Augusto Luiz Martha 1, sent. Loreto",,40.234862,-8.440198
+1463,2438,"Rua Augusto Luiz Martha 2, sent. bombas",,40.23742,-8.438483
+1464,2436,"Rua Augusto Luiz Martha 1, sent. bombas",,40.234985,-8.439957
+1465,2435,"Rua do Pinheiro Manso, sent. S. Martinho do Pinheiro",,40.293748,-8.435557
+1466,2434,"Rua do Pinheiro Manso, sent. Souselas",,40.29387,-8.435742
+1467,2445,"Largo das Almas, Outeiro do Botão",,40.301995,-8.401098
+1468,2444,"Cruzamento do Outeiro do Botão - N336, sent. Souselas",,40.304609,-8.406572
+1469,2443,"Cruzamento do Outeiro do Botão - N336, sent. Póvoa do Loureiro",,40.304816,-8.406484
+1470,2442,"Rua dos Troviscais, Souselas, sent. Souselas",,40.293421,-8.420113
+1471,2441,"Rua dos Troviscais, Souselas, sent. Ip3",,40.293699,-8.419737
+1472,2449,"Rua Frei Francisco de Macedo, Botão, sent. cemiterio",,40.306419,-8.401013
+1473,2448,"Rua Frei Francisco de Macedo, Botão, sent. Botão",,40.306367,-8.40151
+1474,2447,"N336, Botão  Cemitério, sent. Souselas",,40.307052,-8.405443
+1475,2446,"N336, Botão Cemitério, sent. Póvoa do Loureiro",,40.306884,-8.404955
+1476,2454,"Rua do Lagar 3, Botão, sent. Botão",,40.305826,-8.393642
+1477,2455,"Rua do Lagar 3, Botão, sent. Cemiterio",,40.305789,-8.393808
+1478,2453,"Rua do Lagar 2, Botão, sent. Cemiterio",,40.305372,-8.395804
+1479,2452,"Rua do Lagar 2, Botão, sent. Botão",,40.305482,-8.396196
+1480,2451,"Rua do Lagar 1, Igreja do Botão, sent. Cemiterio",,40.306664,-8.398315
+1481,2450,"Rua do Lagar 1, Igreja do Botão, sent. Botão",,40.306623,-8.398328
+1482,2461,"Rua dos Fontenários 2, Larçã, sent. Souselas",,40.322239,-8.396701
+1483,2460,"Rua dos Fontenários 2, Larçã, sent. Póvoa do Loureiro",,40.322382,-8.396645
+1484,2459,"Rua dos Fontenários 1, Larçã, sent. Souselas",,40.319589,-8.396464
+1485,2458,"Rua dos Fontenários 1, Larçã, sent. Póvoa do Loureiro",,40.319789,-8.396282
+1486,2457,"Rua da Laranjeira, Larçã, sent. Souselas",,40.316263,-8.398862
+1487,2456,"Rua da Laranjeira, Larçã, sent. Povoa do Loureiro",,40.316231,-8.398793
+1488,2465,"Rua da Liberdade 2, Mata de São Pedro",,40.325074,-8.374819
+1489,2464,"Rua da Liberdade 1, Mata de São Pedro, sent. Larçã",,40.325864,-8.377714
+1490,2463,"Rua da Liberdade 1, Mata de São Pedro, sent. Mata S.pedro",,40.325878,-8.377848
+1491,2462,"Rua da Escola, Larçã",,40.319871,-8.395926
+1492,2471,"Rua das Hortas, Paço, sent. Larçã",,40.3305,-8.396001
+1493,2470,"Rua das Hortas, Paço, sent. Póvoa do Loureiro",,40.330496,-8.395932
+1494,2469,"Rua Dr. Mário Matos 2, Paço, sent. Larçã",,40.328159,-8.39627
+1495,2467,"Rua Dr. Mário Matos 1, Paço, sent. Larçã",,40.325684,-8.396768
+1496,2468,"Rua Dr. Mário Matos 2, Paço, sent. Póvoa do Loureiro",,40.32838,-8.396128
+1497,2466,"Rua Dr. Mário Matos 1, Paço, sent. Póvoa do Loureiro",,40.32595,-8.396698
+1498,2481,"Rua do Mato do Poço 2, Paúl",,40.349247,-8.401214
+1499,2480,"Rua do Mato do Poço 1, Paúl",,40.347772,-8.394622
+1500,2479,"Rua do Largo, Paúl",,40.347051,-8.392091
+1501,2478,"Rua do Lagar 2, Póvoa do Loureiro, sent. Larçã",,40.345306,-8.40263
+1502,2477,"Rua do Lagar 1, Póvoa do Loureiro, sent. Larçã",,40.34437,-8.401257
+1503,2476,"Rua do Lagar 1, Póvoa do Loureiro, sent. Paúl",,40.344165,-8.400624
+1504,2475,"Rua do Chafariz, Póvoa do Loureiro, sent. Larçã",,40.342424,-8.397813
+1505,2474,"Rua do Chafariz, Póvoa do Loureiro, sent. Póvoa do Loureiro",,40.342375,-8.397636
+1506,2473,"Rua Nova do Lameiro, Paço, sent. Larçã",,40.333856,-8.397545
+1507,2472,"Rua Nova do Lameiro, Paço, sent. Póvoa do Loureiro",,40.333849,-8.397495
+1508,2486,Rua 25 de Abril 3 - Vilarinho - Sent. Eiras,,40.258895,-8.404664
+1509,2485,Rua 25 de Abril 3 - Vilarinho - Sent. Brasfemes,,40.258785,-8.404528
+1510,2484,Rua 25 de Abril 2 - Vilarinho - Sent. Eiras,,40.256375,-8.404867
+1511,2483,Rua 25 de Abril 2 - Vilarinho - Sent. Brasfemes,,40.256448,-8.404758
+1512,2482,Rua 25 de Abril 1 - Alto do Balancho - Sent. Brasfemes,,40.254272,-8.405365
+1513,2493,"Ruas das Acáçias 2, Vilarinho, sent. Eiras",,40.261325,-8.403019
+1514,2492,"Ruas das Acáçias 1, Vilarinho, sent. Eiras",,40.262979,-8.402992
+1515,2491,"Rua 5 de Outubro 3, Brasfemes, sent. Eiras",,40.267367,-8.401865
+1516,2490,"Rua 5 de Outubro 3, Brasfemes, sent. Brasfemes",,40.26768,-8.401831
+1517,2489,"Rua 5 de Outubro 2, Brasfemes, sent. Eiras",,40.265317,-8.402318
+1518,2488,"Rua 5 de Outubro 2, Brasfemes, sent. Brasfemes",,40.265514,-8.402176
+1519,2487,"Rua 5 de Outubro 1, Brasfemes, sent. Brasfemes",,40.263315,-8.40248
+1520,2498,"Rotunda 25 de Abril, Brasfemes - sent. Bostelim",,40.272983,-8.398929
+1521,2497,"Rua Miguel Torga, Brasfemes",,40.270939,-8.401092
+1522,2496,"Rua 25 de Abril, Brasfemes",,40.270876,-8.400775
+1523,2495,"Rua Dr. Fausto de Quadros, Brasfemes",,40.268825,-8.402344
+1524,2494,"Rua Antonino dos Santos, Brasfemes",,40.269191,-8.401695
+1525,2500,"Rua da Cerâmica Ceres, Torre de Vilela, sent. Ademia",,40.26528,-8.438404
+1526,2499,"Rua do Campo de Futebol, Torre de Vilela, sent. Ademia",,40.266933,-8.43418
+1527,2172,Rua Arco da Traição - Jardim Botânico,,40.206828,-8.424008
+1530,2503,"Rua Quinta da Zombaria, Alcarraques - sent. Ademia",,40.26953,-8.465068
+1531,2502,"Rua Quinta da Zombaria, Alcarraques - sent. Vil Matos",,40.269852,-8.465121
+1532,2505,Couraça de Lisboa - sent. Portagem,,40.206571,-8.425739
+1534,9002,Universidade - Polo I,,40.207941,-8.424293
+1535,9003,Eco H.u.c. - Rot. Mota Pinto,,40.218316,-8.41387
+1536,2512,Cruzamento Mata do Maxial - Bostelim,,40.2792,-8.37867
+1537,2511,Rua 25 de Abril - Bostelim - sent. Brasfemes,,40.273592,-8.382117
+1538,2510,Rua 25 de Abril - Bostelim - sent. Bostelim,,40.273449,-8.382852
+1539,2509,Rua das Tileiras  - sent. Brasfemes,,40.275736,-8.396928
+1540,2508,Rua das Tileiras  - sent. Bostelim,,40.275306,-8.396984
+1541,2507,Cruz. da Pedrulha (ex-matadouro) - Sent. Est. Eiras,,40.241769,-8.441914
+1542,2506,"Rua José Antunes Vaz Serra 1, sent. Brasfemes",,40.249119,-8.410053
+1543,2513,"Rotunda 25 de Abril, Brasfemes - sent. Eiras",,40.273047,-8.398999
+1544,2530,Rua dos Principal- Casal Novo 2 - Sent. P. Casal Novo,,40.137363,-8.376774
+1545,2529,Rua dos Principal- Casal Novo 2 - Sent. C. Novo,,40.137186,-8.376459
+1546,2528,"Rua Vale da Murteira, Portela do Casal Novo 1 - sent. P. Casal Novo",,40.13936,-8.37692
+1547,2527,"Rua Vale da Murteira, Portela do Casal Novo 1 - sent. Casal Novo",,40.13944,-8.377004
+1548,2526,"Rua da Escola, Portela do Casal Novo 2 - sent. Ceira",,40.142359,-8.376666
+1549,2525,"Rua Vale da Murteira, Portela do Casal Novo 2 - sent. Casal Novo",,40.14206,-8.376707
+1550,2524,"Rua da Escola, Portela do Casal Novo 3 - sent. Ceira",,40.143124,-8.378203
+1551,2523,"Rua da Escola, Portela do Casal Novo 3 - sent. Almalaguês",,40.143183,-8.37805
+1552,2522,"Rua Principal, Braçais - sent. Ceira",,40.14591,-8.380224
+1553,2521,"Rua Principal, Braçais - sent. Almalaguês",,40.145796,-8.380351
+1554,2520,"Rua Principal 1, Abelheira - sent. Ceira",,40.153463,-8.382702
+1555,2519,"Rua Principal 1, Abelheira - sent. Braçais",,40.15334,-8.382739
+1556,2518,"Rua Principal 2, Abelheira - sent. Ceira",,40.157242,-8.382189
+1557,2517,"Rua Principal 2, Abelheira - sent. Braçais",,40.157178,-8.382273
+1558,2516,"Rua Cabeço do Moinho, Abelheira - sent. Ceira",,40.159618,-8.38411
+1559,2515,"Rua Cabeço do Moinho, Abelheira - sent. Braçais",,40.159441,-8.384099
+1560,2514,"Cruzamento Abelheira, Sent. Ceira",,40.16015,-8.385539
+1561,2531,Rua dos Principal- Casal Novo 1,,40.136945,-8.373272
+1562,2535,Serra da Rocha 3 - sent. Coimbra,,40.233839,-8.377291
+1563,2534,Serra da Rocha 3 - sent. Cova do Ouro,,40.234162,-8.377476
+1564,2533,Serra da Rocha 1 - sent. Coimbra,,40.236268,-8.380199
+1565,2532,Serra da Rocha 1 - sent. Cova do Ouro,,40.236206,-8.379766
+1566,2537,"Rua do Moinho de Vento, sent. Almalaguês",,40.127015,-8.401406
+1567,2536,"Rua do Moinho de Vento, sent. Monforte",,40.126879,-8.401565
+1568,2541,"Caminho da Raposa, sent. Mesura",,40.191677,-8.447256
+1569,2540,"Rua do Girassol, sent. Mesura",,40.190952,-8.445696
+1570,2539,"Rua Alto dos Barreiros, sent. Mesura",,40.18953,-8.443744
+1571,2538,Rua Nossa Senhora das Victórias - sent. Mesura,,40.188221,-8.4418
