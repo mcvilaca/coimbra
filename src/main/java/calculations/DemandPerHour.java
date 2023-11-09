@@ -6,7 +6,7 @@ import java.util.*;
 public class DemandPerHour {
 	public static void main(String[] args) throws IOException {
 		// Read input file
-		BufferedReader br = new BufferedReader(new FileReader("data/population/coimbraFiltro_synthetic9.tsv"));
+		BufferedReader br = new BufferedReader(new FileReader("data/population/Syntheticpopulation_filtro2_simplified_filtro3_EWGT.tsv"));
 
 		// Create demand array with 24 hours
 		double[] demand = new double[25];

@@ -9,7 +9,7 @@ public class DemandPerHourZone {
 	public static void main(String[] args) throws IOException, ParseException {
 
 		// Set the input and output file paths
-		String inputFilePath = "data/population/coimbraFiltro_synthetic8.tsv";
+		String inputFilePath = "data/population/Syntheticpopulation_filtro2_simplified_filtro3_EWGT.tsv";
 		String outputFilePath = "data/Calculations/outputDemandPerDayZone.txt";
 
 		// Initialize a map to store the request counts for each zone for each hour of
