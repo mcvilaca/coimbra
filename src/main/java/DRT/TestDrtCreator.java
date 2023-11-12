@@ -50,7 +50,7 @@ import pt.mvilaca.matsimtests.population.CoimbraQuestionario;
 
 
 	public class TestDrtCreator {
-		private static final String COIMBRA_DOOR2DOOR_CONFIG = "scenarios/coimbra_ewgtdrt_v3/config.xml";
+		private static final String COIMBRA_DOOR2DOOR_CONFIG = "scenarios/coimbra_ewgtdrt_art/config.xml";
 		
 //		private static final double MAX_CAPACITY = 4;
 		
