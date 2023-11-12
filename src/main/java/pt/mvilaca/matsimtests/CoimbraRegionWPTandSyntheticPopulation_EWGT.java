@@ -39,7 +39,7 @@ public static void main(String[] args) throws IOException, ParseException {
 
 		
 		
-		File f = Paths.get("data", "population", "Syntheticpopulation_filtro2_simplified_filtro3_EWGT_downsize.tsv").toFile();
+		File f = Paths.get("data", "population", "Syntheticpopulation_filtro2_simplified_filtro3_EWGT.tsv").toFile();
 		CoimbraQuestionario cq = CoimbraQuestionario.readCoimbraTSV(f);
 		
 	
@@ -49,10 +49,10 @@ public static void main(String[] args) throws IOException, ParseException {
 		
 
 		//PLANS
-		config.plans().setInputFile("scenarios/coimbra_ewgt_v3/population_downsize.xml");
+		config.plans().setInputFile("scenarios/coimbra_ewgt_v3/population_x.xml");
 
 		//FACILITIES
-		config.facilities().setInputFile("scenarios/coimbra_ewgt_v3/facilities_downsize.xml");
+		config.facilities().setInputFile("scenarios/coimbra_ewgt_v3/facilities.xml");
 		config.facilities().setInputCRS("EPSG:20790");
 		
 		//COUNTS
@@ -166,7 +166,7 @@ public static void main(String[] args) throws IOException, ParseException {
 		
 		
 		config.controler().setOverwriteFileSetting( OverwriteFileSetting.deleteDirectoryIfExists );
-		config.controler().setOutputDirectory("scenarios/coimbra_ewgt_v3/outputs_baseline_downsize");
+		config.controler().setOutputDirectory("scenarios/coimbra_ewgt_v3/outputs_baseline");
 		config.controler().setFirstIteration(1);
 		config.controler().setLastIteration(5);
 		config.controler().setWriteEventsInterval(1);

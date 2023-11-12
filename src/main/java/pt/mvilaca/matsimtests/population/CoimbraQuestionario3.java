@@ -70,14 +70,7 @@ public class CoimbraQuestionario3 {
 
 			MotivoViagem motivo = convertMotivoViagem(tokens[9]);
 
-			String modo = null;
-			try {
-				modo = convertToTransportMode(tokens[23]);
-			} catch (Exception e) {
-				System.err.println("Problem on Line:\n" + line);
-				throw e;
-			}
-			
+			String modo = convertToTransportMode(tokens[23]);
 
 			int startAtHome = Integer.parseInt(tokens[2]);
 
