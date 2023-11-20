@@ -4,6 +4,9 @@ import java.io.*;
 import java.text.*;
 import java.util.*;
 
+/*Analysis of the input population (.tsv) file; output: text file with no. of vehicles per hour of the day and zone;
+ *  also give in the console zone and time of the day with more demand*/
+
 public class DemandPerHourZone {
 
 	public static void main(String[] args) throws IOException, ParseException {

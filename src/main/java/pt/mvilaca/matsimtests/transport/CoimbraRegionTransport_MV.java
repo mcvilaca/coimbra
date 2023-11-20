@@ -24,6 +24,8 @@ import org.matsim.pt2matsim.tools.ScheduleTools;
 import org.matsim.pt2matsim.tools.ShapeTools;
 import org.matsim.pt2matsim.tools.lib.RouteShape;
 
+
+/* This class read the pT gtfs files and generates schedules, vehicles and network xml files including the PT**/
 public class CoimbraRegionTransport_MV {
 
 	

@@ -12,6 +12,7 @@ import org.matsim.core.utils.geometry.CoordinateTransformation;
 import org.matsim.core.utils.geometry.transformations.TransformationFactory;
 import org.matsim.core.utils.io.OsmNetworkReader;
 
+//Este código transforma osm em xml network
 //based on the AveiroV1OSMToNetwork_OtherWay
 public class Coimbra_EWGTOsmToNetwork {
 	public static void main(String[] args) {

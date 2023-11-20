@@ -3,6 +3,8 @@ package calculations;
 import java.io.*;
 import java.util.*;
 
+/*Analysis of the input population (.tsv) file; output: text file with no. of vehicles per hour of the day*/
+
 public class DemandPerHour {
 	public static void main(String[] args) throws IOException {
 		// Read input file

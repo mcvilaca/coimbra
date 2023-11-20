@@ -49,7 +49,7 @@ public static void main(String[] args) throws IOException, ParseException {
 		
 
 		//PLANS
-		config.plans().setInputFile("scenarios/coimbra_ewgt_v3/population_x.xml");
+		config.plans().setInputFile("scenarios/coimbra_ewgt_v3/population.xml");
 
 		//FACILITIES
 		config.facilities().setInputFile("scenarios/coimbra_ewgt_v3/facilities.xml");

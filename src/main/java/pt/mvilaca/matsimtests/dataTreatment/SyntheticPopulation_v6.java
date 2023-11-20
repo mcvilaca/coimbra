@@ -8,6 +8,9 @@ import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.*;
 
+/*Este Código replica o número de viagens descritas no inquérito de mobilidade as vezes descritas pelo coef_exp, nas viagens replicadas seleciona de forma aleatoria coordenadas dentro da mesma zona e faz variar o dep_time +/- 10min
+ * */
+
 public class SyntheticPopulation_v6 {
 
 	public static void main(String[] args) throws IOException {

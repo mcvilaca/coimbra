@@ -27,10 +27,12 @@ package DRT;
 //
 //}
 
-
+//
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+
+//Class that uses the original population xml file and change the modes 'car', 'pt' and'ride' by 'drt'
 
 public class PopulationDRT {
     public static void main(String[] args) {

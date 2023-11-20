@@ -5,6 +5,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
+/*Use as a input file the synthetic generated tsv file of the population and reduce it randomly 
+ * (usually defined for 5% or 10% but adjustable)* */
+
 public class DownsizePopulation {
     public static void main(String[] args) {
         try {
@@ -29,7 +32,7 @@ public class DownsizePopulation {
             int numLinesToSelect = (int) Math.ceil(0.05 * lines.size());
 
             // Create a new TSV file for the selected lines
-            String selectedFilePath = "data/population/Syntheticpopulation_filtro2_simplified_filtro3_EWGT_downsize.tsv";
+            String selectedFilePath = "data/population/Syntheticpopulation_filtro2_simplified_filtro3_EWGT_downsize5.tsv";
             BufferedWriter writer = new BufferedWriter(new FileWriter(selectedFilePath));
 
             // Write the randomly chosen lines to the new file

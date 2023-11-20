@@ -34,6 +34,8 @@ import org.matsim.facilities.ActivityOption;
 import pt.mvilaca.matsimtests.population.CoimbraQuestionario3.MotivoViagem;
 import pt.mvilaca.matsimtests.population.CoimbraQuestionario3.QuestionarioIndividual;
 
+/*This classe its developed to read the specific data survey of Coimbra region and classifies transport modes and trip purposes - Nesta atualização foi corrigida a forma como os planos estavam a ser gerados*/
+
 public class CoimbraQuestionario3 {
 
 	public static CoimbraQuestionario3 readCoimbraTSV(File f) throws IOException, ParseException {

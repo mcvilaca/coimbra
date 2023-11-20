@@ -3,6 +3,8 @@ package DRT;
 import java.io.FileWriter;
 import java.io.IOException;
 
+/*Class to generate the drt fleet*/
+
 public class vehiclesXml {
     public static void main(String[] args) {
         String fileName = "scenarios/coimbra_ewgtdrt_v2/vehicles_20000.xml";

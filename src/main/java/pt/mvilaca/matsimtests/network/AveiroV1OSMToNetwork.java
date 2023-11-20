@@ -16,7 +16,7 @@ import org.matsim.core.utils.geometry.CoordinateTransformation;
 import org.matsim.core.utils.geometry.transformations.TransformationFactory;
 import org.matsim.utils.gis.shp2matsim.ShpGeometryUtils;
 
-
+/* Este código não funciona 'OtherWay' foi a solução**/
 public class AveiroV1OSMToNetwork {
 
 	public static void main(String[] args) {
