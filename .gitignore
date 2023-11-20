@@ -22,4 +22,7 @@ scenarios/*/outputs*
 
 # Regras de ficheiros grandes (ainda verificar o que fazer)
 # data/osm/Coimbra_Region.osm
+# scenarios/coimbra_ewgt_v3/population.xml
+# scenarios/coimbra_ewgtdrt_v3/population.xml
+
 
