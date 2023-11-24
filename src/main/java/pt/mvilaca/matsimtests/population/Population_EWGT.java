@@ -43,10 +43,10 @@ public static void main(String[] args) throws IOException, ParseException {
 		cq.createQuestionaryPlan(scenario);
 		
 		PopulationWriter populationWriter = new PopulationWriter(scenario.getPopulation(), scenario.getNetwork());
-		populationWriter.write("scenarios/coimbra_ewgt_v3/population.xml");
+		populationWriter.write("scenarios/coimbra_ewgt_v3/population_2.xml");
 		
 		FacilitiesWriter facilitiesWriter = new FacilitiesWriter(scenario.getActivityFacilities());
-		facilitiesWriter.write("scenarios/coimbra_ewgt_v3/facilities.xml");
+		facilitiesWriter.write("scenarios/coimbra_ewgt_v3/facilities_2.xml");
 	}
 	
 	

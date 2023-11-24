@@ -200,9 +200,12 @@ public class CoimbraQuestionario3 {
 
 		ActivityOption ao = scenario.getActivityFacilities().getFactory().createActivityOption("Home");
 		ret.put(MotivoViagem.casa, ao);
-		ret.put(MotivoViagem.buscar_levar_familiares, ao);
 		ret.put(MotivoViagem.regresso_a_casa_dos_pais, ao);
 		ret.put(MotivoViagem.visitas, ao);
+		
+		ao = scenario.getActivityFacilities().getFactory().createActivityOption("Escort");
+		ret.put(MotivoViagem.buscar_levar_familiares, ao);
+	
 
 		ao = scenario.getActivityFacilities().getFactory().createActivityOption("Work");
 		ret.put(MotivoViagem.trabalho, ao);
@@ -225,17 +228,14 @@ public class CoimbraQuestionario3 {
 		ao = scenario.getActivityFacilities().getFactory().createActivityOption("Health");
 		ret.put(MotivoViagem.saude, ao);
 
-		ao = scenario.getActivityFacilities().getFactory().createActivityOption("Agriculture");
-		ret.put(MotivoViagem.trabalhos_agriculas, ao);
-
 		ao = scenario.getActivityFacilities().getFactory().createActivityOption("Services");
 		ret.put(MotivoViagem.servicos_publicos, ao);
+		ret.put(MotivoViagem.assuntos_pessoais, ao);
 
 		ao = scenario.getActivityFacilities().getFactory().createActivityOption("Others");
-		ret.put(MotivoViagem.assuntos_pessoais, ao);
+		
 		ret.put(MotivoViagem.outros, ao);
-
-		ao = scenario.getActivityFacilities().getFactory().createActivityOption("Unknown");
+		ret.put(MotivoViagem.trabalhos_agriculas, ao);
 		ret.put(MotivoViagem.nao_responde, ao);
 
 		return ret;
