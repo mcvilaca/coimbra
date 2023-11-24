@@ -60,12 +60,15 @@ public class SyntheticPopulation_v7 {
                 Date newStartTime = new Date(startTime.getTime() + (long) (timeDelta * 60 * 1000));
 
 
-                if (motivo == MotivoViagem.casa || motivo == MotivoViagem.trabalho) {
+                Coord newOrigCoord;
+				Coord newDestCoord;
+				if (motivo == MotivoViagem.casa || motivo == MotivoViagem.trabalho) {
                     newOrigCoord = generateOrRetrieveCoordinate(personId, origZoneId, origX, origY, homeCoordinatesMap);
                     newDestCoord = generateOrRetrieveCoordinate(personId, destZoneId, destX, destY, workCoordinatesMap);
                 } else {
-                	  Coord newOrigCoord = generateRandomCoordinate(coordType, origZoneId);
-                      Coord newDestCoord = generateRandomCoordinate(coordType, destZoneId);
+                	MotivoViagem firstActivityType;
+					newOrigCoord = generateRandomCoordinate(firstActivityType, origZoneId);
+                    newDestCoord = generateRandomCoordinate(motivo, destZoneId);
                 }
 
                 QuestionarioIndividual ai = new QuestionarioIndividual(personId, newOrigCoord, newDestCoord,
@@ -85,8 +88,13 @@ public class SyntheticPopulation_v7 {
         System.out.println("Program has finished executing.");
     }
     
-    private static Coord generateRandomCoordinate(String coordType, int zoneId) {
-        String key = coordType + "_" + zoneId;
+    private static void populateCoordinateBank(List<String> lines) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static Coord generateRandomCoordinate(MotivoViagem motivo, int zoneId) {
+        String key = motivo + "_" + zoneId;
         List<Coord> coordinates = coordinateBank.get(key);
 
         if (coordinates != null && !coordinates.isEmpty()) {
