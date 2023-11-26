@@ -61,11 +61,19 @@ public class CoimbraQuestionario3 {
 			x = Double.parseDouble(tokens[3]);
 			y = Double.parseDouble(tokens[4]);
 			Coord origen = new Coord(x, y);
+			
 
 			// Destino
 			x = Double.parseDouble(tokens[11]);
 			y = Double.parseDouble(tokens[12]);
 			Coord destino = new Coord(x, y);
+			
+			int zonaDestino = 0;
+			int zonaOrigem = 0;
+			
+			//Origem ID
+			zonaOrigem =  Integer.parseInt(tokens[7]);
+			zonaDestino = Integer.parseInt(tokens[15]);
 
 			// Horas
 			Date inicio = df.parse(tokens[17]);
@@ -86,8 +94,11 @@ public class CoimbraQuestionario3 {
 			// Assign the value of tokens[1] (column 1) to tripSequence
 			int tripSequence = Integer.parseInt(tokens[1]);
 
-			QuestionarioIndividual ai = new QuestionarioIndividual(personId, origen, destino,
-					inicio.getHours() * 60 * 60 + inicio.getMinutes() * 60.0, motivo, modo, startAtHome, tripSequence);
+			Double coefExp = Double.parseDouble(tokens[38]);
+			
+			QuestionarioIndividual ai = new QuestionarioIndividual(personId, origen, destino, zonaOrigem, zonaDestino,
+					inicio.getHours() * 60 * 60 + inicio.getMinutes() * 60.0, motivo, modo, startAtHome, tripSequence,
+					coefExp);
 
 			info.add(ai);
 			line = br.readLine();
@@ -169,11 +180,11 @@ public class CoimbraQuestionario3 {
 
 	List<QuestionarioIndividual> info;
 
-	private CoimbraQuestionario3(List<QuestionarioIndividual> info) {
+	public CoimbraQuestionario3(List<QuestionarioIndividual> info) {
 		this.info = info;
 	}
 
-	Map<Integer, TreeSet<QuestionarioIndividual>> calculateIndexed() {
+	public Map<Integer, TreeSet<QuestionarioIndividual>> calculateIndexed() {
 		Map<Integer, TreeSet<QuestionarioIndividual>> allInfo = new HashMap<>();
 
 		for (QuestionarioIndividual ci : info) {
@@ -352,8 +363,18 @@ public class CoimbraQuestionario3 {
 	}
 
 	static public enum MotivoViagem {
-		trabalho, casa, escola, lazer_regular, lazer_ocasional, compras, buscar_levar_familiares, refeicoes, saude,
-		assuntos_pessoais, motivos_profissionais, servicos_publicos, outros, visitas, passear, regresso_a_casa_dos_pais,
+		trabalho, 
+		casa, 
+		escola, 
+		lazer_regular, 
+		lazer_ocasional, 
+		compras, 
+		buscar_levar_familiares, 
+		refeicoes, 
+		saude,
+		assuntos_pessoais, 
+		motivos_profissionais, 
+		servicos_publicos, outros, visitas, passear, regresso_a_casa_dos_pais,
 		trabalhos_agriculas, nao_responde,
 	}
 
@@ -440,23 +461,38 @@ public class CoimbraQuestionario3 {
 		int personId;
 		Coord origem;
 		Coord destino;
+		int zonaOrigem;
+		int zonaDestino;
 		double inicio;
 		MotivoViagem motivo;
 		String modo;
 		int startAtHome;
 		int tripSequence;
+		Double coefExp; 
 
-		public QuestionarioIndividual(int personId, Coord origem, Coord destino, Double inicio, MotivoViagem motivo,
-				String modo, int startAtHome, int tripSequence) {
+		public QuestionarioIndividual(int personId, 
+				Coord origem, 
+				Coord destino, 
+				int zonaOrigem, 
+				int zonaDestino, 
+				Double inicio, 
+				MotivoViagem motivo,
+				String modo, 
+				int startAtHome, 
+				int tripSequence, 
+				Double coefExp) {
 			super();
 			this.personId = personId;
 			this.origem = origem;
 			this.destino = destino;
+			this.zonaOrigem = zonaOrigem;
+			this.zonaDestino = zonaDestino;
 			this.inicio = inicio;
 			this.startAtHome = startAtHome;
 			this.motivo = motivo;
 			this.modo = modo;
 			this.tripSequence = tripSequence;
+			this.coefExp = coefExp;
 		}
 
 		public void setTripSequence(int tripSequence) {
@@ -496,9 +532,22 @@ public class CoimbraQuestionario3 {
 			return tripSequence;
 		}
 
+		public int getZonaDestino() {
+			return zonaDestino;
+		}
+		public int getZonaOrigem() {
+			return zonaOrigem;
+		}
+		
+		public Double getCoefExp() {
+			return coefExp;
+		}
+		
 		@Override
 		public int compareTo(QuestionarioIndividual o) {
 			return Double.compare(getTripSequence(), o.getTripSequence());
 		}
+		
+		
 	}
 }
