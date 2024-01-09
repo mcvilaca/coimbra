@@ -86,7 +86,7 @@ public class TripsPlanTests {
 	
 	@Test
 	public void n() throws IOException, ParseException {
-		File file = new File("data/population/coimbra2.tsv");
+		File file = new File("data/population/coimbra2_ewgt.tsv");
 		CoimbraQuestionario3 q = CoimbraQuestionario3.readCoimbraTSV(file );
 		Map<Integer, TreeSet<QuestionarioIndividual>> info = q.calculateIndexed();
 		TripsPlan tp = new TripsPlan(info);
@@ -124,7 +124,7 @@ public class TripsPlanTests {
 	@Test
 	public void generatePlan() throws IOException, ParseException {
 		
-		File file = new File("data/population/coimbra2.tsv");
+		File file = new File("data/population/coimbra2_ewgt.tsv");
 		CoimbraQuestionario3 q = CoimbraQuestionario3.readCoimbraTSV(file );
 		Map<Integer, TreeSet<QuestionarioIndividual>> info = q.calculateIndexed();
 		TripsPlan tp = new TripsPlan(info);

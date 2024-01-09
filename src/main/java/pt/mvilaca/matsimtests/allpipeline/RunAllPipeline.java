@@ -12,6 +12,7 @@ import org.matsim.api.core.v01.Id;
 import org.matsim.api.core.v01.Scenario;
 import org.matsim.api.core.v01.network.Network;
 import org.matsim.api.core.v01.population.PopulationWriter;
+import org.matsim.contrib.edrt.run.EDrtControlerCreator;
 import org.matsim.contrib.otfvis.OTFVis;
 import org.matsim.contrib.otfvis.RunOTFVis;
 import org.matsim.core.config.Config;
@@ -54,32 +55,37 @@ import pt.mvilaca.matsimtests.population.trip.TripsPlan;
 
 public class RunAllPipeline {
 
-	public static boolean generateNetwork=false; 
+	//SELECT WHAT I WANT THE CODE TO DO
+	public static boolean generateNetwork=true; 
 	public static boolean doSimulation= true;
-	public static boolean doVisualization= true;
+	public static boolean doVisualization= false;
 	
-	
+	//This variable indicates the time window that the replicated population can vary depending on the original
 	public static Double timeWindowInSeconds = 10.0*60;
+	
+	//Full synthetic means that all the trips are generated (based on the synthetic population rules) there is no replication of the cases that already exist but we can select a population number. Ideal for tests.
 	public static boolean fullSynthetic = false;
-	public static int numberSyntheticPersons = 10000;
+	public static int numberSyntheticPersons = 1000;
 	
 
 	public static void main(String[] args) throws IOException, ParseException {
 
-		//		Read/generate population
-
-		String coimbra_file_path ="data/osm/Coimbra_Region.osm";
+		//Input/Output path
+		String coimbra_file_path ="data/osm/network_ewgt.osm";
 		String gtfsFolder = "data/transport/coimbra/gtfs_SMTUC";
-		String scenarioFolder = "scenarios/test-10pop/";
+		String scenarioFolder = "scenarios/coimbra_transportmetrica/";
 
 		(new File(scenarioFolder)).mkdir();
 		if(generateNetwork) generateNetwork(coimbra_file_path, scenarioFolder,gtfsFolder);
 	
+		//Specification of the survey information (coimbra2) is the original survey with some mistakes solved
 		if(doSimulation) {
-			File f = Paths.get("data", "population", "Coimbra2.tsv").toFile();
+			File f = Paths.get("data", "population", "Coimbra2_ewgt.tsv").toFile();
 			CoimbraQuestionario3 cq = generatePop(scenarioFolder, f, fullSynthetic, numberSyntheticPersons);
 			simulation(scenarioFolder, cq);
 		}
+		
+		
 		if(doVisualization) {
 			String[] a = new String[] { 
 					"-convert",
@@ -131,13 +137,10 @@ public class RunAllPipeline {
 	public static void generateNetwork(String coimbra_file_path,String folder, String gtfsFolder) {
 
 
-
-		//Verificar os sistemas de coordenadas!!
 		String inputCoordinateSystem = TransformationFactory.WGS84;
 		String outputCoordinateSystem = "EPSG:20790"; //"EPSG:4326"; //"EPSG:25832";
 
-		// choose an appropriate coordinate transformation. OSM Data is in WGS84. When working in central Germany,
-		// EPSG:25832 or EPSG:25833 as target system is a good choice
+		// choose an appropriate coordinate transformation. OSM Data is in WGS84.
 		CoordinateTransformation transformation = 
 				TransformationFactory.getCoordinateTransformation(
 						inputCoordinateSystem,
@@ -180,6 +183,8 @@ public class RunAllPipeline {
 		}
 	}
 	
+	
+	//Configuration Details to run the simulation
 	public static void simulation(
 			String scenarioFolder, CoimbraQuestionario3 cq
 			) {
@@ -189,7 +194,6 @@ public class RunAllPipeline {
 	
 		//NETWORK
 		config.network().setInputFile(scenarioFolder+"/networkWithTransports.xml");
-		
 		
 
 		//PLANS
@@ -247,8 +251,7 @@ public class RunAllPipeline {
 		
 		config.qsim().setInsertingWaitingVehiclesBeforeDrivingVehicles(true);
 		config.qsim().setNumberOfThreads(3);
-		
-		//to use lanes i have to allow the (true06/10)
+
 		config.qsim().setUseLanes(false);
 		config.qsim().setVehicleBehavior(VehicleBehavior.wait);
 		//change after
@@ -268,9 +271,6 @@ public class RunAllPipeline {
 		config.qsim().setTrafficDynamics(TrafficDynamics.queue);
 //		config.qsim().setTimeStepSize(60);
 //		config.qsim().setMainModes(Arrays.asList("car","pt"));
-		
-		
-	
 		
 //		config.strategy().setFractionOfIterationsToDisableInnovation(0.8);
 //		
@@ -297,22 +297,27 @@ public class RunAllPipeline {
 		
 		config.strategy().addStrategySettings(x );
 		
-		//DRT
-
+		Controler controler;
+//		//DRT
+//		if(isDRT) {
+//			controler = EDrtControlerCreator.createControler(config, true);
+//
+//		}else {
 		
 		//SCENARIO
 		Scenario scenario = ScenarioUtils.loadScenario(config);
 
 		
 		
-		//CONTROLER
-		Controler controler = new Controler( scenario ) ;
+			//CONTROLER
+			controler = new Controler( scenario ) ;
+//		}
 		
 		
 		config.controler().setOverwriteFileSetting( OverwriteFileSetting.deleteDirectoryIfExists );
 		config.controler().setOutputDirectory(scenarioFolder+"/outputs");
 		config.controler().setFirstIteration(1);
-		config.controler().setLastIteration(5);
+		config.controler().setLastIteration(1);
 		config.controler().setWriteEventsInterval(1);
 		config.controler().setWritePlansInterval(1);
 		config.controler().setWriteTripsInterval(1);

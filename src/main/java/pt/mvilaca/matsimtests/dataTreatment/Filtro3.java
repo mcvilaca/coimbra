@@ -10,8 +10,8 @@ import java.nio.file.Paths;
 public class Filtro3 {
 	public static void main(String[] args) throws Exception {
         // Open the input and output files
-        File inputFile = Paths.get("data", "population", "Syntheticpopulation_filtro2_startHome_simplified.tsv").toFile();
-        File outputFile = Paths.get("data", "population", "Syntheticpopulation_filtro2_simplified_filtro3.tsv").toFile();
+        File inputFile = Paths.get("data", "population", "coimbra2.tsv").toFile();
+        File outputFile = Paths.get("data", "population", "coimbra2_SMM.tsv").toFile();
         Scanner scanner = new Scanner(inputFile);
         BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile));
 
