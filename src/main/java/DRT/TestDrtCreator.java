@@ -50,7 +50,7 @@ import pt.mvilaca.matsimtests.population.CoimbraQuestionario;
 /*Simulation of the drt scenario Input and alteration done directly in the config.xml file Note: adjust the input files:network;population;vehicles and the output directories*/
 
 	public class TestDrtCreator {
-		private static final String COIMBRA_DOOR2DOOR_CONFIG = "scenarios/coimbra_transportmetricadrt/config.xml";
+		private static final String COIMBRA_DOOR2DOOR_CONFIG = "scenarios/coimbra_transportmetricadrt/config_test.xml";
 		
 //		private static final double MAX_CAPACITY = 4;
 		
@@ -71,7 +71,7 @@ import pt.mvilaca.matsimtests.population.CoimbraQuestionario;
 	        
 	        
      		config.controler().setFirstIteration(0);
-     		config.controler().setLastIteration(0);
+     		config.controler().setLastIteration(3);
      		
 
 			//starts the simulation
