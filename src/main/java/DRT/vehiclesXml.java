@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class vehiclesXml {
     public static void main(String[] args) {
-        String fileName = "scenarios/coimbra_transportmetricadrt/vehicles_5464.xml";
+        String fileName = "scenarios/coimbra_transportmetrica_simp_drt/vehicles_8000.xml";
         int totalVehicles = 5464;
         String[] startLinks = {"48515", "1851", "28007", "46521", "35786", "57314"};
 

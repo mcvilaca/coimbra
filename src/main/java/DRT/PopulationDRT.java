@@ -37,7 +37,7 @@ import java.nio.file.Paths;
 public class PopulationDRT {
     public static void main(String[] args) {
         // Specify the path to the population.xml file
-        String populationFilePath = "scenarios/coimbra_transportmetricadrt/population.xml";
+        String populationFilePath = "scenarios/coimbra_transportmetrica_simp_drt/population.xml";
 
         try {
             // Read the population.xml file

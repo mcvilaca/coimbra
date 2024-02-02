@@ -14,8 +14,8 @@ import java.util.*;
 public class SyntheticPopulation_v6 {
 
 	public static void main(String[] args) throws IOException {
-		File inputFile = Paths.get("data", "population", "coimbra_filtro2.tsv").toFile();
-		File outputFile = Paths.get("data", "population", "coimbraFiltro2_synthetic_v6.tsv").toFile();
+		File inputFile = Paths.get("data", "population", "coimbra2.tsv").toFile();
+		File outputFile = Paths.get("data", "population", "coimbra2_synthetic_v6.tsv").toFile();
 
 		List<String> lines = readLinesFromFile(inputFile);
 		StringBuilder outputBuilder = new StringBuilder();

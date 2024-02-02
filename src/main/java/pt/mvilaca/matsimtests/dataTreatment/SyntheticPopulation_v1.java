@@ -24,10 +24,10 @@ import pt.mvilaca.matsimtests.population.CoimbraQuestionario.QuestionarioIndivid
 public class SyntheticPopulation_v1 {
 	
 	public static void main (String[] args) throws IOException, ParseException {
-		File f = Paths.get("data", "population", "coimbra_filtro2_startHome.tsv").toFile();
+		File f = Paths.get("data", "population", "coimbra2_EWGT.tsv").toFile();
 	
 		FileReader fr = new FileReader(f);
-		FileWriter fw = new FileWriter("data/population/Syntheticpopulation_filtro2_startHome_simplified.tsv");
+		FileWriter fw = new FileWriter("data/population/Coimbra2_EWGT_simplified.tsv");
 		BufferedReader br = new BufferedReader(fr);
 
 		String line = br.readLine();
