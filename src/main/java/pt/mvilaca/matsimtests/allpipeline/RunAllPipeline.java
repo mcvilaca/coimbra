@@ -50,8 +50,11 @@ import org.matsim.pt2matsim.tools.ScheduleTools;
 import org.matsim.pt2matsim.tools.ShapeTools;
 import org.matsim.pt2matsim.tools.lib.RouteShape;
 
+import ch.qos.logback.classic.Level;
 import pt.mvilaca.matsimtests.population.CoimbraQuestionario3;
+import pt.mvilaca.matsimtests.population.trip.IndividualRandomSelection;
 import pt.mvilaca.matsimtests.population.trip.TripsPlan;
+import utils.LogUtils;
 
 public class RunAllPipeline {
 
@@ -70,6 +73,9 @@ public class RunAllPipeline {
 
 	public static void main(String[] args) throws IOException, ParseException {
 
+		LogUtils.changeLog(TripsPlan.class, Level.INFO);
+		LogUtils.changeLog(IndividualRandomSelection.class, Level.OFF);
+		
 		//Input/Output path
 		String coimbra_file_path ="data/osm/network_ewgt.osm";
 		String gtfsFolder = "data/transport/coimbra/gtfs_SMTUC";
