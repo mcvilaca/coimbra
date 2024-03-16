@@ -68,7 +68,7 @@ public class RunAllPipeline {
 	
 	//Full synthetic means that all the trips are generated (based on the synthetic population rules) there is no replication of the cases that already exist but we can select a population number. Ideal for tests.
 	public static boolean fullSynthetic = false;
-	public static int numberSyntheticPersons = 1000;
+	public static int numberSyntheticPersons = 0;
 	
 
 	public static void main(String[] args) throws IOException, ParseException {
@@ -77,16 +77,16 @@ public class RunAllPipeline {
 		LogUtils.changeLog(IndividualRandomSelection.class, Level.OFF);
 		
 		//Input/Output path
-		String coimbra_file_path ="data/osm/network_ewgt.osm";
+		String coimbra_file_path ="data/osm/CMBR.osm";
 		String gtfsFolder = "data/transport/coimbra/gtfs_SMTUC";
-		String scenarioFolder = "scenarios/coimbra_transportmetrica/";
+		String scenarioFolder = "scenarios/RegionScale/";
 
 		(new File(scenarioFolder)).mkdir();
 		if(generateNetwork) generateNetwork(coimbra_file_path, scenarioFolder,gtfsFolder);
 	
 		//Specification of the survey information (coimbra2) is the original survey with some mistakes solved
 		if(doSimulation) {
-			File f = Paths.get("data", "population", "Coimbra2_ewgt.tsv").toFile();
+			File f = Paths.get("data", "population", "Region.tsv").toFile();
 			CoimbraQuestionario3 cq = generatePop(scenarioFolder, f, fullSynthetic, numberSyntheticPersons);
 			simulation(scenarioFolder, cq);
 		}
