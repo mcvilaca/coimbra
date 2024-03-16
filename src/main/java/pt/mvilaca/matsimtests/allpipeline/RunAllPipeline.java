@@ -209,12 +209,22 @@ public class RunAllPipeline {
 		config.facilities().setInputFile(scenarioFolder+"/facilities.xml");
 		config.facilities().setInputCRS("EPSG:20790");
 		
+		
+		//TRANSIT
+		config.transit().setTransitScheduleFile(scenarioFolder+"/scheduleWithTransports.xml");
+		config.transit().setVehiclesFile(scenarioFolder+"/vehicle.xml");
+		config.transit().setUseTransit(true);
+		config.transit().setUsingTransitInMobsim(true);
+		
 		//COUNTS
 		config.counts().setAverageCountsOverIterations(0);
 		config.counts().setInputCRS("EPSG:20790");
 		config.counts().setWriteCountsInterval(1);
 		config.counts().setFilterModes(true);
 		
+		config.transit().setTransitScheduleFile(scenarioFolder+"/scheduleWithTransports.xml");
+		config.transit().setVehiclesFile(scenarioFolder+"/vehicle.xml");
+		config.transit().setUseTransit(true);
 		
 //		config.jdeqSim().setCarSize(3.5);
 //		config.jdeqSim().setMinimumInFlowCapacity(0);
