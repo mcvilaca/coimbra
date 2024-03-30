@@ -78,7 +78,7 @@ public class RunAllPipeline {
 		
 		//Input/Output path
 		String coimbra_file_path ="data/osm/CMBR.osm";
-		String gtfsFolder = "data/transport/coimbra/gtfs_SMTUC";
+		String gtfsFolder = "data/transport/coimbra/pt-all.xml";
 		String scenarioFolder = "scenarios/Municipality_it/";
 
 		(new File(scenarioFolder)).mkdir();
@@ -170,19 +170,21 @@ public class RunAllPipeline {
 		new NetworkWriter(network).write(folder+"/network.xml");
 
 		if(gtfsFolder!=null) {
-			String sampleDayParam = GtfsConverter.DAY_WITH_MOST_TRIPS;
 			String coordinate= "EPSG:20790";
-			String scheduleFile = folder+"/schedule.xml";
-			String vehicleFile = folder+"/vehicle.xml";
-
-
 			String scheduleFileWithTransports = folder+"/scheduleWithTransports.xml";
-
 			String inputNetwork = folder+"/network.xml";
 			String networkWithTransports = folder+"/networkWithTransports.xml";
+			String scheduleFile = folder+"/schedule.xml";
 
-			Gtfs2TransitSchedule.run(gtfsFolder, sampleDayParam, coordinate, scheduleFile, vehicleFile);
-
+			if(!gtfsFolder.endsWith(".xml")) {
+				String sampleDayParam = GtfsConverter.DAY_WITH_MOST_TRIPS;
+				String vehicleFile = folder+"/vehicle.xml";
+				Gtfs2TransitSchedule.run(gtfsFolder, sampleDayParam, coordinate, scheduleFile, vehicleFile);
+			}else
+				scheduleFile = gtfsFolder;
+				
+			
+			
 			runMappingStandard(scheduleFile, inputNetwork, scheduleFileWithTransports, networkWithTransports, coordinate);
 
 
