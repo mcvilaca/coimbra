@@ -31,6 +31,8 @@ scenarios/test-10pop
 data/transport/coimbra/GTFS_ETAC_04032024
 data/transport/coimbra/gtfs_SMTUC
 data/transport/coimbra/GTFS_TI_04032024
+#population
+data/population/small-test.tsv
 
 #Scenarios
-/coimbra/scenarios/SmallTest
+scenarios/SmallTest
