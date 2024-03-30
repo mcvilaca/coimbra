@@ -25,3 +25,12 @@ scenarios/*/outputs*
 scenarios/coimbra_ewgt_v3/population.xml
 scenarios/coimbra_ewgtdrt_v3/population.xml
 scenarios/test-10pop
+
+#data
+#transport
+data/transport/coimbra/GTFS_ETAC_04032024
+data/transport/coimbra/gtfs_SMTUC
+data/transport/coimbra/GTFS_TI_04032024
+
+#Scenarios
+/coimbra/scenarios/SmallTest
