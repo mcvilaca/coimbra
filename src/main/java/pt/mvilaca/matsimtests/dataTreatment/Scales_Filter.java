@@ -17,16 +17,11 @@ public class Scales_Filter {
 	        File inputFile = Paths.get("data", "population", "coimbra2_SMM.tsv").toFile();
 	        
 	        // Define the path to the output TSV file
-	        File outputFile = Paths.get("data", "population", "Municipality.tsv").toFile();
+	        File outputFile = Paths.get("data", "population", "SubRegion.tsv").toFile();
 	        
 	        // Define os códigos e zonas desejadas3
-	        List<String> codigosZonasDesejadas = Arrays.asList( "301", "310", "311", "312", "313", "314", "315", "316", "317", "318",
-	        	    "319", "320", "322", "302", "323", "324", "325", "326", "327", "328",
-	        	    "329", "330", "331", "332", "333", "334", "335", "336", "303", "337",
-	        	    "338", "339", "340", "342", "343", "347", "348", "349", "350", "351",
-	        	    "352", "355", "356", "357", "304", "358", "359", "360", "361", "362",
-	        	    "364", "305", "306", "307", "308", "309", "321", "341", "353", "344",
-	        	    "345");
+	        List<String> codigosZonasDesejadas = Arrays.asList("8","9","19","20","21","22","23","25","29","34","35","37","39","43","44","53","54","105","111","112","114","301","302","303","304","305","306","307","308","309","310","311","312","313","314","315","316","317","318","319","320","321","322","323","324","325","326","327","328","329","330","331","332","333","334","335","336","337","338","339","340","341","342","343","344","345","347","348","349","350","351","352","353","355","356","357","358","359","360","361","362","364"
+);
 
 	        // Read the input TSV file and filter the rows
 	        try (BufferedReader br = new BufferedReader(new FileReader(inputFile));

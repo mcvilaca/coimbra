@@ -79,14 +79,14 @@ public class RunAllPipeline {
 		//Input/Output path
 		String coimbra_file_path ="data/osm/CMBR.osm";
 		String gtfsFolder = "data/transport/coimbra/gtfs_SMTUC";
-		String scenarioFolder = "scenarios/RegionScale/";
+		String scenarioFolder = "scenarios/Municipality_it/";
 
 		(new File(scenarioFolder)).mkdir();
 		if(generateNetwork) generateNetwork(coimbra_file_path, scenarioFolder,gtfsFolder);
 	
 		//Specification of the survey information (coimbra2) is the original survey with some mistakes solved
 		if(doSimulation) {
-			File f = Paths.get("data", "population", "Region.tsv").toFile();
+			File f = Paths.get("data", "population", "Municipality.tsv").toFile();
 			CoimbraQuestionario3 cq = generatePop(scenarioFolder, f, fullSynthetic, numberSyntheticPersons);
 			simulation(scenarioFolder, cq);
 		}
@@ -216,6 +216,11 @@ public class RunAllPipeline {
 		config.transit().setUseTransit(true);
 		config.transit().setUsingTransitInMobsim(true);
 		
+//		config.transitRouter().setAdditionalTransferTime(900);
+		
+		
+		
+		
 		//COUNTS
 		config.counts().setAverageCountsOverIterations(0);
 		config.counts().setInputCRS("EPSG:20790");
@@ -240,6 +245,7 @@ public class RunAllPipeline {
 	
 		
 		cq.defenirActtypeForPlanCalcScore(config.planCalcScore());
+		
 				
 		//GLOBAL
 		config.global().setCoordinateSystem("EPSG:20790");
@@ -289,9 +295,7 @@ public class RunAllPipeline {
 //		config.qsim().setMainModes(Arrays.asList("car","pt"));
 		
 //		config.strategy().setFractionOfIterationsToDisableInnovation(0.8);
-//		
-//		config.transit().setUseTransit(true);
-//		
+	
 //		config.transitRouter().setAdditionalTransferTime(900);
 		
 		
