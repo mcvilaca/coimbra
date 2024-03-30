@@ -14,6 +14,8 @@ import org.matsim.pt2matsim.gtfs.GtfsFeedImpl;
 import org.matsim.pt2matsim.gtfs.lib.Service;
 import org.matsim.pt2matsim.tools.ScheduleTools;
 import org.matsim.pt2matsim.tools.debug.ScheduleCleaner;
+import org.matsim.vehicles.VehicleUtils;
+import org.matsim.vehicles.Vehicles;
 
 public class Merge {
 
@@ -69,13 +71,13 @@ public class Merge {
 		
 		
 		TransitSchedule ts = ScheduleTools.createSchedule(); 
+		Vehicles vs = VehicleUtils.createVehiclesContainer();
 		
 		for(int i = 0; i<files.size(); i++) { 
 			GtfsFeed gtfsFeed = new GtfsFeedImpl(files.get(i));
 			GtfsConverter c = new GtfsConverter(gtfsFeed);
 			
 			TransitSchedule toMerge = c.convert("all", "EPSG:20790");
-			
 			System.out.println(toMerge);
 			ScheduleTools.mergeSchedules(ts, c.getSchedule());
 		}

@@ -49,6 +49,8 @@ import org.matsim.pt2matsim.tools.NetworkTools;
 import org.matsim.pt2matsim.tools.ScheduleTools;
 import org.matsim.pt2matsim.tools.ShapeTools;
 import org.matsim.pt2matsim.tools.lib.RouteShape;
+import org.matsim.vehicles.VehicleUtils;
+import org.matsim.vehicles.Vehicles;
 
 import ch.qos.logback.classic.Level;
 import pt.mvilaca.matsimtests.population.CoimbraQuestionario3;
@@ -175,17 +177,19 @@ public class RunAllPipeline {
 			String inputNetwork = folder+"/network.xml";
 			String networkWithTransports = folder+"/networkWithTransports.xml";
 			String scheduleFile = folder+"/schedule.xml";
+			String vehicleFile = folder+"/vehicle.xml";
 
 			if(!gtfsFolder.endsWith(".xml")) {
 				String sampleDayParam = GtfsConverter.DAY_WITH_MOST_TRIPS;
-				String vehicleFile = folder+"/vehicle.xml";
 				Gtfs2TransitSchedule.run(gtfsFolder, sampleDayParam, coordinate, scheduleFile, vehicleFile);
-			}else
+			}else {
 				scheduleFile = gtfsFolder;
+			}
+				
 				
 			
 			
-			runMappingStandard(scheduleFile, inputNetwork, scheduleFileWithTransports, networkWithTransports, coordinate);
+			runMappingStandard(scheduleFile, inputNetwork, scheduleFileWithTransports, networkWithTransports, coordinate, vehicleFile);
 
 
 		}
@@ -363,11 +367,19 @@ public class RunAllPipeline {
 			String inputNetworkFile, 
 			String outputScheduleFile, 
 			String outputNetworkFile,
-			String coordSys
+			String coordSys,
+			String vehiclesFile
 			//			String shapeout
 			) {
 		// Load schedule and network
 		TransitSchedule schedule = ScheduleTools.readTransitSchedule(inputScheduleFile);
+		Vehicles vs = VehicleUtils.createVehiclesContainer();
+		
+		ScheduleTools.createVehicles(schedule, vs);
+		ScheduleTools.writeVehicles(vs, vehiclesFile);
+		
+		
+		
 		Network network = NetworkTools.readNetwork(inputNetworkFile);
 
 		// create PTM config
