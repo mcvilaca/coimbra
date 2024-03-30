@@ -61,6 +61,8 @@ public class Merge {
 			System.out.println(s.getId() + "\t" + join("\t", s.getDays()));
 			
 		}
+		
+		System.out.println(gtfs.getServices().get("E-2"));
 	}
 
 	private static String join(String sep, boolean... days) {
