@@ -362,7 +362,7 @@ public class RunAllPipeline {
 	}
 
 
-	public static double runMappingStandard(
+	public static PlausibilityCheck runMappingStandard(
 			String inputScheduleFile, 
 			String inputNetworkFile, 
 			String outputScheduleFile, 
@@ -376,7 +376,7 @@ public class RunAllPipeline {
 		Vehicles vs = VehicleUtils.createVehiclesContainer();
 		
 		ScheduleTools.createVehicles(schedule, vs);
-		ScheduleTools.writeVehicles(vs, vehiclesFile);
+		if(vehiclesFile!=null) ScheduleTools.writeVehicles(vs, vehiclesFile);
 		
 		
 		
@@ -407,8 +407,8 @@ public class RunAllPipeline {
 		ptMapper.run(config);
 
 		//
-		NetworkTools.writeNetwork(network, outputNetworkFile);
-		ScheduleTools.writeTransitSchedule(schedule, outputScheduleFile);
+		if(outputNetworkFile!=null) NetworkTools.writeNetwork(network, outputNetworkFile);
+		if(outputScheduleFile!=null)ScheduleTools.writeTransitSchedule(schedule, outputScheduleFile);
 
 		PlausibilityCheck check = new PlausibilityCheck(schedule, network, coordSys);
 
@@ -423,7 +423,7 @@ public class RunAllPipeline {
 		//
 		//		// analyse result
 		//		return runAnalysis(outputScheduleFile, outputNetworkFile);
-		return 0.0;
+		return check;
 	}
 
 	/**
