@@ -25,22 +25,22 @@ public class Merge {
 	public static void main(String[] args) throws IOException {
 //		Gtfs2TransitSchedule.
 		
-		String gtfsFolder1 = "data/transport/coimbra/GTFS_ETAC_04032024";
-		String gtfsFolder2= "data/transport/coimbra/GTFS_TI_04032024";
-		GtfsFeed gtfsFeed1 = new GtfsFeedImpl(gtfsFolder1);
-		GtfsFeed gtfsFeed2 = new GtfsFeedImpl(gtfsFolder2);
-		
-		
-		
-		
-		System.out.println(gtfsFeed1.getStops().size());
-		System.out.println(gtfsFeed2.getStops().size());
+//		String gtfsFolder1 = "data/transport/coimbra/GTFS_ETAC_04032024";
+//		String gtfsFolder2= "data/transport/coimbra/GTFS_TI_04032024";
+//		GtfsFeed gtfsFeed1 = new GtfsFeedImpl(gtfsFolder1);
+//		GtfsFeed gtfsFeed2 = new GtfsFeedImpl(gtfsFolder2);
+//		
+//		
+//		
+//		
+//		System.out.println(gtfsFeed1.getStops().size());
+//		System.out.println(gtfsFeed2.getStops().size());
 		
 		
 		
 		List<String> files = Arrays.asList(
 				"data/transport/coimbra/gtfs_SMTUC",
-				"data/transport/coimbra/GTFS_ETAC_04032024",
+//				"data/transport/coimbra/GTFS_ETAC_04032024",
 				"data/transport/coimbra/GTFS_TI_04032024"
 				);
 
@@ -86,7 +86,7 @@ public class Merge {
 //		ScheduleCleaner.removeNotUsedStopFacilities(ts);
 		
 		
-		ScheduleTools.writeTransitSchedule(ts, "data/transport/coimbra/pt-all.xml");
+		ScheduleTools.writeTransitSchedule(ts, "data/transport/coimbra/pt-two.xml");
 	}
 
 	private static String join(String sep, boolean... days) {

@@ -80,15 +80,15 @@ public class RunAllPipeline {
 		
 		//Input/Output path
 		String coimbra_file_path ="data/osm/CMBR.osm";
-		String gtfsFolder = "data/transport/coimbra/pt-all.xml";
-		String scenarioFolder = "scenarios/Municipality_it/";
+		String gtfsFolder = "data/transport/coimbra/pt-two.xml";
+		String scenarioFolder = "scenarios/Regional-testpt-two/";
 
 		(new File(scenarioFolder)).mkdir();
 		if(generateNetwork) generateNetwork(coimbra_file_path, scenarioFolder,gtfsFolder);
 	
 		//Specification of the survey information (coimbra2) is the original survey with some mistakes solved
 		if(doSimulation) {
-			File f = Paths.get("data", "population", "Municipality.tsv").toFile();
+			File f = Paths.get("data", "population", "Region.tsv").toFile();
 			CoimbraQuestionario3 cq = generatePop(scenarioFolder, f, fullSynthetic, numberSyntheticPersons);
 			simulation(scenarioFolder, cq);
 		}
