@@ -7,9 +7,14 @@ import java.io.IOException;
 
 public class vehiclesXml {
     public static void main(String[] args) {
-        String fileName = "scenarios/coimbra_transportmetrica_simp_drt/vehicles_8000.xml";
-        int totalVehicles = 5464;
-        String[] startLinks = {"48515", "1851", "28007", "46521", "35786", "57314"};
+        String fileName = "scenarios/DRTStructure/RegionalDRT/vehicle_24300.xml";
+        int totalVehicles = 24300;
+        //Municipal
+        //String[] startLinks = {"535282", "360005", "510964", "15957"};
+        //Subregional
+        //String[] startLinks = {"535282", "360005", "510964", "15957", "1851", "471024", "438922"};
+        //Regional Scale
+        String[] startLinks = {"535282", "360005", "510964", "15957", "1851", "471024", "438922", "55752", "701571", "204248"};
 
         try {
             FileWriter writer = new FileWriter(fileName);

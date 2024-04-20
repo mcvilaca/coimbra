@@ -5,7 +5,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
 
+import org.matsim.api.core.v01.Id;
 import org.matsim.api.core.v01.network.Network;
+import org.matsim.pt.transitSchedule.api.TransitLine;
 import org.matsim.pt.transitSchedule.api.TransitSchedule;
 import org.matsim.pt.utils.TransitScheduleValidator;
 import org.matsim.pt.utils.TransitScheduleValidator.ValidationResult;
@@ -43,9 +45,9 @@ public class Merge {
 
 
 		List<String> files = Arrays.asList(
-				"data/transport/coimbra/gtfs_SMTUC"
-				//				"data/transport/coimbra/GTFS_ETAC_04032024",
-//				"data/transport/coimbra/GTFS_TI_04032024"
+				"data/transport/coimbra/gtfs_SMTUC",
+				"data/transport/coimbra/GTFS_ETAC_04032024",
+				"data/transport/coimbra/GTFS_TI_04032024"
 				);
 
 		//		GTFSFeedXPTO gtfs = new GTFSFeedXPTO(files.get(0));
@@ -93,14 +95,20 @@ public class Merge {
 //		ScheduleCleaner.combineChildStopsToParentStop(ts);
 //		ScheduleCleaner.removeInvalidTransitRoutes(null, ts);
 		
-
+		for(Id<TransitLine> id : ts.getTransitLines().keySet()) {
+			System.out.println(id);
+		}
+		
+		TransitLine withproblem = ts.getTransitLines().get(Id.create("5051", TransitLine.class));
+		System.out.println(withproblem);
+		System.out.println(ts.removeTransitLine(withproblem));
 		
 		
 		
-		String scheduleFile = "data/transport/coimbra/pt-two.xml";
+		String scheduleFile = "data/transport/coimbra/pt-all.xml";
 		ScheduleTools.writeTransitSchedule(ts, scheduleFile);
 
-		String folder = "scenarios/coimbraRegion";
+		String folder = "scenarios/BaselineStructure/Regional";
 		String inputNetwork = folder+"/network.xml";
 		PlausibilityCheck check = RunAllPipeline.runMappingStandard(scheduleFile, inputNetwork, null, null, "EPSG:20790", null);
 

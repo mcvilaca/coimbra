@@ -80,15 +80,15 @@ public class RunAllPipeline {
 		
 		//Input/Output path
 		String coimbra_file_path ="data/osm/CMBR.osm";
-		String gtfsFolder = "data/transport/coimbra/pt-two.xml";
-		String scenarioFolder = "scenarios/Regional-testpt-two/";
+		String gtfsFolder = "data/transport/coimbra/smtuc.xml";
+		String scenarioFolder = "scenarios/Municipal/";
 
 		(new File(scenarioFolder)).mkdir();
 		if(generateNetwork) generateNetwork(coimbra_file_path, scenarioFolder,gtfsFolder);
 	
 		//Specification of the survey information (coimbra2) is the original survey with some mistakes solved
 		if(doSimulation) {
-			File f = Paths.get("data", "population", "Region.tsv").toFile();
+			File f = Paths.get("data", "population", "Municipality.tsv").toFile();
 			CoimbraQuestionario3 cq = generatePop(scenarioFolder, f, fullSynthetic, numberSyntheticPersons);
 			simulation(scenarioFolder, cq);
 		}
@@ -387,6 +387,7 @@ public class RunAllPipeline {
 
 		config.setNLinkThreshold(3);
 		config.setMaxLinkCandidateDistance(600);
+		
 		//		config.setCandidateDistanceMultiplier(2.5);
 		System.out.println("getNLinkThreshold " + config.getNLinkThreshold());
 		System.out.println("getCandidateDistanceMultiplier " + config.getCandidateDistanceMultiplier());
