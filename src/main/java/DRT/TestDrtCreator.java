@@ -73,6 +73,8 @@ import pt.mvilaca.matsimtests.population.CoimbraQuestionario;
      		config.controler().setFirstIteration(0);
      		config.controler().setLastIteration(0);
      		
+     		
+     		
 
 			//starts the simulation
 			controler.run();
