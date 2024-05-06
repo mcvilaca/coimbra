@@ -85,6 +85,11 @@
 			<artifactId>ev</artifactId>
 			<version>${matsim.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.matsim.contrib</groupId>
+			<artifactId>discrete_mode_choice</artifactId>
+			<version>${matsim.version}</version>
+		</dependency>
 		
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>

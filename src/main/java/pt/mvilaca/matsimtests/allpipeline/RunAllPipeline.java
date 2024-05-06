@@ -12,9 +12,9 @@ import org.matsim.api.core.v01.Id;
 import org.matsim.api.core.v01.Scenario;
 import org.matsim.api.core.v01.network.Network;
 import org.matsim.api.core.v01.population.PopulationWriter;
-import org.matsim.contrib.edrt.run.EDrtControlerCreator;
-import org.matsim.contrib.otfvis.OTFVis;
 import org.matsim.contrib.otfvis.RunOTFVis;
+import org.matsim.contribs.discrete_mode_choice.modules.DiscreteModeChoiceConfigurator;
+import org.matsim.contribs.discrete_mode_choice.modules.DiscreteModeChoiceModule;
 import org.matsim.core.config.Config;
 import org.matsim.core.config.ConfigUtils;
 import org.matsim.core.config.ConfigWriter;
@@ -60,6 +60,8 @@ import utils.LogUtils;
 
 public class RunAllPipeline {
 
+	// use discrete mode choice
+	private static final boolean DMC = true;
 	//SELECT WHAT I WANT THE CODE TO DO
 	public static boolean generateNetwork=true; 
 	public static boolean doSimulation= true;
@@ -79,16 +81,16 @@ public class RunAllPipeline {
 		LogUtils.changeLog(IndividualRandomSelection.class, Level.OFF);
 		
 		//Input/Output path
-		String coimbra_file_path ="data/osm/CMBR.osm";
-		String gtfsFolder = "data/transport/coimbra/smtuc.xml";
-		String scenarioFolder = "scenarios/Municipal/";
+		String coimbra_file_path ="data/osm/coimbra.osm";
+		String gtfsFolder = "data/transport/coimbra/pt-all.xml";
+		String scenarioFolder = "scenarios/Municipal_DMC_test/";
 
 		(new File(scenarioFolder)).mkdir();
 		if(generateNetwork) generateNetwork(coimbra_file_path, scenarioFolder,gtfsFolder);
 	
 		//Specification of the survey information (coimbra2) is the original survey with some mistakes solved
 		if(doSimulation) {
-			File f = Paths.get("data", "population", "Municipality.tsv").toFile();
+			File f = Paths.get("data", "population", "small-test.tsv").toFile();
 			CoimbraQuestionario3 cq = generatePop(scenarioFolder, f, fullSynthetic, numberSyntheticPersons);
 			simulation(scenarioFolder, cq);
 		}
@@ -335,10 +337,10 @@ public class RunAllPipeline {
 
 		
 		
-			//CONTROLER
-			controler = new Controler( scenario ) ;
-//		}
+		//CONTROLER
+		controler = new Controler( scenario ) ;
 		
+
 		
 		config.controler().setOverwriteFileSetting( OverwriteFileSetting.deleteDirectoryIfExists );
 		config.controler().setOutputDirectory(scenarioFolder+"/outputs");
@@ -352,9 +354,10 @@ public class RunAllPipeline {
 		config.controler().setRoutingAlgorithmType(RoutingAlgorithmType.Dijkstra);
 //		config.controler().setRunId("teste_1");
 		
-		
-	
-		
+		if(DMC) {
+			controler.addOverridingModule(new DiscreteModeChoiceModule());
+			DiscreteModeChoiceConfigurator.configureAsSubtourModeChoiceReplacement(config);
+		}
 		//RUN
 		ConfigWriter w = new ConfigWriter(config);
 		w.write(scenarioFolder+"/config.xml");
